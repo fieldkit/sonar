@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name fk-weather)(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+  (lib (name logos)(type KiCad)(uri "$(KIPRJMOD)/logos.pretty")(options "")(descr ""))
+)
