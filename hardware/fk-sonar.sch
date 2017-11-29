@@ -3,7 +3,6 @@ LIBS:fk-sonar-rescue
 LIBS:conn
 LIBS:conservify
 LIBS:fk-sonar-cache
-LIBS:fk-core-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -1826,7 +1825,7 @@ SWCLK
 Text Label 4500 2100 0    50   ~ 0
 RESET
 Text Label 2000 7350 0    50   ~ 0
-D13
+A2
 Text Label 9900 6350 0    50   ~ 0
 USB-
 Text Label 9900 6450 0    50   ~ 0
@@ -1958,11 +1957,11 @@ WIFI_CS
 Text Notes 5150 5550 0    180  ~ 36
 LEDS
 Text Label 6950 6150 2    50   ~ 0
-A3
-Text Label 6950 6950 2    50   ~ 0
 A4
-Text Label 6950 7750 2    50   ~ 0
+Text Label 6950 6950 2    50   ~ 0
 A5
+Text Label 6950 7750 2    50   ~ 0
+D13
 Wire Wire Line
 	2800 2300 2500 2300
 Wire Wire Line
@@ -2726,4 +2725,53 @@ Wire Wire Line
 	3350 9200 3350 9050
 Wire Wire Line
 	3350 9050 3500 9050
+$Comp
+L Conn_01x04 J6
+U 1 1 5A1E0D62
+P 6450 4100
+F 0 "J6" H 6450 4300 50  0000 C CNN
+F 1 "Conn_01x04" H 6450 3800 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 6450 4100 50  0001 C CNN
+F 3 "" H 6450 4100 50  0001 C CNN
+	1    6450 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR069
+U 1 1 5A1E1F21
+P 6100 3950
+F 0 "#PWR069" H 6100 3800 50  0001 C CNN
+F 1 "3V3" H 6100 4090 50  0000 C CNN
+F 2 "" H 6100 3950 60  0000 C CNN
+F 3 "" H 6100 3950 60  0000 C CNN
+	1    6100 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR070
+U 1 1 5A1E2010
+P 6100 4400
+F 0 "#PWR070" H 6100 4150 50  0001 C CNN
+F 1 "GND" H 6100 4250 50  0001 C CNN
+F 2 "" H 6100 4400 60  0000 C CNN
+F 3 "" H 6100 4400 60  0000 C CNN
+	1    6100 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 4000 6100 4000
+Wire Wire Line
+	6100 4000 6100 3950
+Wire Wire Line
+	6250 4300 6100 4300
+Wire Wire Line
+	6100 4300 6100 4400
+Text Label 6050 4100 0    50   ~ 0
+SDA
+Text Label 6050 4200 0    50   ~ 0
+SCL
+Wire Wire Line
+	6050 4200 6250 4200
+Wire Wire Line
+	6250 4100 6050 4100
 $EndSCHEMATC
