@@ -8,4 +8,5 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/../ardui
 include(ArduinoMinimal)
 
 set(EXTRA_CXX_FLAGS_PROJECT "-Wall -Werror")
-set(Adafruit_ZeroDMA_RECURSE True)
+
+add_subdirectory(firmware/test)
