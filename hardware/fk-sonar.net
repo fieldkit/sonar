@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/jlewallen/fieldkit/sonar/hardware/fk-sonar.sch)
-    (date "Tue 28 Nov 2017 04:34:52 PM PST")
+    (date "Tue 19 Dec 2017 12:10:51 PM PST")
     (tool "Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -480,7 +480,7 @@
       (tstamp 5A1014E0))
     (comp (ref J2)
       (value CONN-HDR-2x5)
-      (footprint Socket_Strips:Socket_Strip_Straight_2x05_Pitch1.27mm_SMD)
+      (footprint conservify:HDR_2x5_Pitch1.27mm_SMD_JTAG_SWD)
       (fields
         (field (name price) 0.73)
         (field (name spn1) 649-202112100010C4LF)
@@ -1124,10 +1124,10 @@
   (libraries
     (library (logical conservify)
       (uri /home/jlewallen/conservify/kicad/conservify.lib))
-    (library (logical fk-sonar-cache)
-      (uri /home/jlewallen/fieldkit/sonar/hardware/fk-sonar-cache.lib))
     (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib)))
+      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical fk-sonar-cache)
+      (uri /home/jlewallen/fieldkit/sonar/hardware/fk-sonar-cache.lib)))
   (nets
     (net (code 1) (name VBUS)
       (node (ref D7) (pin 2))
