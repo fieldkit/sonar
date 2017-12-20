@@ -2163,9 +2163,9 @@ Wire Wire Line
 Wire Wire Line
 	10600 2750 10150 2750
 Wire Wire Line
-	10150 2750 10150 3400
+	10150 3400 10150 2750
 Wire Wire Line
-	10150 3400 9350 3400
+	9350 3400 10150 3400
 Wire Wire Line
 	9950 3400 9950 3300
 Wire Wire Line
@@ -2728,13 +2728,13 @@ Wire Wire Line
 $Comp
 L Conn_01x04 J6
 U 1 1 5A1E0D62
-P 6450 4100
-F 0 "J6" H 6450 4300 50  0000 C CNN
-F 1 "Conn_01x04" H 6450 3800 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 6450 4100 50  0001 C CNN
-F 3 "" H 6450 4100 50  0001 C CNN
-	1    6450 4100
-	1    0    0    -1  
+P 5750 4200
+F 0 "J6" H 5750 4400 50  0000 C CNN
+F 1 "Conn_01x04" H 5750 3900 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04_Pitch2.54mm" H 5750 4200 50  0001 C CNN
+F 3 "" H 5750 4200 50  0001 C CNN
+	1    5750 4200
+	-1   0    0    1   
 $EndComp
 $Comp
 L 3V3 #PWR069
@@ -2759,21 +2759,21 @@ F 3 "" H 6100 4400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6250 4000 6100 4000
+	5950 4000 6100 4000
 Wire Wire Line
 	6100 4000 6100 3950
 Wire Wire Line
-	6250 4300 6100 4300
+	5950 4300 6100 4300
 Wire Wire Line
 	6100 4300 6100 4400
-Text Label 6050 4100 0    50   ~ 0
+Text Label 5950 4100 0    50   ~ 0
 SDA
-Text Label 6050 4200 0    50   ~ 0
+Text Label 5950 4200 0    50   ~ 0
 SCL
 Wire Wire Line
-	6050 4200 6250 4200
+	5950 4200 6250 4200
 Wire Wire Line
-	6250 4100 6050 4100
+	6250 4100 5950 4100
 $Comp
 L VIN #PWR071
 U 1 1 5A39857F
