@@ -73,12 +73,12 @@ private:
 public:
     void setup() {
         pinMode(13, OUTPUT);
-        pinMode(A3, OUTPUT);
+        pinMode(A2, OUTPUT);
         pinMode(A4, OUTPUT);
         pinMode(A5, OUTPUT);
 
         digitalWrite(13, HIGH);
-        digitalWrite(A3, HIGH);
+        digitalWrite(A2, HIGH);
         digitalWrite(A4, HIGH);
         digitalWrite(A5, HIGH);
 
