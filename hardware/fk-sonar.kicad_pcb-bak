@@ -3,7 +3,7 @@
   (general
     (links 186)
     (no_connects 0)
-    (area 118.442457 47.75 165.914286 188.699067)
+    (area 116.689857 57.197952 166.6708 144.274467)
     (thickness 1.6)
     (drawings 18)
     (tracks 708)
@@ -2484,7 +2484,7 @@
   )
 
   (module conservify:conservify_text_negative_5000 (layer F.Cu) (tedit 0) (tstamp 5A1E1FB9)
-    (at 151.3078 99.2378 270)
+    (at 151.1808 97.7392 270)
     (fp_text reference G*** (at 0 0 270) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
     )
@@ -3550,7 +3550,7 @@
   (segment (start 125.844278 91.592378) (end 125.844278 84.2518) (width 0.508) (layer B.Cu) (net 2))
   (segment (start 125.844278 84.2518) (end 125.844278 83.439) (width 0.508) (layer B.Cu) (net 2))
   (segment (start 125.844278 83.439) (end 125.844278 84.2518) (width 0.254) (layer F.Cu) (net 2))
-  (via (at 125.844278 84.2518) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 2) (status 1000000))
+  (via (at 125.844278 84.2518) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 2))
   (segment (start 125.844278 83.439) (end 125.844278 82.605666) (width 0.508) (layer B.Cu) (net 2))
   (segment (start 126.226178 83.8209) (end 125.844278 83.439) (width 0.254) (layer F.Cu) (net 2))
   (via (at 125.844278 83.439) (size 0.5) (drill 0.3) (layers F.Cu B.Cu) (net 2))
