@@ -8,4 +8,5 @@ include(ArduinoMinimal)
 
 set(EXTRA_CXX_FLAGS_PROJECT "-Wall -Werror")
 
+add_subdirectory(firmware/module)
 add_subdirectory(firmware/test)
