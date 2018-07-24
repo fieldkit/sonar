@@ -1,4 +1,4 @@
-update=Mon 23 Jul 2018 07:36:16 PM PDT
+update=Mon 23 Jul 2018 07:22:39 PM PDT
 version=1
 last_client=kicad
 [cvpcb]
@@ -39,3 +39,6 @@ ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=
+[eeschema/libraries]
+LibName1=fk-sonar-rescue
+LibName2=/home/jlewallen/conservify/kicad/conservify
