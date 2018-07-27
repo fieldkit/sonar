@@ -2347,11 +2347,11 @@ Wire Notes Line
 Wire Notes Line
 	7150 600  550  600 
 Wire Notes Line
-	550  5200 550  8200
+	550  5200 550  7050
 Wire Notes Line
-	550  8200 5000 8200
+	550  7050 4950 7050
 Wire Notes Line
-	4950 8200 4950 5200
+	4950 7050 4950 5200
 Wire Notes Line
 	4950 5200 550  5200
 Wire Notes Line

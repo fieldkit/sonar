@@ -2207,8 +2207,6 @@ Wire Wire Line
 Wire Wire Line
 	9900 6550 9900 7550
 Wire Wire Line
-	10900 6650 11000 6650
-Wire Wire Line
 	11000 7150 11000 7350
 Wire Wire Line
 	11000 7350 11150 7350
@@ -2595,7 +2593,6 @@ Connection ~ 1150 2400
 Connection ~ 1000 2900
 Connection ~ 2050 10050
 Connection ~ 2050 9850
-Connection ~ 11000 6650
 Connection ~ 7450 6250
 Connection ~ 9900 7550
 Connection ~ 10000 6250
@@ -2616,7 +2613,6 @@ NoConn ~ 2650 9850
 NoConn ~ 2650 9950
 NoConn ~ 10900 6350
 NoConn ~ 10900 6450
-NoConn ~ 10900 6550
 NoConn ~ 6350 7750
 NoConn ~ 5900 7750
 NoConn ~ 9500 3850
@@ -2856,4 +2852,10 @@ Wire Wire Line
 	1300 9400 1300 9350
 Text Notes 2000 5550 0    180  ~ 36
 FUEL GAUGE
+Wire Wire Line
+	10900 6550 11000 6550
+Wire Wire Line
+	11000 6550 11000 6650
+Connection ~ 11000 6650
+NoConn ~ 10900 6650
 $EndSCHEMATC
