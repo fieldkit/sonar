@@ -57,7 +57,9 @@ void setup() {
         fk_module_ModuleType_SENSOR,
         8,
         3,
+        1,
         "Sonar",
+        "fk-sonar",
         {
           { "distance", "m" },
           { "depth", "m" },
