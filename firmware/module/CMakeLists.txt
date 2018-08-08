@@ -1,5 +1,6 @@
-file(GLOB SOURCE_FILES *.cpp)
-set(LIBRARIES SPI Wire)
+include(ArduinoMinimal)
+
+set(EXTRA_CXX_FLAGS_PROJECT "-Wall -Werror")
 
 # Get the current working branch
 execute_process(
@@ -20,5 +21,8 @@ execute_process(
 add_definitions("-DFIRMWARE_GIT_HASH=\"${GIT_COMMIT_HASH}\"")
 add_definitions("-DFIRMWARE_GIT_BRANCH=\"${GIT_BRANCH}\"")
 add_definitions("-DFIRMWARE_BUILD=\"$ENV{BUILD_TAG}\"")
+
+file(GLOB SOURCE_FILES *.cpp)
+set(LIBRARIES SPI Wire)
 
 arduino(fk-sonar-standard "${SOURCE_FILES}" "${LIBRARIES}")
