@@ -1,4 +1,5 @@
 include(ArduinoMinimal)
+
 set(EXTRA_CXX_FLAGS_PROJECT "-Wall -Werror")
 
 include_directories(./)
