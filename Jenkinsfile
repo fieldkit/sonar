@@ -1,14 +1,11 @@
 @Library('conservify') _
 
-properties([
-    [$class: 'BuildDiscarderProperty', strategy: [$class: 'LogRotator', numToKeepStr: '5']],
-    pipelineTriggers([[$class: 'GitHubPushTrigger']]),
-])
+conservifyProperties()
 
 timestamps {
     node () {
-        conservifyBuild(name: 'sonar', repository: 'https://github.com/fieldkit/sonar.git')
+        conservifyBuild(name: 'sonar')
 
-        build job: "distribution", parameters: []
+        build job: "distribution", wait: false
     }
 }
