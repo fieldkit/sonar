@@ -4,7 +4,7 @@ conservifyProperties()
 
 timestamps {
     node () {
-        conservifyBuild(name: 'sonar')
+        conservifyBuild(name: 'sonar', archive: true)
         distributeFirmware()
     }
 
