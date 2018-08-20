@@ -50,6 +50,7 @@ void setup() {
 
     firmware_version_set(FIRMWARE_GIT_HASH);
     firmware_build_set(FIRMWARE_BUILD);
+    firmware_compiled_set(DateTime(__DATE__, __TIME__).unixtime());
 
     loginfof("Module", "Starting (%d free)", fk_free_memory());
 
