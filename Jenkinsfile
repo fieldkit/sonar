@@ -4,7 +4,7 @@ conservifyProperties()
 
 timestamps {
     node () {
-        conservifyBuild(name: 'sonar', archive: true)
+        conservifyBuild(name: 'sonar', archive: "build/firmware/module/*.bin")
         distributeFirmware()
     }
 
