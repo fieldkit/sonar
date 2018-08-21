@@ -1,10 +1,20 @@
-include(ArduinoMinimal)
+include(Arduino)
 
-set(EXTRA_CXX_FLAGS_PROJECT "-Wall -Werror")
+enable_arduino_toolchain()
 
-include_directories(./)
+set(sources main.cpp)
 
-set(SOURCE_FILES main.cpp)
-set(LIBRARIES SPI Wire)
+find_package(FkModule)
+find_package(RadioHead)
+find_package(FuelGauge)
 
-arduino(fk-sonar-test "${SOURCE_FILES}" "${LIBRARIES}")
+add_arduino_library(fk-sonar-test "${sources}")
+
+fk_configure_module(fk-sonar-test)
+
+target_link_libraries(fk-sonar-test RadioHead)
+target_link_libraries(fk-sonar-test FuelGauge)
+
+target_compile_options(fk-sonar-test PRIVATE -Wall -Werror)
+
+add_arduino_firmware(fk-sonar-test)

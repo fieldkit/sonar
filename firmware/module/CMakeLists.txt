@@ -1,31 +1,15 @@
-include(ArduinoMinimal)
+include(Arduino)
 
-set(EXTRA_CXX_FLAGS_PROJECT "-Wall -Werror")
+enable_arduino_toolchain()
 
-# Get the current working branch
-execute_process(
-  COMMAND git rev-parse --abbrev-ref HEAD
-  WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-  OUTPUT_VARIABLE GIT_BRANCH
-  OUTPUT_STRIP_TRAILING_WHITESPACE
-)
+set(sources main.cpp)
 
-# Get the latest abbreviated commit hash of the working branch
-execute_process(
-  COMMAND git log -1 --format=%H
-  WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-  OUTPUT_VARIABLE GIT_COMMIT_HASH
-  OUTPUT_STRIP_TRAILING_WHITESPACE
-)
+find_package(FkModule)
 
-add_definitions("-DFIRMWARE_GIT_HASH=\"${GIT_COMMIT_HASH}\"")
-add_definitions("-DFIRMWARE_GIT_BRANCH=\"${GIT_BRANCH}\"")
-add_definitions("-DFIRMWARE_BUILD=\"$ENV{BUILD_TAG}\"")
+add_arduino_library(fk-sonar-module "${sources}")
 
-file(GLOB SOURCE_FILES *.cpp)
-set(LIBRARIES SPI Wire)
+fk_configure_module(fk-sonar-module)
 
-arduino(fk-sonar-standard "${SOURCE_FILES}" "${LIBRARIES}")
+target_compile_options(fk-sonar-module PRIVATE -Wall -Werror)
 
-add_definitions(-DPHYLUM_ENABLE_SERIAL_FLASH -DPHYLUM_ENABLE_SD)
-target_compile_options(arduino_zero_phylum PUBLIC -DPHYLUM_ENABLE_SERIAL_FLASH -DPHYLUM_ENABLE_SD)
+add_arduino_firmware(fk-sonar-module)
