@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/jlewallen/fieldkit/sonar/hardware/fk-sonar.sch)
-    (date "Fri 24 Aug 2018 02:38:06 PM PDT")
+    (date "Tue 28 Aug 2018 02:46:22 PM PDT")
     (tool "Eeschema 5.0.0-fee4fd1~66~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -85,7 +85,7 @@
       (tstamp 5A101484))
     (comp (ref U4)
       (value S25FL116K0XMFI041)
-      (footprint conservify:SOIC-8-N)
+      (footprint conservify:SOIC-8-N-WIDE)
       (fields
         (field (name Critical) " ")
         (field (name MFN) "Cypress Semiconductor")

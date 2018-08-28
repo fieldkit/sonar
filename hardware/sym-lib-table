@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name fk-sonar-rescue)(type Legacy)(uri ${KIPRJMOD}/fk-sonar-rescue.lib)(options "")(descr ""))
   (lib (name conservify)(type Legacy)(uri /home/jlewallen/conservify/kicad/conservify.lib)(options "")(descr ""))
 )
