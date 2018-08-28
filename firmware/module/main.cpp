@@ -1,5 +1,15 @@
 #include <fk-module.h>
 
+class TakeSonarReadings : public fk::ModuleServicesState {
+public:
+    const char *name() const override {
+        return "TakeSonarReadings";
+    }
+
+public:
+    void task() override;
+};
+
 class SonarModule : public fk::Module {
 private:
     fk::TwoWireBus bus{ Wire };
@@ -8,33 +18,30 @@ public:
     SonarModule(fk::ModuleInfo &info);
 
 public:
-    fk::ModuleReadingStatus beginReading(fk::PendingSensorReading &pending) override;
+    fk::ModuleStates states() override {
+        return {
+            fk::ModuleFsm::deferred<fk::ConfigureModule>(),
+            fk::ModuleFsm::deferred<TakeSonarReadings>()
+        };
+    }
 };
 
-SonarModule::SonarModule(fk::ModuleInfo &info) : Module(bus, info) {
-}
-
-fk::ModuleReadingStatus SonarModule::beginReading(fk::PendingSensorReading &pending) {
+void TakeSonarReadings::task() {
     auto DistanceFromWaterBedInMeters = 1.0f;
     auto value = analogRead(A1);
     auto voltage = value * (3.3f / 1024.0f);
     auto distance = voltage * (1000.0f / 3.2f);
     auto depth = DistanceFromWaterBedInMeters - (distance / 100.0);
 
-    auto readings = pending.readings;
     auto i = 0;
-    readings[i++].value = distance;
-    readings[i++].value = depth;
-    readings[i++].value = DistanceFromWaterBedInMeters;
+    services().readings->done(i++, distance);
+    services().readings->done(i++, depth);
+    services().readings->done(i++, DistanceFromWaterBedInMeters);
 
-    pending.elapsed -= millis();
+    transit<fk::ModuleIdle>();
+}
 
-    for (auto j = 0; j < i; ++j) {
-        readings[j].status = fk::SensorReadingStatus::Done;
-        readings[j].time = fk::clock.getTime();
-    }
-
-    return fk::ModuleReadingStatus();
+SonarModule::SonarModule(fk::ModuleInfo &info) : Module(bus, info) {
 }
 
 extern "C" {
