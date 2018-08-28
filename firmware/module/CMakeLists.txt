@@ -2,7 +2,7 @@ include(Arduino)
 
 enable_arduino_toolchain()
 
-set(sources main.cpp)
+file(GLOB sources *.cpp)
 
 find_package(FkModule)
 
