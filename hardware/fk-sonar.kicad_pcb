@@ -3566,7 +3566,7 @@
   (gr_arc (start 123.19 63.246) (end 122.174 63.246) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 5A1E6D65))
   (gr_arc (start 155.702 63.246) (end 155.702 62.23) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 5A1E6D64))
   (gr_arc (start 155.702 131.572) (end 156.718 131.572) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_text v0.5 (at 155.4734 127.2794 90) (layer F.SilkS) (tstamp 5A1E0217)
+  (gr_text v0.6 (at 155.4734 127.2794 90) (layer F.SilkS) (tstamp 5A1E0217)
     (effects (font (size 1 1) (thickness 0.2)))
   )
   (gr_line (start 156.718 131.572) (end 156.718 63.246) (layer Edge.Cuts) (width 0.15))
