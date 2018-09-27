@@ -13,7 +13,7 @@ public:
     void task() override;
 };
 
-class SonarModule : public fk::Module {
+class SonarModule : public fk::Module<fk::MinimumFlashState> {
 private:
     fk::TwoWireBus bus{ Wire };
 
