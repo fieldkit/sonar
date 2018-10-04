@@ -3,7 +3,9 @@
 
 #include <fk-module.h>
 
-class TakeSonarReadings : public fk::ModuleServicesState {
+namespace fk {
+
+class TakeSonarReadings : public ModuleServicesState {
 public:
     const char *name() const override {
         return "TakeSonarReadings";
@@ -13,24 +15,26 @@ public:
     void task() override;
 };
 
-class SonarModule : public fk::Module<fk::MinimumFlashState> {
+class SonarModule : public Module<MinimumFlashState> {
 private:
     #ifdef FK_MODULE_WIRE11AND13
-    fk::TwoWireBus moduleBus{ fk::Wire11and13 };
+    TwoWireBus moduleBus{ Wire11and13 };
     #else
-    fk::TwoWireBus moduleBus{ fk::Wire4and3 };
+    TwoWireBus moduleBus{ Wire4and3 };
     #endif
 
 public:
-    SonarModule(fk::ModuleInfo &info);
+    SonarModule(ModuleInfo &info);
 
 public:
-    fk::ModuleStates states() override {
+    ModuleStates states() override {
         return {
-            fk::ModuleFsm::deferred<fk::ConfigureModule>(),
-            fk::ModuleFsm::deferred<TakeSonarReadings>()
+            ModuleFsm::deferred<ConfigureModule>(),
+            ModuleFsm::deferred<TakeSonarReadings>()
         };
     }
 };
+
+}
 
 #endif

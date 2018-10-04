@@ -1,4 +1,7 @@
 #include "sonar_module.h"
+#include "sonar_hardware.h"
+
+namespace fk {
 
 void TakeSonarReadings::task() {
     auto DistanceFromWaterBedInMeters = 1.0f;
@@ -17,6 +20,7 @@ void TakeSonarReadings::task() {
 }
 
 SonarModule::SonarModule(fk::ModuleInfo &info)
-    : Module(moduleBus, info, { 0 }) {
+    : Module(moduleBus, info, { FK_SONAR_PIN_FLASH_CS }) {
 }
 
+}

@@ -7,9 +7,7 @@
 
 #include <alogging/alogging.h>
 
-const uint8_t PIN_RADIO_CS = 5;
-const uint8_t PIN_RADIO_DIO0 = 2;
-const uint8_t PIN_FLASH_CS = 6;
+#include "../module/sonar_hardware.h"
 
 class Check {
 private:
@@ -75,16 +73,20 @@ private:
 public:
     void setup() {
         pinMode(13, OUTPUT);
-
         digitalWrite(13, HIGH);
 
-        pinMode(PIN_FLASH_CS, INPUT_PULLUP);
-        pinMode(PIN_FLASH_CS, OUTPUT);
-        digitalWrite(PIN_FLASH_CS, HIGH);
+        pinMode(fk::FK_SONAR_PIN_PERIPH_ENABLE, OUTPUT);
+        digitalWrite(fk::FK_SONAR_PIN_PERIPH_ENABLE, LOW);
+        delay(100);
+        digitalWrite(fk::FK_SONAR_PIN_PERIPH_ENABLE, HIGH);
 
-        pinMode(PIN_RADIO_CS, INPUT_PULLUP);
-        pinMode(PIN_RADIO_CS, OUTPUT);
-        digitalWrite(PIN_RADIO_CS, HIGH);
+        pinMode(fk::FK_SONAR_PIN_FLASH_CS, INPUT_PULLUP);
+        pinMode(fk::FK_SONAR_PIN_FLASH_CS, OUTPUT);
+        digitalWrite(fk::FK_SONAR_PIN_FLASH_CS, HIGH);
+
+        pinMode(fk::FK_SONAR_PIN_RADIO_CS, INPUT_PULLUP);
+        pinMode(fk::FK_SONAR_PIN_RADIO_CS, OUTPUT);
+        digitalWrite(fk::FK_SONAR_PIN_RADIO_CS, HIGH);
 
         SPI.begin();
     }
@@ -104,7 +106,7 @@ public:
     void flashMemory() {
         Serial.println("test: Checking flash memory...");
 
-        if (!SerialFlash.begin(PIN_FLASH_CS)) {
+        if (!SerialFlash.begin(fk::FK_SONAR_PIN_FLASH_CS)) {
             Serial.println("test: Flash memory FAILED");
             return;
         }
@@ -146,14 +148,12 @@ public:
     void radio() {
         Serial.println("test: Checking radio...");
 
-        RH_RF95 rf95(PIN_RADIO_CS, PIN_RADIO_DIO0);
+        RH_RF95 rf95(fk::FK_SONAR_PIN_RADIO_CS, fk::FK_SONAR_PIN_RADIO_DIO0);
 
         if (!rf95.init()) {
             Serial.println("test: Radio FAILED");
         }
         else {
-            digitalWrite(PIN_RADIO_CS, HIGH);
-
             Serial.println("test: Radio PASSED");
         }
     }
@@ -165,11 +165,9 @@ void setup() {
     Check check;
     check.setup();
 
-    while (!Serial && millis() < 2 * 1000) {
+    while (!Serial && millis() < 2000) {
         delay(100);
     }
-
-    delay(100);
 
     check.flashMemory();
     check.radio();
