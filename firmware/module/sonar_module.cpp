@@ -17,6 +17,6 @@ void TakeSonarReadings::task() {
 }
 
 SonarModule::SonarModule(fk::ModuleInfo &info)
-    : Module(moduleBus, info, { 6 }) {
+    : Module(moduleBus, info, { 0 }) {
 }
 
