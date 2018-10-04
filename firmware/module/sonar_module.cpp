@@ -8,6 +8,7 @@ void TakeSonarReadings::task() {
     auto depth = DistanceFromWaterBedInMeters - (distance / 100.0);
 
     auto i = 0;
+    services().readings->done(i++, (float)value);
     services().readings->done(i++, distance);
     services().readings->done(i++, depth);
     services().readings->done(i++, DistanceFromWaterBedInMeters);
@@ -15,6 +16,7 @@ void TakeSonarReadings::task() {
     transit<fk::ModuleIdle>();
 }
 
-SonarModule::SonarModule(fk::ModuleInfo &info) : Module(moduleBus, info) {
+SonarModule::SonarModule(fk::ModuleInfo &info)
+    : Module(moduleBus, info, { 6 }) {
 }
 
