@@ -5,9 +5,11 @@
 #include <RH_RF95.h>
 #include <SerialFlash.h>
 
+#include <alogging/alogging.h>
+
 const uint8_t PIN_RADIO_CS = 5;
 const uint8_t PIN_RADIO_DIO0 = 2;
-const uint8_t PIN_FLASH_CS = 4;
+const uint8_t PIN_FLASH_CS = 6;
 
 class Check {
 private:
@@ -73,22 +75,15 @@ private:
 public:
     void setup() {
         pinMode(13, OUTPUT);
-        pinMode(A2, OUTPUT);
-        pinMode(A4, OUTPUT);
-        pinMode(A5, OUTPUT);
 
         digitalWrite(13, HIGH);
-        digitalWrite(A2, HIGH);
-        digitalWrite(A4, HIGH);
-        digitalWrite(A5, HIGH);
 
         pinMode(PIN_FLASH_CS, INPUT_PULLUP);
-        pinMode(PIN_RADIO_CS, INPUT_PULLUP);
-
         pinMode(PIN_FLASH_CS, OUTPUT);
-        pinMode(PIN_RADIO_CS, OUTPUT);
-
         digitalWrite(PIN_FLASH_CS, HIGH);
+
+        pinMode(PIN_RADIO_CS, INPUT_PULLUP);
+        pinMode(PIN_RADIO_CS, OUTPUT);
         digitalWrite(PIN_RADIO_CS, HIGH);
 
         SPI.begin();
@@ -181,7 +176,9 @@ void setup() {
     check.fuelGauge();
 
     while (true) {
-        delay(100);
+        auto value = analogRead(A1);
+        loginfof("Sonar", "Raw: %lu", value);
+        delay(1000);
     }
 }
 
