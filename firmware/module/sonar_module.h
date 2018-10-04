@@ -15,7 +15,11 @@ public:
 
 class SonarModule : public fk::Module<fk::MinimumFlashState> {
 private:
-    fk::TwoWireBus bus{ Wire };
+    #ifdef FK_MODULE_WIRE11AND13
+    fk::TwoWireBus moduleBus{ fk::Wire11and13 };
+    #else
+    fk::TwoWireBus moduleBus{ fk::Wire4and3 };
+    #endif
 
 public:
     SonarModule(fk::ModuleInfo &info);

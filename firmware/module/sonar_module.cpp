@@ -15,6 +15,6 @@ void TakeSonarReadings::task() {
     transit<fk::ModuleIdle>();
 }
 
-SonarModule::SonarModule(fk::ModuleInfo &info) : Module(bus, info) {
+SonarModule::SonarModule(fk::ModuleInfo &info) : Module(moduleBus, info) {
 }
 
