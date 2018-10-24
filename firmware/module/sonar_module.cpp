@@ -20,7 +20,7 @@ void TakeSonarReadings::task() {
 }
 
 SonarModule::SonarModule(fk::ModuleInfo &info)
-    : Module(moduleBus, info, { FK_SONAR_PIN_FLASH_CS }) {
+    : Module(moduleBus, info, { FK_SONAR_PIN_FLASH_CS, FK_SONAR_PIN_PERIPH_ENABLE }) {
 }
 
 }
