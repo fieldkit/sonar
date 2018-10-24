@@ -16,10 +16,10 @@ void TakeSonarReadings::task() {
     services().readings->done(i++, depth);
     services().readings->done(i++, DistanceFromWaterBedInMeters);
 
-    transit<fk::ModuleIdle>();
+    transit<ModuleIdle>();
 }
 
-SonarModule::SonarModule(fk::ModuleInfo &info)
+SonarModule::SonarModule(ModuleInfo &info)
     : Module(moduleBus, info, { FK_SONAR_PIN_FLASH_CS, FK_SONAR_PIN_PERIPH_ENABLE }) {
 }
 
