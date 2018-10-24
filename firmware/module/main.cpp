@@ -30,7 +30,7 @@ void setup() {
         { "total", "m" },
     };
 
-    fk::SensorReading readings[3];
+    fk::SensorReading readings[4];
 
     fk::ModuleInfo info = {
         fk_module_ModuleType_SENSOR,
