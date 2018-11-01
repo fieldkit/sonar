@@ -47,7 +47,9 @@ void setup() {
         "Sonar",
         "fk-sonar",
         sensors,
-        readings
+        readings,
+        0,
+        fk_module_RequiredUptime_READINGS_ONLY,
     };
 
     fk::SonarModule module(info);
