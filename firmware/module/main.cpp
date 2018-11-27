@@ -43,7 +43,7 @@ void setup() {
         fk_module_ModuleType_SENSOR,
         8,
         4,
-        1,
+        3,
         "Sonar",
         "fk-sonar",
         sensors,
