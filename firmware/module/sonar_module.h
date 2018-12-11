@@ -17,11 +17,7 @@ public:
 
 class SonarModule : public Module<MinimumFlashState> {
 private:
-    #ifdef FK_MODULE_WIRE11AND13
-    TwoWireBus moduleBus{ Wire11and13 };
-    #else
     TwoWireBus moduleBus{ Wire4and3 };
-    #endif
 
 public:
     SonarModule(ModuleInfo &info);
