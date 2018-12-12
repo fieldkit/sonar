@@ -1,5 +1,4 @@
 #include "sonar_module.h"
-#include "sonar_hardware.h"
 
 namespace fk {
 
@@ -20,7 +19,7 @@ void TakeSonarReadings::task() {
 }
 
 SonarModule::SonarModule(ModuleInfo &info)
-    : Module(moduleBus, info, { FK_SONAR_PIN_FLASH_CS, FK_SONAR_PIN_PERIPH_ENABLE }) {
+    : Module(moduleBus, info) {
 }
 
 }

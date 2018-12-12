@@ -7,7 +7,7 @@
 
 #include <alogging/alogging.h>
 
-#include "../module/sonar_hardware.h"
+#include "board_definition.h"
 
 class Check {
 private:

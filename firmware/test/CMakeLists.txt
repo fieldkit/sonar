@@ -2,7 +2,7 @@ include(Arduino)
 
 enable_arduino_toolchain()
 
-set(sources main.cpp)
+file(GLOB sources *.cpp ../common/*.cpp)
 
 find_package(FkModule)
 find_package(RadioHead)
@@ -16,5 +16,6 @@ target_link_libraries(fk-sonar-test RadioHead)
 target_link_libraries(fk-sonar-test FuelGauge)
 
 target_compile_options(fk-sonar-test PRIVATE -Wall -Werror)
+target_include_directories(fk-sonar-test PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/../common")
 
 add_arduino_firmware(fk-sonar-test)

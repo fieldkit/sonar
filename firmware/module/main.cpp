@@ -1,6 +1,6 @@
 #include <fk-module.h>
 
-#include "sonar_hardware.h"
+#include "board_definition.h"
 #include "sonar_module.h"
 
 extern "C" {
@@ -8,8 +8,7 @@ extern "C" {
 void setup() {
     Serial.begin(115200);
 
-    pinMode(fk::FK_SONAR_PIN_PERIPH_ENABLE, OUTPUT);
-    digitalWrite(fk::FK_SONAR_PIN_PERIPH_ENABLE, LOW);
+    fk::board.disable_everything();
 
     while (!Serial && millis() < 2000) {
         delay(100);
@@ -21,8 +20,6 @@ void setup() {
         Serial5.begin(115200);
         log_uart_set(Serial5);
     }
-
-    digitalWrite(fk::FK_SONAR_PIN_PERIPH_ENABLE, HIGH);
 
     firmware_version_set(FIRMWARE_GIT_HASH);
     firmware_build_set(FIRMWARE_BUILD);
