@@ -1,7 +1,7 @@
 BUILD=build
 
 all: cmake
-	cd $(BUILD) && make
+	$(MAKE) -C $(BUILD)
 
 cmake: gitdeps
 	mkdir -p $(BUILD)
