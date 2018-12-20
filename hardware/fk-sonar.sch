@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L conservify:MCP1700T-XXX2E U6
+L fk-sonar-rescue:MCP1700T-XXX2E-conservify U6
 U 1 1 5A101481
 P 14700 2250
 F 0 "U6" H 14550 1900 60  0000 C CNN
@@ -36,28 +36,28 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:MICRO_USB J4
+L fk-sonar-rescue:MICRO_USB-conservify J4
 U 1 1 5A101482
-P 10500 6450
-F 0 "J4" H 10500 6800 60  0000 C CNN
-F 1 "MICRO-USB" H 10500 6100 60  0000 C CNN
-F 2 "conservify:MICRO-USB" H 10500 6000 60  0001 C CNN
-F 3 "" H 10550 6650 60  0000 C CNN
-F 4 " " H 10500 6900 50  0001 C CNN "Critical"
-F 5 "Hirose Connector" H 10500 6900 50  0001 C CNN "MFN"
-F 6 "ZX62D-B-5PA8(30)" H 10500 6900 50  0001 C CNN "MFP"
-F 7 " " H 10500 6900 50  0001 C CNN "Notes"
-F 8 " " H 10500 6900 50  0001 C CNN "Package"
-F 9 "ANY" H 10500 6900 50  0001 C CNN "Source"
-F 10 " " H 10500 6900 50  0001 C CNN "Subsystem"
-F 11 "0.7" H 10500 6900 50  0001 C CNN "price"
-F 12 "798-ZX62D-B-5PA830" H -50 0   50  0001 C CNN "spn1"
-F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
-	1    10500 6450
-	-1   0    0    -1  
+P 8175 6975
+F 0 "J4" H 8175 7325 60  0000 C CNN
+F 1 "MICRO-USB" H 8175 6625 60  0000 C CNN
+F 2 "conservify:MICRO-USB" H 8175 6525 60  0001 C CNN
+F 3 "" H 8225 7175 60  0000 C CNN
+F 4 " " H 8175 7425 50  0001 C CNN "Critical"
+F 5 "Hirose Connector" H 8175 7425 50  0001 C CNN "MFN"
+F 6 "ZX62D-B-5PA8(30)" H 8175 7425 50  0001 C CNN "MFP"
+F 7 " " H 8175 7425 50  0001 C CNN "Notes"
+F 8 " " H 8175 7425 50  0001 C CNN "Package"
+F 9 "ANY" H 8175 7425 50  0001 C CNN "Source"
+F 10 " " H 8175 7425 50  0001 C CNN "Subsystem"
+F 11 "0.7" H 8175 7425 50  0001 C CNN "price"
+F 12 "798-ZX62D-B-5PA830" H -2375 525 50  0001 C CNN "spn1"
+F 13 "mouser" H -2375 525 50  0001 C CNN "supplier1"
+	1    8175 6975
+	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:S2B_PH_SM4_TB J5
+L fk-sonar-rescue:S2B_PH_SM4_TB-conservify J5
 U 1 1 5A101483
 P 12600 2800
 F 0 "J5" H 12500 3000 60  0000 C CNN
@@ -78,7 +78,7 @@ F 13 "digikey" H -50 0   50  0001 C CNN "supplier1"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:BQ24074 U3
+L fk-sonar-rescue:BQ24074-conservify U3
 U 1 1 5A101484
 P 11100 2600
 F 0 "U3" H 10800 3100 60  0000 C CNN
@@ -99,70 +99,28 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:S25FL1xxK0XM U4
+L fk-sonar-rescue:S25FL1xxK0XM-conservify U4
 U 1 1 5A101485
-P 13750 6900
-F 0 "U4" H 13750 7200 60  0000 C CNN
-F 1 "S25FL116K0XMFI041" H 13750 6600 60  0000 C CNN
-F 2 "conservify:SOIC-8-N-WIDE" H 13750 6500 60  0001 C CNN
-F 3 "" H 13550 6950 60  0000 C CNN
-F 4 " " H 13750 7300 50  0001 C CNN "Critical"
-F 5 "Cypress Semiconductor" H 13750 7300 50  0001 C CNN "MFN"
-F 6 "S25FL116K0XMFI041" H 13750 7300 50  0001 C CNN "MFP"
-F 7 " " H 13750 7300 50  0001 C CNN "Notes"
-F 8 " " H 13750 7300 50  0001 C CNN "Package"
-F 9 "ANY" H 13750 7300 50  0001 C CNN "Source"
-F 10 " " H 13750 7300 50  0001 C CNN "Subsystem"
-F 11 "0.49" H 13750 7300 50  0001 C CNN "price"
-F 12 "797-25FL116KOXMFI041" H -50 0   50  0001 C CNN "spn1"
-F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
-	1    13750 6900
+P 3150 7050
+F 0 "U4" H 3150 7350 60  0000 C CNN
+F 1 "S25FL116K0XMFI041" H 3150 6750 60  0000 C CNN
+F 2 "conservify:SOIC-8-N-WIDE" H 3150 6650 60  0001 C CNN
+F 3 "" H 2950 7100 60  0000 C CNN
+F 4 " " H 3150 7450 50  0001 C CNN "Critical"
+F 5 "Cypress Semiconductor" H 3150 7450 50  0001 C CNN "MFN"
+F 6 "S25FL116K0XMFI041" H 3150 7450 50  0001 C CNN "MFP"
+F 7 " " H 3150 7450 50  0001 C CNN "Notes"
+F 8 " " H 3150 7450 50  0001 C CNN "Package"
+F 9 "ANY" H 3150 7450 50  0001 C CNN "Source"
+F 10 " " H 3150 7450 50  0001 C CNN "Subsystem"
+F 11 "0.49" H 3150 7450 50  0001 C CNN "price"
+F 12 "797-25FL116KOXMFI041" H -10650 150 50  0001 C CNN "spn1"
+F 13 "mouser" H -10650 150 50  0001 C CNN "supplier1"
+	1    3150 7050
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:RFM9xW U2
-U 1 1 5A101486
-P 9900 10150
-F 0 "U2" H 9550 10650 60  0000 C CNN
-F 1 "RFM95W" H 9900 10200 60  0000 C CNN
-F 2 "conservify:RFM9xW" H 9900 9650 60  0001 C CNN
-F 3 "" H 9900 10450 60  0000 C CNN
-F 4 " " H 9550 10750 50  0001 C CNN "Critical"
-F 5 " " H 9550 10750 50  0001 C CNN "MFN"
-F 6 " " H 9550 10750 50  0001 C CNN "MFP"
-F 7 " " H 9550 10750 50  0001 C CNN "Notes"
-F 8 " " H 9550 10750 50  0001 C CNN "Package"
-F 9 " " H 9550 10750 50  0001 C CNN "SPN1"
-F 10 "ANY" H 9550 10750 50  0001 C CNN "Source"
-F 11 " " H 9550 10750 50  0001 C CNN "Subsystem"
-F 12 "15.16" H 9550 10750 50  0001 C CNN "price"
-F 13 "various" H -50 0   50  0001 C CNN "supplier1"
-	1    9900 10150
-	1    0    0    -1  
-$EndComp
-$Comp
-L conservify:RF_SMA_EDGE J3
-U 1 1 5A101487
-P 8300 10050
-F 0 "J3" H 8300 10300 60  0000 C CNN
-F 1 "RF-SMA-EDGE" V 8600 10050 60  0000 C CNN
-F 2 "conservify:RF-SMA-EDGE" H 8300 9500 60  0001 C CNN
-F 3 "" H 8250 10000 60  0000 C CNN
-F 4 " " H 8300 10400 50  0001 C CNN "Critical"
-F 5 " " H 8300 10400 50  0001 C CNN "MFN"
-F 6 "S01-SJEDM-11BS05" H 8300 10400 50  0001 C CNN "MFP"
-F 7 " " H 8300 10400 50  0001 C CNN "Notes"
-F 8 " " H 8300 10400 50  0001 C CNN "Package"
-F 9 "ANY" H 8300 10400 50  0001 C CNN "Source"
-F 10 " " H 8300 10400 50  0001 C CNN "Subsystem"
-F 11 "1.2" H 8300 10400 50  0001 C CNN "price"
-F 12 "S01-SJEDM-11BS05" H -450 0   50  0001 C CNN "spn1"
-F 13 "rf supplier" H -450 0   50  0001 C CNN "supplier1"
-	1    8300 10050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L conservify:SWITCH_CONN_02 SW1
+L fk-sonar-rescue:SWITCH_CONN_02-conservify SW1
 U 1 1 5A101488
 P 3650 1650
 F 0 "SW1" H 3650 1800 60  0000 C CNN
@@ -183,7 +141,7 @@ F 13 "digikey" H -50 0   50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR01
+L fk-sonar-rescue:GND-conservify #PWR01
 U 1 1 5A101489
 P 3650 4850
 F 0 "#PWR01" H 3650 4600 50  0001 C CNN
@@ -194,7 +152,7 @@ F 3 "" H 3650 4850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CRYSTAL Y1
+L fk-sonar-rescue:CRYSTAL-conservify Y1
 U 1 1 5A10148A
 P 2350 1650
 F 0 "Y1" H 2350 1800 50  0000 C CNN
@@ -215,7 +173,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C4
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C4
 U 1 1 5A10148B
 P 2700 1400
 F 0 "C4" H 2725 1500 50  0000 L CNN
@@ -236,7 +194,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C3
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C3
 U 1 1 5A10148C
 P 2000 1400
 F 0 "C3" H 2025 1500 50  0000 L CNN
@@ -257,7 +215,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR02
+L fk-sonar-rescue:GND-conservify #PWR02
 U 1 1 5A10148D
 P 1800 1250
 F 0 "#PWR02" H 1800 1000 50  0001 C CNN
@@ -268,7 +226,7 @@ F 3 "" H 1800 1250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C5
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C5
 U 1 1 5A10148E
 P 5100 1900
 F 0 "C5" V 4950 1850 50  0000 L CNN
@@ -289,7 +247,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C8
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C8
 U 1 1 5A10148F
 P 5900 1900
 F 0 "C8" V 5750 1850 50  0000 L CNN
@@ -310,7 +268,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C9
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C9
 U 1 1 5A101490
 P 6300 1900
 F 0 "C9" V 6150 1850 50  0000 L CNN
@@ -331,7 +289,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C6
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C6
 U 1 1 5A101491
 P 5500 1900
 F 0 "C6" V 5350 1850 50  0000 L CNN
@@ -352,7 +310,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR03
+L fk-sonar-rescue:GND-conservify #PWR03
 U 1 1 5A101492
 P 5100 2150
 F 0 "#PWR03" H 5100 1900 50  0001 C CNN
@@ -363,7 +321,7 @@ F 3 "" H 5100 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR04
+L fk-sonar-rescue:GND-conservify #PWR04
 U 1 1 5A101493
 P 5500 2150
 F 0 "#PWR04" H 5500 1900 50  0001 C CNN
@@ -374,7 +332,7 @@ F 3 "" H 5500 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR05
+L fk-sonar-rescue:GND-conservify #PWR05
 U 1 1 5A101494
 P 5900 2150
 F 0 "#PWR05" H 5900 1900 50  0001 C CNN
@@ -385,7 +343,7 @@ F 3 "" H 5900 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR06
+L fk-sonar-rescue:GND-conservify #PWR06
 U 1 1 5A101495
 P 6300 2150
 F 0 "#PWR06" H 6300 1900 50  0001 C CNN
@@ -396,7 +354,7 @@ F 3 "" H 6300 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:3V3 #PWR07
+L fk-sonar-rescue:3V3-conservify #PWR07
 U 1 1 5A101496
 P 5100 1550
 F 0 "#PWR07" H 5100 1400 50  0001 C CNN
@@ -407,7 +365,7 @@ F 3 "" H 5100 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:3V3 #PWR08
+L fk-sonar-rescue:3V3-conservify #PWR08
 U 1 1 5A101497
 P 5900 1550
 F 0 "#PWR08" H 5900 1400 50  0001 C CNN
@@ -418,7 +376,7 @@ F 3 "" H 5900 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:3V3 #PWR09
+L fk-sonar-rescue:3V3-conservify #PWR09
 U 1 1 5A101498
 P 6300 1550
 F 0 "#PWR09" H 6300 1400 50  0001 C CNN
@@ -429,7 +387,7 @@ F 3 "" H 6300 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:3V3 #PWR010
+L fk-sonar-rescue:3V3-conservify #PWR010
 U 1 1 5A101499
 P 6300 2500
 F 0 "#PWR010" H 6300 2350 50  0001 C CNN
@@ -440,7 +398,7 @@ F 3 "" H 6300 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:INDUCTOR L1
+L fk-sonar-rescue:INDUCTOR-conservify L1
 U 1 1 5A10149A
 P 5900 2600
 F 0 "L1" H 5900 2550 50  0000 C CNN
@@ -461,7 +419,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C7
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C7
 U 1 1 5A10149B
 P 5500 2850
 F 0 "C7" H 5300 2850 50  0000 L CNN
@@ -482,7 +440,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:3V3 #PWR012
+L fk-sonar-rescue:3V3-conservify #PWR012
 U 1 1 5A10149D
 P 5350 10350
 F 0 "#PWR012" H 5350 10200 50  0001 C CNN
@@ -493,7 +451,7 @@ F 3 "" H 5350 10350 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conservify:RESISTOR R1
+L fk-sonar-rescue:RESISTOR-conservify R1
 U 1 1 5A10149E
 P 6200 10350
 F 0 "R1" V 6200 10550 60  0000 C CNN
@@ -514,7 +472,7 @@ F 13 "mouser" H 4500 3600 50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:MOSFET_N Q1
+L fk-sonar-rescue:MOSFET_N-conservify Q1
 U 1 1 5A10149F
 P 6550 10600
 F 0 "Q1" H 6800 10650 50  0000 R CNN
@@ -535,7 +493,7 @@ F 13 "mouser" H 4850 3250 50  0001 C CNN "supplier1"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR013
+L fk-sonar-rescue:GND-conservify #PWR013
 U 1 1 5A1014A0
 P 6550 10950
 F 0 "#PWR013" H 6550 10700 50  0001 C CNN
@@ -546,7 +504,7 @@ F 3 "" H 6550 10950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:VIN #PWR014
+L fk-sonar-rescue:VIN-conservify #PWR014
 U 1 1 5A1014A1
 P 8150 2250
 F 0 "#PWR014" H 8150 2100 50  0001 C CNN
@@ -557,7 +515,7 @@ F 3 "" H 8150 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR015
+L fk-sonar-rescue:GND-conservify #PWR015
 U 1 1 5A1014A2
 P 10500 3050
 F 0 "#PWR015" H 10500 2800 50  0001 C CNN
@@ -568,7 +526,7 @@ F 3 "" H 10500 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:VBUS #PWR016
+L fk-sonar-rescue:VBUS-conservify #PWR016
 U 1 1 5A1014A3
 P 10300 2950
 F 0 "#PWR016" H 10300 2800 50  0001 C CNN
@@ -579,7 +537,7 @@ F 3 "" H 10300 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:RESISTOR R17
+L fk-sonar-rescue:RESISTOR-conservify R17
 U 1 1 5A1014A4
 P 11500 1900
 F 0 "R17" H 11600 2000 60  0000 C CNN
@@ -600,7 +558,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:RESISTOR R16
+L fk-sonar-rescue:RESISTOR-conservify R16
 U 1 1 5A1014A5
 P 11500 1700
 F 0 "R16" H 11600 1800 60  0000 C CNN
@@ -621,7 +579,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:RESISTOR R7
+L fk-sonar-rescue:RESISTOR-conservify R7
 U 1 1 5A1014A6
 P 9350 3050
 F 0 "R7" H 9200 3150 60  0000 C CNN
@@ -642,7 +600,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conservify:RESISTOR R8
+L fk-sonar-rescue:RESISTOR-conservify R8
 U 1 1 5A1014A7
 P 9550 3050
 F 0 "R8" H 9400 3150 60  0000 C CNN
@@ -663,7 +621,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conservify:RESISTOR R10
+L fk-sonar-rescue:RESISTOR-conservify R10
 U 1 1 5A1014A8
 P 9750 3050
 F 0 "R10" H 9600 3150 60  0000 C CNN
@@ -684,7 +642,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conservify:RESISTOR R11
+L fk-sonar-rescue:RESISTOR-conservify R11
 U 1 1 5A1014A9
 P 9950 3050
 F 0 "R11" H 9825 3150 60  0000 C CNN
@@ -705,7 +663,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conservify:GND #PWR017
+L fk-sonar-rescue:GND-conservify #PWR017
 U 1 1 5A1014AA
 P 9750 3500
 F 0 "#PWR017" H 9750 3250 50  0001 C CNN
@@ -716,7 +674,7 @@ F 3 "" H 9750 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C11
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C11
 U 1 1 5A1014AB
 P 9050 2500
 F 0 "C11" H 9200 2500 50  0000 L CNN
@@ -737,7 +695,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:GND #PWR018
+L fk-sonar-rescue:GND-conservify #PWR018
 U 1 1 5A1014AC
 P 9050 2750
 F 0 "#PWR018" H 9050 2500 50  0001 C CNN
@@ -748,7 +706,7 @@ F 3 "" H 9050 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR019
+L fk-sonar-rescue:GND-conservify #PWR019
 U 1 1 5A1014AD
 P 11100 3400
 F 0 "#PWR019" H 11100 3150 50  0001 C CNN
@@ -759,7 +717,7 @@ F 3 "" H 11100 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:RESISTOR R18
+L fk-sonar-rescue:RESISTOR-conservify R18
 U 1 1 5A1014AE
 P 11700 3300
 F 0 "R18" V 11700 3150 60  0000 C CNN
@@ -780,7 +738,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	0    1    1    0   
 $EndComp
 $Comp
-L conservify:GND #PWR020
+L fk-sonar-rescue:GND-conservify #PWR020
 U 1 1 5A1014AF
 P 11700 3650
 F 0 "#PWR020" H 11700 3400 50  0001 C CNN
@@ -791,7 +749,7 @@ F 3 "" H 11700 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C15
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C15
 U 1 1 5A1014B0
 P 12000 3000
 F 0 "C15" H 12050 3100 50  0000 L CNN
@@ -812,7 +770,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR021
+L fk-sonar-rescue:GND-conservify #PWR021
 U 1 1 5A1014B1
 P 12000 3250
 F 0 "#PWR021" H 12000 3000 50  0001 C CNN
@@ -823,7 +781,7 @@ F 3 "" H 12000 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C16
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C16
 U 1 1 5A1014B2
 P 12950 2500
 F 0 "C16" H 13050 2500 50  0000 L CNN
@@ -844,7 +802,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR022
+L fk-sonar-rescue:GND-conservify #PWR022
 U 1 1 5A1014B3
 P 12200 2950
 F 0 "#PWR022" H 12200 2700 50  0001 C CNN
@@ -855,7 +813,7 @@ F 3 "" H 12200 2950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR023
+L fk-sonar-rescue:GND-conservify #PWR023
 U 1 1 5A1014B4
 P 12950 2750
 F 0 "#PWR023" H 12950 2500 50  0001 C CNN
@@ -866,7 +824,7 @@ F 3 "" H 12950 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:VBAT #PWR024
+L fk-sonar-rescue:VBAT-conservify #PWR024
 U 1 1 5A1014B5
 P 12000 2650
 F 0 "#PWR024" H 12000 2500 50  0001 C CNN
@@ -877,7 +835,7 @@ F 3 "" H 12000 2650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:VBUS #PWR025
+L fk-sonar-rescue:VBUS-conservify #PWR025
 U 1 1 5A1014B6
 P 12950 2150
 F 0 "#PWR025" H 12950 2000 50  0001 C CNN
@@ -888,7 +846,7 @@ F 3 "" H 12950 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C19
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C19
 U 1 1 5A1014B7
 P 14250 2500
 F 0 "C19" H 14000 2500 50  0000 L CNN
@@ -909,7 +867,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR026
+L fk-sonar-rescue:GND-conservify #PWR026
 U 1 1 5A1014B8
 P 14250 2750
 F 0 "#PWR026" H 14250 2500 50  0001 C CNN
@@ -920,7 +878,7 @@ F 3 "" H 14250 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR027
+L fk-sonar-rescue:GND-conservify #PWR027
 U 1 1 5A1014B9
 P 14700 2800
 F 0 "#PWR027" H 14700 2550 50  0001 C CNN
@@ -931,7 +889,7 @@ F 3 "" H 14700 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C21
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C21
 U 1 1 5A1014BA
 P 15150 2500
 F 0 "C21" H 15250 2500 50  0000 L CNN
@@ -952,7 +910,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR028
+L fk-sonar-rescue:GND-conservify #PWR028
 U 1 1 5A1014BB
 P 15150 2750
 F 0 "#PWR028" H 15150 2500 50  0001 C CNN
@@ -963,7 +921,7 @@ F 3 "" H 15150 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:3V3 #PWR029
+L fk-sonar-rescue:3V3-conservify #PWR029
 U 1 1 5A1014BC
 P 15150 2150
 F 0 "#PWR029" H 15150 2000 50  0001 C CNN
@@ -974,338 +932,252 @@ F 3 "" H 15150 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:FUSE F1
+L fk-sonar-rescue:FUSE-conservify F1
 U 1 1 5A1014BD
-P 8550 6250
-F 0 "F1" H 8550 6100 50  0000 C CNN
-F 1 "MF-PSMF050X-2" H 8550 6400 50  0000 C CNN
-F 2 "conservify:MF-PSMF020X" H 8550 6100 60  0001 C CNN
-F 3 "" H 8550 6250 60  0000 C CNN
-F 4 " " H 8550 6200 50  0001 C CNN "Critical"
-F 5 "Bourns" H 8550 6200 50  0001 C CNN "MFN"
-F 6 "MF-PSMF050X-2" H 8550 6200 50  0001 C CNN "MFP"
-F 7 " " H 8550 6200 50  0001 C CNN "Notes"
-F 8 " " H 8550 6200 50  0001 C CNN "Package"
-F 9 "ANY" H 8550 6200 50  0001 C CNN "Source"
-F 10 " " H 8550 6200 50  0001 C CNN "Subsystem"
-F 11 "0.33" H 8550 6200 50  0001 C CNN "price"
-F 12 "652-MF-PSMF050X-2" H -50 0   50  0001 C CNN "spn1"
-F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
-	1    8550 6250
-	1    0    0    -1  
+P 10125 6775
+F 0 "F1" H 10125 6625 50  0000 C CNN
+F 1 "MF-PSMF050X-2" H 10125 6925 50  0000 C CNN
+F 2 "conservify:MF-PSMF020X" H 10125 6625 60  0001 C CNN
+F 3 "" H 10125 6775 60  0000 C CNN
+F 4 " " H 10125 6725 50  0001 C CNN "Critical"
+F 5 "Bourns" H 10125 6725 50  0001 C CNN "MFN"
+F 6 "MF-PSMF050X-2" H 10125 6725 50  0001 C CNN "MFP"
+F 7 " " H 10125 6725 50  0001 C CNN "Notes"
+F 8 " " H 10125 6725 50  0001 C CNN "Package"
+F 9 "ANY" H 10125 6725 50  0001 C CNN "Source"
+F 10 " " H 10125 6725 50  0001 C CNN "Subsystem"
+F 11 "0.33" H 10125 6725 50  0001 C CNN "price"
+F 12 "652-MF-PSMF050X-2" H 1525 525 50  0001 C CNN "spn1"
+F 13 "mouser" H 1525 525 50  0001 C CNN "supplier1"
+	1    10125 6775
+	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:INDUCTOR L2
+L fk-sonar-rescue:INDUCTOR-conservify L2
 U 1 1 5A1014BE
-P 7850 6250
-F 0 "L2" H 7850 6200 50  0000 C CNN
-F 1 "BLM18KG221SN1D" H 7850 6350 50  0000 C CNN
-F 2 "conservify:IND-0603" H 7850 6100 60  0001 C CNN
-F 3 "" V 7850 6250 60  0000 C CNN
-F 4 " " H 7850 6300 50  0001 C CNN "Critical"
-F 5 "Murata Electronics" H 7850 6300 50  0001 C CNN "MFN"
-F 6 "BLM18KG221SN1D" H 7850 6300 50  0001 C CNN "MFP"
-F 7 " " H 7850 6300 50  0001 C CNN "Notes"
-F 8 " " H 7850 6300 50  0001 C CNN "Package"
-F 9 "ANY" H 7850 6300 50  0001 C CNN "Source"
-F 10 " " H 7850 6300 50  0001 C CNN "Subsystem"
-F 11 "0.1" H 7850 6300 50  0001 C CNN "price"
-F 12 "81-BLM18KG221SN1D" H -50 0   50  0001 C CNN "spn1"
-F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
-	1    7850 6250
-	1    0    0    -1  
+P 10825 6775
+F 0 "L2" H 10825 6725 50  0000 C CNN
+F 1 "BLM18KG221SN1D" H 10825 6875 50  0000 C CNN
+F 2 "conservify:IND-0603" H 10825 6625 60  0001 C CNN
+F 3 "" V 10825 6775 60  0000 C CNN
+F 4 " " H 10825 6825 50  0001 C CNN "Critical"
+F 5 "Murata Electronics" H 10825 6825 50  0001 C CNN "MFN"
+F 6 "BLM18KG221SN1D" H 10825 6825 50  0001 C CNN "MFP"
+F 7 " " H 10825 6825 50  0001 C CNN "Notes"
+F 8 " " H 10825 6825 50  0001 C CNN "Package"
+F 9 "ANY" H 10825 6825 50  0001 C CNN "Source"
+F 10 " " H 10825 6825 50  0001 C CNN "Subsystem"
+F 11 "0.1" H 10825 6825 50  0001 C CNN "price"
+F 12 "81-BLM18KG221SN1D" H 2925 525 50  0001 C CNN "spn1"
+F 13 "mouser" H 2925 525 50  0001 C CNN "supplier1"
+	1    10825 6775
+	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR030
+L fk-sonar-rescue:GND-conservify #PWR030
 U 1 1 5A1014BF
-P 7450 6750
-F 0 "#PWR030" H 7450 6500 50  0001 C CNN
-F 1 "GND" H 7450 6600 50  0001 C CNN
-F 2 "" H 7450 6750 60  0000 C CNN
-F 3 "" H 7450 6750 60  0000 C CNN
-	1    7450 6750
-	1    0    0    -1  
+P 11225 7275
+F 0 "#PWR030" H 11225 7025 50  0001 C CNN
+F 1 "GND" H 11225 7125 50  0001 C CNN
+F 2 "" H 11225 7275 60  0000 C CNN
+F 3 "" H 11225 7275 60  0000 C CNN
+	1    11225 7275
+	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:PRTR5V0U2X D6
+L fk-sonar-rescue:PRTR5V0U2X-conservify D6
 U 1 1 5A1014C0
-P 9100 6750
-F 0 "D6" H 9150 7100 60  0000 C CNN
-F 1 "PRTR5V0U2X" H 9300 6350 60  0000 C CNN
-F 2 "conservify:SOT-143B" H 9100 6250 60  0001 C CNN
-F 3 "" H 8950 6750 60  0000 C CNN
-F 4 " " H 9150 7200 50  0001 C CNN "Critical"
-F 5 "Nexperia" H 9150 7200 50  0001 C CNN "MFN"
-F 6 "PRTR5V0U2X,215" H 9150 7200 50  0001 C CNN "MFP"
-F 7 " " H 9150 7200 50  0001 C CNN "Notes"
-F 8 " " H 9150 7200 50  0001 C CNN "Package"
-F 9 "ANY" H 9150 7200 50  0001 C CNN "Source"
-F 10 " " H 9150 7200 50  0001 C CNN "Subsystem"
-F 11 "0.51" H 9150 7200 50  0001 C CNN "price"
-F 12 "771-PRTR5V0U2X-T/R" H -50 0   50  0001 C CNN "spn1"
-F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
-	1    9100 6750
-	1    0    0    -1  
+P 9575 7275
+F 0 "D6" H 9625 7625 60  0000 C CNN
+F 1 "PRTR5V0U2X" H 9775 6875 60  0000 C CNN
+F 2 "conservify:SOT-143B" H 9575 6775 60  0001 C CNN
+F 3 "" H 9425 7275 60  0000 C CNN
+F 4 " " H 9625 7725 50  0001 C CNN "Critical"
+F 5 "Nexperia" H 9625 7725 50  0001 C CNN "MFN"
+F 6 "PRTR5V0U2X,215" H 9625 7725 50  0001 C CNN "MFP"
+F 7 " " H 9625 7725 50  0001 C CNN "Notes"
+F 8 " " H 9625 7725 50  0001 C CNN "Package"
+F 9 "ANY" H 9625 7725 50  0001 C CNN "Source"
+F 10 " " H 9625 7725 50  0001 C CNN "Subsystem"
+F 11 "0.51" H 9625 7725 50  0001 C CNN "price"
+F 12 "771-PRTR5V0U2X-T/R" H 425 525 50  0001 C CNN "spn1"
+F 13 "mouser" H 425 525 50  0001 C CNN "supplier1"
+	1    9575 7275
+	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR031
+L fk-sonar-rescue:GND-conservify #PWR031
 U 1 1 5A1014C1
-P 8950 7300
-F 0 "#PWR031" H 8950 7050 50  0001 C CNN
-F 1 "GND" H 8950 7150 50  0001 C CNN
-F 2 "" H 8950 7300 60  0000 C CNN
-F 3 "" H 8950 7300 60  0000 C CNN
-	1    8950 7300
-	1    0    0    -1  
+P 9725 7825
+F 0 "#PWR031" H 9725 7575 50  0001 C CNN
+F 1 "GND" H 9725 7675 50  0001 C CNN
+F 2 "" H 9725 7825 60  0000 C CNN
+F 3 "" H 9725 7825 60  0000 C CNN
+	1    9725 7825
+	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR032
+L fk-sonar-rescue:GND-conservify #PWR032
 U 1 1 5A1014C2
-P 10000 6750
-F 0 "#PWR032" H 10000 6500 50  0001 C CNN
-F 1 "GND" H 10000 6600 50  0001 C CNN
-F 2 "" H 10000 6750 60  0000 C CNN
-F 3 "" H 10000 6750 60  0000 C CNN
-	1    10000 6750
-	1    0    0    -1  
+P 8675 7275
+F 0 "#PWR032" H 8675 7025 50  0001 C CNN
+F 1 "GND" H 8675 7125 50  0001 C CNN
+F 2 "" H 8675 7275 60  0000 C CNN
+F 3 "" H 8675 7275 60  0000 C CNN
+	1    8675 7275
+	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:RESISTOR R12
+L fk-sonar-rescue:RESISTOR-conservify R12
 U 1 1 5A1014C3
-P 10250 7550
-F 0 "R12" H 10250 7650 60  0000 C CNN
-F 1 "330R" H 10250 7450 60  0000 C CNN
-F 2 "conservify:RES-0603" H 10250 7350 60  0001 C CNN
-F 3 "" H 10250 7550 60  0000 C CNN
-F 4 " " H 10250 7750 50  0001 C CNN "Critical"
-F 5 "Yageo" H 10250 7750 50  0001 C CNN "MFN"
-F 6 "RC0603FR-07330RL" H 10250 7750 50  0001 C CNN "MFP"
-F 7 " " H 10250 7750 50  0001 C CNN "Notes"
-F 8 " " H 10250 7750 50  0001 C CNN "Package"
-F 9 "ANY" H 10250 7750 50  0001 C CNN "Source"
-F 10 " " H 10250 7750 50  0001 C CNN "Subsystem"
-F 11 "0.1" H 10250 7750 50  0001 C CNN "price"
-F 12 "603-RC0603FR-07330RL" H -50 0   50  0001 C CNN "spn1"
-F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
-	1    10250 7550
-	1    0    0    -1  
+P 8425 8075
+F 0 "R12" H 8425 8175 60  0000 C CNN
+F 1 "330R" H 8425 7975 60  0000 C CNN
+F 2 "conservify:RES-0603" H 8425 7875 60  0001 C CNN
+F 3 "" H 8425 8075 60  0000 C CNN
+F 4 " " H 8425 8275 50  0001 C CNN "Critical"
+F 5 "Yageo" H 8425 8275 50  0001 C CNN "MFN"
+F 6 "RC0603FR-07330RL" H 8425 8275 50  0001 C CNN "MFP"
+F 7 " " H 8425 8275 50  0001 C CNN "Notes"
+F 8 " " H 8425 8275 50  0001 C CNN "Package"
+F 9 "ANY" H 8425 8275 50  0001 C CNN "Source"
+F 10 " " H 8425 8275 50  0001 C CNN "Subsystem"
+F 11 "0.1" H 8425 8275 50  0001 C CNN "price"
+F 12 "603-RC0603FR-07330RL" H -1875 525 50  0001 C CNN "spn1"
+F 13 "mouser" H -1875 525 50  0001 C CNN "supplier1"
+	1    8425 8075
+	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C20
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C20
 U 1 1 5A1014C4
-P 14650 6750
-F 0 "C20" V 14500 6700 50  0000 L CNN
-F 1 "100nF" V 14800 6650 50  0000 L CNN
-F 2 "conservify:CAP-0603" H 14650 6550 30  0001 C CNN
-F 3 "" H 14650 6750 60  0000 C CNN
-F 4 " " H 14500 6800 50  0001 C CNN "Critical"
-F 5 "Murata Electronics" H 14500 6800 50  0001 C CNN "MFN"
-F 6 "GRM188R71H104KA93D" H 14500 6800 50  0001 C CNN "MFP"
-F 7 " " H 14500 6800 50  0001 C CNN "Notes"
-F 8 " " H 14500 6800 50  0001 C CNN "Package"
-F 9 "ANY" H 14500 6800 50  0001 C CNN "Source"
-F 10 " " H 14500 6800 50  0001 C CNN "Subsystem"
-F 11 "0.1" H 14500 6800 50  0001 C CNN "price"
-F 12 "81-GRM39X104K50D" H -50 0   50  0001 C CNN "spn1"
-F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
-	1    14650 6750
+P 4050 6900
+F 0 "C20" V 3900 6850 50  0000 L CNN
+F 1 "100nF" V 4200 6800 50  0000 L CNN
+F 2 "conservify:CAP-0603" H 4050 6700 30  0001 C CNN
+F 3 "" H 4050 6900 60  0000 C CNN
+F 4 " " H 3900 6950 50  0001 C CNN "Critical"
+F 5 "Murata Electronics" H 3900 6950 50  0001 C CNN "MFN"
+F 6 "GRM188R71H104KA93D" H 3900 6950 50  0001 C CNN "MFP"
+F 7 " " H 3900 6950 50  0001 C CNN "Notes"
+F 8 " " H 3900 6950 50  0001 C CNN "Package"
+F 9 "ANY" H 3900 6950 50  0001 C CNN "Source"
+F 10 " " H 3900 6950 50  0001 C CNN "Subsystem"
+F 11 "0.1" H 3900 6950 50  0001 C CNN "price"
+F 12 "81-GRM39X104K50D" H -10650 150 50  0001 C CNN "spn1"
+F 13 "mouser" H -10650 150 50  0001 C CNN "supplier1"
+	1    4050 6900
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C12
-U 1 1 5A1014C5
-P 10250 9150
-F 0 "C12" V 10300 9200 50  0000 L CNN
-F 1 "47uF" V 10100 9100 50  0000 L CNN
-F 2 "conservify:CAP-0603" H 10250 8950 30  0001 C CNN
-F 3 "" H 10250 9150 60  0000 C CNN
-F 4 " " H 10000 9200 50  0001 C CNN "Critical"
-F 5 "AVX" H 10000 9200 50  0001 C CNN "MFN"
-F 6 "0603ZD475MAT2A" H 10000 9200 50  0001 C CNN "MFP"
-F 7 " " H 10000 9200 50  0001 C CNN "Notes"
-F 8 " " H 10000 9200 50  0001 C CNN "Package"
-F 9 "ANY" H 10000 9200 50  0001 C CNN "Source"
-F 10 " " H 10000 9200 50  0001 C CNN "Subsystem"
-F 11 "0.53" H 10000 9200 50  0001 C CNN "price"
-F 12 "81-GRM188R60J476ME5D" H -50 0   50  0001 C CNN "spn1"
-F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
-	1    10250 9150
-	0    1    1    0   
-$EndComp
-$Comp
-L conservify:CAPACITOR_CERAMIC C13
-U 1 1 5A1014C6
-P 10250 9450
-F 0 "C13" V 10300 9500 50  0000 L CNN
-F 1 "100nF" V 10400 9350 50  0000 L CNN
-F 2 "conservify:CAP-0603" H 10250 9250 30  0001 C CNN
-F 3 "" H 10250 9450 60  0000 C CNN
-F 4 " " H 10100 9500 50  0001 C CNN "Critical"
-F 5 "Murata Electronics" H 10100 9500 50  0001 C CNN "MFN"
-F 6 "GRM188R71H104KA93D" H 10100 9500 50  0001 C CNN "MFP"
-F 7 " " H 10100 9500 50  0001 C CNN "Notes"
-F 8 " " H 10100 9500 50  0001 C CNN "Package"
-F 9 "ANY" H 10100 9500 50  0001 C CNN "Source"
-F 10 " " H 10100 9500 50  0001 C CNN "Subsystem"
-F 11 "0.1" H 10100 9500 50  0001 C CNN "price"
-F 12 "81-GRM39X104K50D" H -50 0   50  0001 C CNN "spn1"
-F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
-	1    10250 9450
-	0    1    1    0   
-$EndComp
-$Comp
-L conservify:CAPACITOR_CERAMIC C14
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C14
 U 1 1 5A1014C7
-P 11000 7000
-F 0 "C14" H 10750 7000 50  0000 L CNN
-F 1 "4.7nF" H 10350 6900 50  0000 L CNN
-F 2 "conservify:CAP-0603" H 11000 6800 30  0001 C CNN
-F 3 "" H 11000 7000 60  0000 C CNN
-F 4 " " H 10750 7100 50  0001 C CNN "Critical"
-F 5 "KEMET" H 10750 7100 50  0001 C CNN "MFN"
-F 6 "C0603C472K9RACTU" H 10750 7100 50  0001 C CNN "MFP"
-F 7 " " H 10750 7100 50  0001 C CNN "Notes"
-F 8 " " H 10750 7100 50  0001 C CNN "Package"
-F 9 "ANY" H 10750 7100 50  0001 C CNN "Source"
-F 10 " " H 10750 7100 50  0001 C CNN "Subsystem"
-F 11 "0.1" H 10750 7100 50  0001 C CNN "price"
-F 12 "80-C0603C472K9R" H -50 0   50  0001 C CNN "spn1"
-F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
-	1    11000 7000
-	1    0    0    -1  
+P 7675 7525
+F 0 "C14" H 7425 7525 50  0000 L CNN
+F 1 "4.7nF" H 7025 7425 50  0000 L CNN
+F 2 "conservify:CAP-0603" H 7675 7325 30  0001 C CNN
+F 3 "" H 7675 7525 60  0000 C CNN
+F 4 " " H 7425 7625 50  0001 C CNN "Critical"
+F 5 "KEMET" H 7425 7625 50  0001 C CNN "MFN"
+F 6 "C0603C472K9RACTU" H 7425 7625 50  0001 C CNN "MFP"
+F 7 " " H 7425 7625 50  0001 C CNN "Notes"
+F 8 " " H 7425 7625 50  0001 C CNN "Package"
+F 9 "ANY" H 7425 7625 50  0001 C CNN "Source"
+F 10 " " H 7425 7625 50  0001 C CNN "Subsystem"
+F 11 "0.1" H 7425 7625 50  0001 C CNN "price"
+F 12 "80-C0603C472K9R" H -3375 525 50  0001 C CNN "spn1"
+F 13 "mouser" H -3375 525 50  0001 C CNN "supplier1"
+	1    7675 7525
+	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:RESISTOR R13
+L fk-sonar-rescue:RESISTOR-conservify R13
 U 1 1 5A1014C8
-P 11300 7000
-F 0 "R13" V 11300 7150 60  0000 C CNN
-F 1 "1M" V 11400 7150 60  0000 C CNN
-F 2 "conservify:RES-0603" H 11300 6800 60  0001 C CNN
-F 3 "" H 11300 7000 60  0000 C CNN
-F 4 " " H 11300 7250 50  0001 C CNN "Critical"
-F 5 "Yageo" H 11300 7250 50  0001 C CNN "MFN"
-F 6 "RC0603FR-071ML" H 11300 7250 50  0001 C CNN "MFP"
-F 7 " " H 11300 7250 50  0001 C CNN "Notes"
-F 8 " " H 11300 7250 50  0001 C CNN "Package"
-F 9 "ANY" H 11300 7250 50  0001 C CNN "Source"
-F 10 " " H 11300 7250 50  0001 C CNN "Subsystem"
-F 11 "0.1" H 11300 7250 50  0001 C CNN "price"
-F 12 "603-RC0603FR-071ML" H -50 0   50  0001 C CNN "spn1"
-F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
-	1    11300 7000
-	0    1    1    0   
+P 7375 7525
+F 0 "R13" V 7375 7675 60  0000 C CNN
+F 1 "1M" V 7475 7675 60  0000 C CNN
+F 2 "conservify:RES-0603" H 7375 7325 60  0001 C CNN
+F 3 "" H 7375 7525 60  0000 C CNN
+F 4 " " H 7375 7775 50  0001 C CNN "Critical"
+F 5 "Yageo" H 7375 7775 50  0001 C CNN "MFN"
+F 6 "RC0603FR-071ML" H 7375 7775 50  0001 C CNN "MFP"
+F 7 " " H 7375 7775 50  0001 C CNN "Notes"
+F 8 " " H 7375 7775 50  0001 C CNN "Package"
+F 9 "ANY" H 7375 7775 50  0001 C CNN "Source"
+F 10 " " H 7375 7775 50  0001 C CNN "Subsystem"
+F 11 "0.1" H 7375 7775 50  0001 C CNN "price"
+F 12 "603-RC0603FR-071ML" H -3975 525 50  0001 C CNN "spn1"
+F 13 "mouser" H -3975 525 50  0001 C CNN "supplier1"
+	1    7375 7525
+	0    -1   1    0   
 $EndComp
 $Comp
-L conservify:GND #PWR033
+L fk-sonar-rescue:GND-conservify #PWR033
 U 1 1 5A1014C9
-P 11150 7450
-F 0 "#PWR033" H 11150 7200 50  0001 C CNN
-F 1 "GND" H 11150 7300 50  0001 C CNN
-F 2 "" H 11150 7450 60  0000 C CNN
-F 3 "" H 11150 7450 60  0000 C CNN
-	1    11150 7450
-	1    0    0    -1  
+P 7525 7975
+F 0 "#PWR033" H 7525 7725 50  0001 C CNN
+F 1 "GND" H 7525 7825 50  0001 C CNN
+F 2 "" H 7525 7975 60  0000 C CNN
+F 3 "" H 7525 7975 60  0000 C CNN
+	1    7525 7975
+	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR035
+L fk-sonar-rescue:GND-conservify #PWR035
 U 1 1 5A1014CB
-P 13100 7150
-F 0 "#PWR035" H 13100 6900 50  0001 C CNN
-F 1 "GND" H 13100 7000 50  0001 C CNN
-F 2 "" H 13100 7150 60  0000 C CNN
-F 3 "" H 13100 7150 60  0000 C CNN
-	1    13100 7150
+P 2500 7300
+F 0 "#PWR035" H 2500 7050 50  0001 C CNN
+F 1 "GND" H 2500 7150 50  0001 C CNN
+F 2 "" H 2500 7300 60  0000 C CNN
+F 3 "" H 2500 7300 60  0000 C CNN
+	1    2500 7300
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR037
+L fk-sonar-rescue:GND-conservify #PWR037
 U 1 1 5A1014CD
-P 14900 6850
-F 0 "#PWR037" H 14900 6600 50  0001 C CNN
-F 1 "GND" H 14900 6700 50  0001 C CNN
-F 2 "" H 14900 6850 60  0000 C CNN
-F 3 "" H 14900 6850 60  0000 C CNN
-	1    14900 6850
+P 4300 7000
+F 0 "#PWR037" H 4300 6750 50  0001 C CNN
+F 1 "GND" H 4300 6850 50  0001 C CNN
+F 2 "" H 4300 7000 60  0000 C CNN
+F 3 "" H 4300 7000 60  0000 C CNN
+	1    4300 7000
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR038
-U 1 1 5A1014CE
-P 10500 10600
-F 0 "#PWR038" H 10500 10350 50  0001 C CNN
-F 1 "GND" H 10500 10450 50  0001 C CNN
-F 2 "" H 10500 10600 60  0000 C CNN
-F 3 "" H 10500 10600 60  0000 C CNN
-	1    10500 10600
-	1    0    0    -1  
-$EndComp
-$Comp
-L conservify:GND #PWR039
-U 1 1 5A1014CF
-P 10000 9550
-F 0 "#PWR039" H 10000 9300 50  0001 C CNN
-F 1 "GND" H 10000 9400 50  0001 C CNN
-F 2 "" H 10000 9550 60  0000 C CNN
-F 3 "" H 10000 9550 60  0000 C CNN
-	1    10000 9550
-	1    0    0    -1  
-$EndComp
-$Comp
-L conservify:GND #PWR040
-U 1 1 5A1014D0
-P 9250 10600
-F 0 "#PWR040" H 9250 10350 50  0001 C CNN
-F 1 "GND" H 9250 10450 50  0001 C CNN
-F 2 "" H 9250 10600 60  0000 C CNN
-F 3 "" H 9250 10600 60  0000 C CNN
-	1    9250 10600
-	1    0    0    -1  
-$EndComp
-$Comp
-L conservify:GND #PWR041
-U 1 1 5A1014D1
-P 8300 10600
-F 0 "#PWR041" H 8300 10350 50  0001 C CNN
-F 1 "GND" H 8300 10450 50  0001 C CNN
-F 2 "" H 8300 10600 60  0000 C CNN
-F 3 "" H 8300 10600 60  0000 C CNN
-	1    8300 10600
-	1    0    0    -1  
-$EndComp
-$Comp
-L conservify:RESISTOR R9
+L fk-sonar-rescue:RESISTOR-conservify R9
 U 1 1 5A1014D3
-P 9550 7550
-F 0 "R9" H 9550 7450 60  0000 C CNN
-F 1 "100K" H 9550 7650 60  0000 C CNN
-F 2 "conservify:RES-0603" H 9550 7350 60  0001 C CNN
-F 3 "" H 9550 7550 60  0000 C CNN
-F 4 " " H 9550 7550 50  0001 C CNN "Critical"
-F 5 "Yageo" H 9550 7550 50  0001 C CNN "MFN"
-F 6 "RC0603FR-07100KL" H 9550 7550 50  0001 C CNN "MFP"
-F 7 " " H 9550 7550 50  0001 C CNN "Notes"
-F 8 " " H 9550 7550 50  0001 C CNN "Package"
-F 9 "ANY" H 9550 7550 50  0001 C CNN "Source"
-F 10 " " H 9550 7550 50  0001 C CNN "Subsystem"
-F 11 "0.1" H 9550 7550 50  0001 C CNN "price"
-F 12 "603-RC0603FR-07100KL" H -50 0   50  0001 C CNN "spn1"
-F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
-	1    9550 7550
-	-1   0    0    1   
+P 9125 8075
+F 0 "R9" H 9125 7975 60  0000 C CNN
+F 1 "100K" H 9125 8175 60  0000 C CNN
+F 2 "conservify:RES-0603" H 9125 7875 60  0001 C CNN
+F 3 "" H 9125 8075 60  0000 C CNN
+F 4 " " H 9125 8075 50  0001 C CNN "Critical"
+F 5 "Yageo" H 9125 8075 50  0001 C CNN "MFN"
+F 6 "RC0603FR-07100KL" H 9125 8075 50  0001 C CNN "MFP"
+F 7 " " H 9125 8075 50  0001 C CNN "Notes"
+F 8 " " H 9125 8075 50  0001 C CNN "Package"
+F 9 "ANY" H 9125 8075 50  0001 C CNN "Source"
+F 10 " " H 9125 8075 50  0001 C CNN "Subsystem"
+F 11 "0.1" H 9125 8075 50  0001 C CNN "price"
+F 12 "603-RC0603FR-07100KL" H -475 525 50  0001 C CNN "spn1"
+F 13 "mouser" H -475 525 50  0001 C CNN "supplier1"
+	1    9125 8075
+	1    0    0    1   
 $EndComp
 $Comp
-L conservify:3V3 #PWR043
+L fk-sonar-rescue:3V3-conservify #PWR043
 U 1 1 5A1014D4
-P 9200 7450
-F 0 "#PWR043" H 9200 7300 50  0001 C CNN
-F 1 "3V3" H 9200 7590 50  0000 C CNN
-F 2 "" H 9200 7450 60  0000 C CNN
-F 3 "" H 9200 7450 60  0000 C CNN
-	1    9200 7450
-	1    0    0    -1  
+P 9475 7975
+F 0 "#PWR043" H 9475 7825 50  0001 C CNN
+F 1 "3V3" H 9475 8115 50  0000 C CNN
+F 2 "" H 9475 7975 60  0000 C CNN
+F 3 "" H 9475 7975 60  0000 C CNN
+	1    9475 7975
+	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:RESISTOR R2
+L fk-sonar-rescue:RESISTOR-conservify R2
 U 1 1 5A1014D5
 P 4000 1300
 F 0 "R2" V 3950 1100 60  0000 C CNN
@@ -1326,7 +1198,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	0    1    1    0   
 $EndComp
 $Comp
-L conservify:GND #PWR044
+L fk-sonar-rescue:GND-conservify #PWR044
 U 1 1 5A1014D6
 P 3300 1750
 F 0 "#PWR044" H 3300 1500 50  0001 C CNN
@@ -1337,7 +1209,7 @@ F 3 "" H 3300 1750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:3V3 #PWR045
+L fk-sonar-rescue:3V3-conservify #PWR045
 U 1 1 5A1014D7
 P 4000 950
 F 0 "#PWR045" H 4000 800 50  0001 C CNN
@@ -1348,7 +1220,7 @@ F 3 "" H 4000 950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C2
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C2
 U 1 1 5A1014D9
 P 1150 2650
 F 0 "C2" H 1250 2650 50  0000 L CNN
@@ -1369,7 +1241,7 @@ F 13 "mouser" H -1000 0   50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C1
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C1
 U 1 1 5A1014DA
 P 850 2650
 F 0 "C1" H 600 2650 50  0000 L CNN
@@ -1390,7 +1262,7 @@ F 13 "mouser" H -1000 0   50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR047
+L fk-sonar-rescue:GND-conservify #PWR047
 U 1 1 5A1014DB
 P 1000 3000
 F 0 "#PWR047" H 1000 2750 50  0001 C CNN
@@ -1401,7 +1273,7 @@ F 3 "" H 1000 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:VEXT #PWR048
+L fk-sonar-rescue:VEXT-conservify #PWR048
 U 1 1 5A1014DC
 P 9050 2150
 F 0 "#PWR048" H 9050 2000 50  0001 C CNN
@@ -1412,7 +1284,7 @@ F 3 "" H 9050 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:MOUNT_HOLE M1
+L fk-sonar-rescue:MOUNT_HOLE-conservify M1
 U 1 1 5A1014DD
 P 5650 6000
 F 0 "M1" H 5650 6150 50  0000 C CNN
@@ -1432,7 +1304,7 @@ F 12 " " H 5650 6250 50  0001 C CNN "Supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:MOUNT_HOLE M3
+L fk-sonar-rescue:MOUNT_HOLE-conservify M3
 U 1 1 5A1014DE
 P 5950 6000
 F 0 "M3" H 5950 6150 50  0000 C CNN
@@ -1452,7 +1324,7 @@ F 12 " " H 5950 6250 50  0001 C CNN "Supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:MOUNT_HOLE M4
+L fk-sonar-rescue:MOUNT_HOLE-conservify M4
 U 1 1 5A1014DF
 P 6250 6000
 F 0 "M4" H 6250 6150 50  0000 C CNN
@@ -1472,7 +1344,7 @@ F 12 " " H 6250 6250 50  0001 C CNN "Supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:MOUNT_HOLE M6
+L fk-sonar-rescue:MOUNT_HOLE-conservify M6
 U 1 1 5A1014E0
 P 6550 6000
 F 0 "M6" H 6550 6150 50  0000 C CNN
@@ -1492,7 +1364,7 @@ F 12 " " H 6550 6250 50  0001 C CNN "Supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:3V3 #PWR049
+L fk-sonar-rescue:3V3-conservify #PWR049
 U 1 1 5A1014E8
 P 11850 8650
 F 0 "#PWR049" H 11850 8500 50  0001 C CNN
@@ -1503,7 +1375,7 @@ F 3 "" H 11850 8650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR050
+L fk-sonar-rescue:GND-conservify #PWR050
 U 1 1 5A1014E9
 P 11850 9250
 F 0 "#PWR050" H 11850 9000 50  0001 C CNN
@@ -1514,7 +1386,7 @@ F 3 "" H 11850 9250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:RESISTOR R3
+L fk-sonar-rescue:RESISTOR-conservify R3
 U 1 1 5A1014EA
 P 4450 1650
 F 0 "R3" H 4450 1550 60  0000 C CNN
@@ -1535,28 +1407,28 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C10
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C10
 U 1 1 5A1014EB
-P 7450 6500
-F 0 "C10" H 7600 6500 50  0000 L CNN
-F 1 "4.7uF" H 7550 6400 50  0000 L CNN
-F 2 "conservify:CAP-0603" H 7450 6300 30  0001 C CNN
-F 3 "" H 7450 6500 60  0000 C CNN
-F 4 " " H 7600 6600 50  0001 C CNN "Critical"
-F 5 "AVX" H 7600 6600 50  0001 C CNN "MFN"
-F 6 "0603ZD475MAT2A" H 7600 6600 50  0001 C CNN "MFP"
-F 7 " " H 7600 6600 50  0001 C CNN "Notes"
-F 8 " " H 7600 6600 50  0001 C CNN "Package"
-F 9 "ANY" H 7600 6600 50  0001 C CNN "Source"
-F 10 " " H 7600 6600 50  0001 C CNN "Subsystem"
-F 11 "0.71" H 7600 6600 50  0001 C CNN "price"
-F 12 "581-0603ZD475MAT2A" H -50 0   50  0001 C CNN "spn1"
-F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
-	1    7450 6500
-	1    0    0    -1  
+P 11225 7025
+F 0 "C10" H 11375 7025 50  0000 L CNN
+F 1 "4.7uF" H 11325 6925 50  0000 L CNN
+F 2 "conservify:CAP-0603" H 11225 6825 30  0001 C CNN
+F 3 "" H 11225 7025 60  0000 C CNN
+F 4 " " H 11375 7125 50  0001 C CNN "Critical"
+F 5 "AVX" H 11375 7125 50  0001 C CNN "MFN"
+F 6 "0603ZD475MAT2A" H 11375 7125 50  0001 C CNN "MFP"
+F 7 " " H 11375 7125 50  0001 C CNN "Notes"
+F 8 " " H 11375 7125 50  0001 C CNN "Package"
+F 9 "ANY" H 11375 7125 50  0001 C CNN "Source"
+F 10 " " H 11375 7125 50  0001 C CNN "Subsystem"
+F 11 "0.71" H 11375 7125 50  0001 C CNN "price"
+F 12 "581-0603ZD475MAT2A" H 3725 525 50  0001 C CNN "spn1"
+F 13 "mouser" H 3725 525 50  0001 C CNN "supplier1"
+	1    11225 7025
+	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:FIDUCIAL M2
+L fk-sonar-rescue:FIDUCIAL-conservify M2
 U 1 1 5A1014EC
 P 5900 7600
 F 0 "M2" H 5900 7750 60  0000 C CNN
@@ -1576,7 +1448,7 @@ F 12 " " H 5900 7850 50  0001 C CNN "Supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:FIDUCIAL M5
+L fk-sonar-rescue:FIDUCIAL-conservify M5
 U 1 1 5A1014ED
 P 6350 7600
 F 0 "M5" H 6350 7750 60  0000 C CNN
@@ -1596,7 +1468,7 @@ F 12 " " H 6350 7850 50  0001 C CNN "Supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:ATSAMD21G18A_AU U1
+L fk-sonar-rescue:ATSAMD21G18A_AU-conservify U1
 U 1 1 5A1014EE
 P 3650 3250
 F 0 "U1" H 3000 4550 60  0000 C CNN
@@ -1617,18 +1489,18 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:VUSB #PWR051
+L fk-sonar-rescue:VUSB-conservify #PWR051
 U 1 1 5A1014EF
-P 10000 6150
-F 0 "#PWR051" H 10000 6000 50  0001 C CNN
-F 1 "VUSB" H 10000 6290 50  0000 C CNN
-F 2 "" H 10000 6150 60  0000 C CNN
-F 3 "" H 10000 6150 60  0000 C CNN
-	1    10000 6150
-	1    0    0    -1  
+P 8675 6675
+F 0 "#PWR051" H 8675 6525 50  0001 C CNN
+F 1 "VUSB" H 8675 6815 50  0000 C CNN
+F 2 "" H 8675 6675 60  0000 C CNN
+F 3 "" H 8675 6675 60  0000 C CNN
+	1    8675 6675
+	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:LED_SINGLE D1
+L fk-sonar-rescue:LED_SINGLE-conservify D1
 U 1 1 5A1014F0
 P 5650 10350
 F 0 "D1" V 5700 10150 50  0000 C CNN
@@ -1649,7 +1521,7 @@ F 13 "mouser" H 3950 4150 50  0001 C CNN "supplier1"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:5V0 #PWR052
+L fk-sonar-rescue:5V0-conservify #PWR052
 U 1 1 5A1014F1
 P 8250 2050
 F 0 "#PWR052" H 8250 1900 50  0001 C CNN
@@ -1660,18 +1532,18 @@ F 3 "" H 8250 2050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:5V0 #PWR053
+L fk-sonar-rescue:5V0-conservify #PWR053
 U 1 1 5A1014F2
-P 7450 6150
-F 0 "#PWR053" H 7450 6000 50  0001 C CNN
-F 1 "5V0" H 7450 6290 50  0000 C CNN
-F 2 "" H 7450 6150 60  0000 C CNN
-F 3 "" H 7450 6150 60  0000 C CNN
-	1    7450 6150
-	1    0    0    -1  
+P 11225 6675
+F 0 "#PWR053" H 11225 6525 50  0001 C CNN
+F 1 "5V0" H 11225 6815 50  0000 C CNN
+F 2 "" H 11225 6675 60  0000 C CNN
+F 3 "" H 11225 6675 60  0000 C CNN
+	1    11225 6675
+	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:DIODE_DUAL_SCHOTTKY D5
+L fk-sonar-rescue:DIODE_DUAL_SCHOTTKY-conservify D5
 U 1 1 5A1014F4
 P 8650 2250
 F 0 "D5" H 8850 2250 50  0000 C CNN
@@ -1692,135 +1564,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:MAX1704XX U5
-U 1 1 5A1014F9
-P 2950 6550
-F 0 "U5" H 2950 6350 60  0000 C CNN
-F 1 "MAX1704XX" H 2950 6550 60  0000 C CNN
-F 2 "conservify:DFN-8-1EP_3x2mm_Pitch0.5mm" H 2950 6550 60  0001 C CNN
-F 3 "" H 2950 6550 60  0001 C CNN
-F 4 " " H 2950 6450 50  0001 C CNN "Critical"
-F 5 "Maxim Integrated" H 2950 6450 50  0001 C CNN "MFN"
-F 6 "MAX17043G+U" H 2950 6450 50  0001 C CNN "MFP"
-F 7 " " H 2950 6450 50  0001 C CNN "Notes"
-F 8 " " H 2950 6450 50  0001 C CNN "Package"
-F 9 "ANY" H 2950 6450 50  0001 C CNN "Source"
-F 10 " " H 2950 6450 50  0001 C CNN "Subsystem"
-F 11 "3.34" H 2950 6450 50  0001 C CNN "price"
-F 12 "700-MAX17043G+U" H -11700 2100 50  0001 C CNN "spn1"
-F 13 "mouser" H -11700 2100 50  0001 C CNN "supplier1"
-	1    2950 6550
-	1    0    0    -1  
-$EndComp
-$Comp
-L conservify:GND #PWR054
-U 1 1 5A1014FA
-P 2050 6800
-F 0 "#PWR054" H 2050 6550 50  0001 C CNN
-F 1 "GND" H 2050 6650 50  0001 C CNN
-F 2 "" H 2050 6800 60  0000 C CNN
-F 3 "" H 2050 6800 60  0000 C CNN
-	1    2050 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L conservify:CAPACITOR_CERAMIC C17
-U 1 1 5A1014FB
-P 1750 6600
-F 0 "C17" H 1800 6700 50  0000 L CNN
-F 1 "1uF" V 1600 6550 50  0000 L CNN
-F 2 "conservify:CAP-0603" H 1750 6400 30  0001 C CNN
-F 3 "" H 1750 6600 60  0000 C CNN
-F 4 " " H 1800 6800 50  0001 C CNN "Critical"
-F 5 "Taiyo Yuden" H 1800 6800 50  0001 C CNN "MFN"
-F 6 "UMK107BJ105KA-T" H 1800 6800 50  0001 C CNN "MFP"
-F 7 " " H 1800 6800 50  0001 C CNN "Notes"
-F 8 " " H 1800 6800 50  0001 C CNN "Package"
-F 9 "ANY" H 1800 6800 50  0001 C CNN "Source"
-F 10 " " H 1800 6800 50  0001 C CNN "Subsystem"
-F 11 "0.1" H 1800 6800 50  0001 C CNN "price"
-F 12 "963-UMK107BJ105KA-T" H -11700 2100 50  0001 C CNN "spn1"
-F 13 "mouser" H -11700 2100 50  0001 C CNN "supplier1"
-	1    1750 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L conservify:GND #PWR055
-U 1 1 5A1014FC
-P 1750 6800
-F 0 "#PWR055" H 1750 6550 50  0001 C CNN
-F 1 "GND" H 1750 6650 50  0001 C CNN
-F 2 "" H 1750 6800 60  0000 C CNN
-F 3 "" H 1750 6800 60  0000 C CNN
-	1    1750 6800
-	1    0    0    -1  
-$EndComp
-$Comp
-L conservify:RESISTOR R20
-U 1 1 5A1014FD
-P 1750 6300
-F 0 "R20" H 1625 6400 60  0000 C CNN
-F 1 "180R" H 1850 6400 60  0000 C CNN
-F 2 "conservify:RES-0603" H 1750 6100 60  0001 C CNN
-F 3 "" H 1750 6300 60  0000 C CNN
-F 4 " " H 1625 6500 50  0001 C CNN "Critical"
-F 5 "Yageo" H 1625 6500 50  0001 C CNN "MFN"
-F 6 "RC0603FR-07180RL" H 1625 6500 50  0001 C CNN "MFP"
-F 7 " " H 1625 6500 50  0001 C CNN "Notes"
-F 8 " " H 1625 6500 50  0001 C CNN "Package"
-F 9 "ANY" H 1625 6500 50  0001 C CNN "Source"
-F 10 " " H 1625 6500 50  0001 C CNN "Subsystem"
-F 11 "0.1" H 1625 6500 50  0001 C CNN "price"
-F 12 "603-RC0603FR-07180RL" H 1725 6500 50  0001 C CNN "spn1"
-F 13 "mouser" H -11700 2100 50  0001 C CNN "supplier1"
-	1    1750 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L conservify:RESISTOR R19
-U 1 1 5A1014FE
-P 1000 6400
-F 0 "R19" H 800 6350 60  0000 C CNN
-F 1 "1K" H 1150 6350 60  0000 C CNN
-F 2 "conservify:RES-0603" H 1000 6200 60  0001 C CNN
-F 3 "" H 1000 6400 60  0000 C CNN
-F 4 " " H 800 6450 50  0001 C CNN "Critical"
-F 5 " " H 800 6450 50  0001 C CNN "MFN"
-F 6 " " H 800 6450 50  0001 C CNN "MFP"
-F 7 " " H 800 6450 50  0001 C CNN "Notes"
-F 8 " " H 800 6450 50  0001 C CNN "Package"
-F 9 "ANY" H 800 6450 50  0001 C CNN "Source"
-F 10 " " H 800 6450 50  0001 C CNN "Subsystem"
-F 11 "0.1" H 875 6600 50  0001 C CNN "price"
-F 12 "603-RC0603FR-07330RL" H -11700 2100 50  0001 C CNN "spn1"
-F 13 "mouser" H -11700 2100 50  0001 C CNN "supplier1"
-	1    1000 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L conservify:VBAT #PWR056
-U 1 1 5A1014FF
-P 700 6400
-F 0 "#PWR056" H 700 6250 50  0001 C CNN
-F 1 "VBAT" H 700 6540 50  0000 C CNN
-F 2 "" H 700 6400 60  0000 C CNN
-F 3 "" H 700 6400 60  0000 C CNN
-	1    700  6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L conservify:3V3 #PWR057
-U 1 1 5A101500
-P 1300 6250
-F 0 "#PWR057" H 1300 6100 50  0001 C CNN
-F 1 "3V3" H 1300 6390 50  0000 C CNN
-F 2 "" H 1300 6250 60  0000 C CNN
-F 3 "" H 1300 6250 60  0000 C CNN
-	1    1300 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L conservify:RESISTOR R14
+L fk-sonar-rescue:RESISTOR-conservify R14
 U 1 1 5A10150B
 P 11350 4250
 F 0 "R14" H 11250 4100 60  0000 C CNN
@@ -1841,7 +1585,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:RESISTOR R15
+L fk-sonar-rescue:RESISTOR-conservify R15
 U 1 1 5A10150C
 P 11350 4650
 F 0 "R15" H 11250 4500 60  0000 C CNN
@@ -1862,7 +1606,7 @@ F 13 "mouser" H -50 0   50  0001 C CNN "supplier1"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:3V3 #PWR058
+L fk-sonar-rescue:3V3-conservify #PWR058
 U 1 1 5A10150D
 P 11700 4250
 F 0 "#PWR058" H 11700 4100 50  0001 C CNN
@@ -1873,7 +1617,7 @@ F 3 "" H 11700 4250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:3V3 #PWR059
+L fk-sonar-rescue:3V3-conservify #PWR059
 U 1 1 5A10150E
 P 11700 4650
 F 0 "#PWR059" H 11700 4500 50  0001 C CNN
@@ -1884,39 +1628,7 @@ F 3 "" H 11700 4650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C18
-U 1 1 5A101510
-P 2100 6000
-F 0 "C18" V 2150 6050 50  0000 L CNN
-F 1 "10nF" V 2250 5950 50  0000 L CNN
-F 2 "conservify:CAP-0603" H 2100 5800 30  0001 C CNN
-F 3 "" H 2100 6000 60  0000 C CNN
-F 4 " " H 2150 6200 50  0001 C CNN "Critical"
-F 5 "AVX" H 2150 6200 50  0001 C CNN "MFN"
-F 6 "0603YC103K4T2A" H 2150 6200 50  0001 C CNN "MFP"
-F 7 " " H 2150 6200 50  0001 C CNN "Notes"
-F 8 " " H 2150 6200 50  0001 C CNN "Package"
-F 9 "ANY" H 2150 6200 50  0001 C CNN "Source"
-F 10 " " H 2150 6200 50  0001 C CNN "Subsystem"
-F 11 "0.4" H 2150 6200 50  0001 C CNN "price"
-F 12 "581-0603YC103K4T2A" H -11350 1500 50  0001 C CNN "spn1"
-F 13 "mouser" H -11350 1500 50  0001 C CNN "supplier1"
-	1    2100 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L conservify:GND #PWR060
-U 1 1 5A101511
-P 2300 5750
-F 0 "#PWR060" H 2300 5500 50  0001 C CNN
-F 1 "GND" H 2300 5600 50  0001 C CNN
-F 2 "" H 2300 5750 60  0000 C CNN
-F 3 "" H 2300 5750 60  0000 C CNN
-	1    2300 5750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L conservify:LED_SINGLE D7
+L fk-sonar-rescue:LED_SINGLE-conservify D7
 U 1 1 5A10152F
 P 12150 1700
 F 0 "D7" V 12200 1500 50  0000 C CNN
@@ -1937,7 +1649,7 @@ F 13 "mouser" H 10450 -4500 50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:LED_SINGLE D8
+L fk-sonar-rescue:LED_SINGLE-conservify D8
 U 1 1 5A101530
 P 12150 1900
 F 0 "D8" V 12200 1700 50  0000 C CNN
@@ -1958,7 +1670,7 @@ F 13 "mouser" H 10450 -4300 50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CONN_01x03 J1
+L fk-sonar-rescue:CONN_01x03-conservify J1
 U 1 1 5A110F1C
 P 14750 9650
 F 0 "J1" H 14750 9850 50  0000 C CNN
@@ -1978,7 +1690,7 @@ F 12 "mouser" H 14750 9950 50  0001 C CNN "Supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR061
+L fk-sonar-rescue:GND-conservify #PWR061
 U 1 1 5A11139E
 P 14400 9500
 F 0 "#PWR061" H 14400 9250 50  0001 C CNN
@@ -1989,7 +1701,7 @@ F 3 "" H 14400 9500 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:3V3 #PWR062
+L fk-sonar-rescue:3V3-conservify #PWR062
 U 1 1 5A111985
 P 14400 9750
 F 0 "#PWR062" H 14400 9600 50  0001 C CNN
@@ -2000,7 +1712,7 @@ F 3 "" H 14400 9750 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:3V3 #PWR063
+L fk-sonar-rescue:3V3-conservify #PWR063
 U 1 1 5A1E1F21
 P 15200 9500
 F 0 "#PWR063" H 15200 9350 50  0001 C CNN
@@ -2011,7 +1723,7 @@ F 3 "" H 15200 9500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR064
+L fk-sonar-rescue:GND-conservify #PWR064
 U 1 1 5A1E2010
 P 15050 9550
 F 0 "#PWR064" H 15050 9300 50  0001 C CNN
@@ -2022,7 +1734,7 @@ F 3 "" H 15050 9550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:VIN #PWR065
+L fk-sonar-rescue:VIN-conservify #PWR065
 U 1 1 5A39857F
 P 8900 4050
 F 0 "#PWR065" H 8900 3900 50  0001 C CNN
@@ -2033,7 +1745,7 @@ F 3 "" H 8900 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR066
+L fk-sonar-rescue:GND-conservify #PWR066
 U 1 1 5A39866E
 P 8900 4250
 F 0 "#PWR066" H 8900 4000 50  0001 C CNN
@@ -2044,7 +1756,7 @@ F 3 "" H 8900 4250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:S2B_PH_SM4_TB J7
+L fk-sonar-rescue:S2B_PH_SM4_TB-conservify J7
 U 1 1 5A398760
 P 9500 4150
 F 0 "J7" H 9400 4350 60  0000 C CNN
@@ -2065,71 +1777,7 @@ F 13 "digikey" H -3150 1350 50  0001 C CNN "supplier1"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:RESISTOR R22
-U 1 1 5A45AE6A
-P 4300 6500
-F 0 "R22" H 4175 6600 60  0000 C CNN
-F 1 "4.7K" H 4400 6600 60  0000 C CNN
-F 2 "conservify:RES-0603" H 4300 6300 60  0001 C CNN
-F 3 "" H 4300 6500 60  0000 C CNN
-F 4 " " H 4175 6700 50  0001 C CNN "Critical"
-F 5 "Yageo" H 4175 6700 50  0001 C CNN "MFN"
-F 6 "AF0603JR-074K7L" H 4175 6700 50  0001 C CNN "MFP"
-F 7 " " H 4175 6700 50  0001 C CNN "Notes"
-F 8 " " H 4175 6700 50  0001 C CNN "Package"
-F 9 "ANY" H 4175 6700 50  0001 C CNN "Source"
-F 10 " " H 4175 6700 50  0001 C CNN "Subsystem"
-F 11 "0.1" H 4175 6700 50  0001 C CNN "price"
-F 12 "603-AF0603JR-074K7L" H 4275 6700 50  0001 C CNN "spn1"
-F 13 "mouser" H -9150 2300 50  0001 C CNN "supplier1"
-	1    4300 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L conservify:RESISTOR R21
-U 1 1 5A45D870
-P 4000 6600
-F 0 "R21" H 3875 6700 60  0000 C CNN
-F 1 "4.7K" H 4100 6700 60  0000 C CNN
-F 2 "conservify:RES-0603" H 4000 6400 60  0001 C CNN
-F 3 "" H 4000 6600 60  0000 C CNN
-F 4 " " H 3875 6800 50  0001 C CNN "Critical"
-F 5 "Yageo" H 3875 6800 50  0001 C CNN "MFN"
-F 6 "AF0603JR-074K7L" H 3875 6800 50  0001 C CNN "MFP"
-F 7 " " H 3875 6800 50  0001 C CNN "Notes"
-F 8 " " H 3875 6800 50  0001 C CNN "Package"
-F 9 "ANY" H 3875 6800 50  0001 C CNN "Source"
-F 10 " " H 3875 6800 50  0001 C CNN "Subsystem"
-F 11 "0.1" H 3875 6800 50  0001 C CNN "price"
-F 12 "603-AF0603JR-074K7L" H 3975 6800 50  0001 C CNN "spn1"
-F 13 "mouser" H -9450 2400 50  0001 C CNN "supplier1"
-	1    4000 6600
-	-1   0    0    1   
-$EndComp
-$Comp
-L conservify:GND #PWR067
-U 1 1 5A45E06D
-P 4650 6500
-F 0 "#PWR067" H 4650 6250 50  0001 C CNN
-F 1 "GND" H 4650 6350 50  0001 C CNN
-F 2 "" H 4650 6500 60  0000 C CNN
-F 3 "" H 4650 6500 60  0000 C CNN
-	1    4650 6500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L conservify:3V3 #PWR068
-U 1 1 5A45E791
-P 4500 6600
-F 0 "#PWR068" H 4500 6450 50  0001 C CNN
-F 1 "3V3" H 4500 6740 50  0000 C CNN
-F 2 "" H 4500 6600 60  0000 C CNN
-F 3 "" H 4500 6600 60  0000 C CNN
-	1    4500 6600
-	0    1    1    0   
-$EndComp
-$Comp
-L conservify:CONN_01x04 J6
+L fk-sonar-rescue:CONN_01x04-conservify J6
 U 1 1 5A462759
 P 15650 9650
 F 0 "J6" H 15650 9850 50  0000 C CNN
@@ -2149,7 +1797,7 @@ F 12 "digikey" H 15650 9950 50  0001 C CNN "Supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR069
+L fk-sonar-rescue:GND-conservify #PWR069
 U 1 1 5AED2DE6
 P 11850 9600
 F 0 "#PWR069" H 11850 9350 50  0001 C CNN
@@ -2160,7 +1808,7 @@ F 3 "" H 11850 9600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:CONN_01x05 J9
+L fk-sonar-rescue:CONN_01x05-conservify J9
 U 1 1 5B3C0E98
 P 15650 9000
 F 0 "J9" H 15650 9300 50  0000 C CNN
@@ -2180,7 +1828,7 @@ F 12 "mouser" H 15650 9400 50  0001 C CNN "Supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:3V3 #PWR070
+L fk-sonar-rescue:3V3-conservify #PWR070
 U 1 1 5B3C1232
 P 15300 8800
 F 0 "#PWR070" H 15300 8650 50  0001 C CNN
@@ -2191,7 +1839,7 @@ F 3 "" H 15300 8800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR071
+L fk-sonar-rescue:GND-conservify #PWR071
 U 1 1 5B3C1330
 P 15150 8900
 F 0 "#PWR071" H 15150 8650 50  0001 C CNN
@@ -2202,7 +1850,7 @@ F 3 "" H 15150 8900 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L conservify:CONN_02x05_SWD J2
+L fk-sonar-rescue:CONN_02x05_SWD-conservify J2
 U 1 1 5B56E90C
 P 12200 8950
 F 0 "J2" H 12200 9250 60  0000 C CNN
@@ -2222,7 +1870,7 @@ F 12 "mouser" H 12200 9350 50  0001 C CNN "Supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:SK6812 U7
+L fk-sonar-rescue:SK6812-conservify U7
 U 1 1 5B5A61CF
 P 6300 9450
 F 0 "U7" H 6627 9553 60  0000 L CNN
@@ -2242,7 +1890,7 @@ F 12 "digikey" H 6627 9653 50  0001 C CNN "Supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR0101
+L fk-sonar-rescue:GND-conservify #PWR0101
 U 1 1 5B5A64F1
 P 6550 9900
 F 0 "#PWR0101" H 6550 9650 50  0001 C CNN
@@ -2253,7 +1901,7 @@ F 3 "" H 6550 9900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:3V3 #PWR0102
+L fk-sonar-rescue:3V3-conservify #PWR0102
 U 1 1 5B5A6C66
 P 6550 8850
 F 0 "#PWR0102" H 6550 8700 50  0001 C CNN
@@ -2264,7 +1912,7 @@ F 3 "" H 6550 8850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CONN_01x03_SERIAL J8
+L fk-sonar-rescue:CONN_01x03_SERIAL-conservify J8
 U 1 1 5B6430EA
 P 12250 9800
 F 0 "J8" H 12329 9846 50  0000 L CNN
@@ -2284,7 +1932,7 @@ F 12 "mouser" H 12329 9946 50  0001 C CNN "Supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:TPS2051B U8
+L fk-sonar-rescue:TPS2051B-conservify U8
 U 1 1 5BDECD34
 P 2700 9650
 F 0 "U8" H 2700 10187 60  0000 C CNN
@@ -2304,7 +1952,7 @@ F 12 "digikey" H 2700 10287 50  0001 C CNN "Supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C22
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C22
 U 1 1 5BDEDC40
 P 1100 9850
 F 0 "C22" V 950 9800 50  0000 L CNN
@@ -2325,7 +1973,7 @@ F 13 "mouser" H -13600 3100 50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C23
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C23
 U 1 1 5BDEE258
 P 4000 9750
 F 0 "C23" V 3850 9700 50  0000 L CNN
@@ -2346,7 +1994,7 @@ F 13 "mouser" H -10700 3000 50  0001 C CNN "supplier1"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:RESISTOR R4
+L fk-sonar-rescue:RESISTOR-conservify R4
 U 1 1 5BDEE4EE
 P 3600 10000
 F 0 "R4" H 3700 10100 60  0000 C CNN
@@ -2367,7 +2015,7 @@ F 13 "mouser" H -7950 8300 50  0001 C CNN "supplier1"
 	0    1    1    0   
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C24
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C24
 U 1 1 5BE698E8
 P 4450 9750
 F 0 "C24" V 4300 9700 50  0000 L CNN
@@ -2388,7 +2036,7 @@ F 13 "mouser" H -10250 3000 50  0001 C CNN "supplier1"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:GND #PWR0103
+L fk-sonar-rescue:GND-conservify #PWR0103
 U 1 1 5BE69E32
 P 1550 10500
 F 0 "#PWR0103" H 1550 10250 50  0001 C CNN
@@ -2399,7 +2047,7 @@ F 3 "" H 1550 10500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR0104
+L fk-sonar-rescue:GND-conservify #PWR0104
 U 1 1 5BE88B92
 P 1100 10500
 F 0 "#PWR0104" H 1100 10250 50  0001 C CNN
@@ -2410,7 +2058,7 @@ F 3 "" H 1100 10500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR0105
+L fk-sonar-rescue:GND-conservify #PWR0105
 U 1 1 5BF07633
 P 4000 10550
 F 0 "#PWR0105" H 4000 10300 50  0001 C CNN
@@ -2421,7 +2069,7 @@ F 3 "" H 4000 10550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:3V3 #PWR0106
+L fk-sonar-rescue:3V3-conservify #PWR0106
 U 1 1 5BF27ED7
 P 3600 10500
 F 0 "#PWR0106" H 3600 10350 50  0001 C CNN
@@ -2432,7 +2080,7 @@ F 3 "" H 3600 10500 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:3V3 #PWR0107
+L fk-sonar-rescue:3V3-conservify #PWR0107
 U 1 1 5BF28021
 P 1100 9500
 F 0 "#PWR0107" H 1100 9350 50  0001 C CNN
@@ -2443,7 +2091,7 @@ F 3 "" H 1100 9500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CONN_01x02 J10
+L fk-sonar-rescue:CONN_01x02-conservify J10
 U 1 1 5BF48B42
 P 1100 8850
 F 0 "J10" H 1020 8525 50  0000 C CNN
@@ -2463,7 +2111,7 @@ F 12 " " H 1020 8625 50  0001 C CNN "Supplier1"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:3V3 #PWR0108
+L fk-sonar-rescue:3V3-conservify #PWR0108
 U 1 1 5C0104CF
 P 1500 8850
 F 0 "#PWR0108" H 1500 8700 50  0001 C CNN
@@ -2474,7 +2122,7 @@ F 3 "" H 1500 8850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L conservify:GND #PWR0109
+L fk-sonar-rescue:GND-conservify #PWR0109
 U 1 1 5B994EA4
 P 5500 3200
 F 0 "#PWR0109" H 5500 2950 50  0001 C CNN
@@ -2485,7 +2133,7 @@ F 3 "" H 5500 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR0110
+L fk-sonar-rescue:GND-conservify #PWR0110
 U 1 1 5B8C0595
 P 15550 4600
 F 0 "#PWR0110" H 15550 4350 50  0001 C CNN
@@ -2496,7 +2144,7 @@ F 3 "" H 15550 4600 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:PWR_FLAG #FLG0101
+L fk-sonar-rescue:PWR_FLAG-conservify #FLG0101
 U 1 1 5B8C06A4
 P 15550 4750
 F 0 "#FLG0101" H 15550 4825 50  0001 C CNN
@@ -2507,7 +2155,7 @@ F 3 "~" H 15550 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:5V0 #PWR0111
+L fk-sonar-rescue:5V0-conservify #PWR0111
 U 1 1 5B992167
 P 15150 4650
 F 0 "#PWR0111" H 15150 4500 50  0001 C CNN
@@ -2518,7 +2166,7 @@ F 3 "" H 15150 4650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:VIN #PWR0112
+L fk-sonar-rescue:VIN-conservify #PWR0112
 U 1 1 5B992210
 P 14750 4650
 F 0 "#PWR0112" H 14750 4500 50  0001 C CNN
@@ -2529,7 +2177,7 @@ F 3 "" H 14750 4650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:PWR_FLAG #FLG0102
+L fk-sonar-rescue:PWR_FLAG-conservify #FLG0102
 U 1 1 5B992896
 P 15150 4750
 F 0 "#FLG0102" H 15150 4825 50  0001 C CNN
@@ -2540,7 +2188,7 @@ F 3 "~" H 15150 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:PWR_FLAG #FLG0103
+L fk-sonar-rescue:PWR_FLAG-conservify #FLG0103
 U 1 1 5B99293F
 P 14750 4750
 F 0 "#FLG0103" H 14750 4825 50  0001 C CNN
@@ -2551,7 +2199,7 @@ F 3 "~" H 14750 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:VBAT #PWR0113
+L fk-sonar-rescue:VBAT-conservify #PWR0113
 U 1 1 5B9D9C24
 P 14350 4650
 F 0 "#PWR0113" H 14350 4500 50  0001 C CNN
@@ -2562,7 +2210,7 @@ F 3 "" H 14350 4650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:PWR_FLAG #FLG0104
+L fk-sonar-rescue:PWR_FLAG-conservify #FLG0104
 U 1 1 5B9DA5CA
 P 14350 4750
 F 0 "#FLG0104" H 14350 4825 50  0001 C CNN
@@ -2573,7 +2221,7 @@ F 3 "~" H 14350 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:RESISTOR R5
+L fk-sonar-rescue:RESISTOR-conservify R5
 U 1 1 5C8DE07D
 P 2600 10250
 F 0 "R5" H 2700 10350 60  0000 C CNN
@@ -2594,7 +2242,7 @@ F 13 "mouser" H -8950 8550 50  0001 C CNN "supplier1"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:RESISTOR R6
+L fk-sonar-rescue:RESISTOR-conservify R6
 U 1 1 5C924697
 P 2600 10500
 F 0 "R6" H 2700 10600 60  0000 C CNN
@@ -2615,7 +2263,7 @@ F 13 "mouser" H -8950 8800 50  0001 C CNN "supplier1"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:GND #PWR0114
+L fk-sonar-rescue:GND-conservify #PWR0114
 U 1 1 5C947FAA
 P 3100 10550
 F 0 "#PWR0114" H 3100 10300 50  0001 C CNN
@@ -2679,21 +2327,15 @@ Text Label 4500 2100 0    50   ~ 0
 RESET
 Text Label 6900 10600 0    50   ~ 0
 D13
-Text Label 9900 6350 0    50   ~ 0
+Text Label 8775 6875 2    50   ~ 0
 USB-
-Text Label 9900 6450 0    50   ~ 0
+Text Label 8775 6975 2    50   ~ 0
 USB+
-Text Label 10400 10300 0    50   ~ 0
-MISO
-Text Label 10400 10200 0    50   ~ 0
+Text Label 3700 7200 0    50   ~ 0
 MOSI
-Text Label 10400 10100 0    50   ~ 0
+Text Label 3700 7100 0    50   ~ 0
 SCK
-Text Label 14300 7050 0    50   ~ 0
-MOSI
-Text Label 14300 6950 0    50   ~ 0
-SCK
-Text Label 12700 6850 0    50   ~ 0
+Text Label 2100 7000 0    50   ~ 0
 MISO
 Text Label 12500 8750 0    50   ~ 0
 SWDIO
@@ -2703,19 +2345,13 @@ Text Label 12500 9150 0    50   ~ 0
 RST
 Text Label 4050 1650 0    50   ~ 0
 RST
-Text Label 8800 9900 0    50   ~ 0
-D38_RADIO_D0
-Text Label 10400 10000 0    50   ~ 0
-D2_RADIO_CS
-Text Label 12700 6750 0    50   ~ 0
+Text Label 2100 6900 0    50   ~ 0
 D6_FLASH_CS
 Text Notes 5400 5550 0    180  ~ 36
 MOUNTING 
 Text Notes 5400 7100 0    180  ~ 36
 FIDUCIALS
-Text Notes 8450 8650 0    180  ~ 36
-RFM95W\n
-Text Notes 12800 5550 0    180  ~ 36
+Text Notes 2200 5700 0    180  ~ 36
 SERIAL FLASH
 Text Notes 10100 950  0    180  ~ 36
 POWER MANAGEMENT
@@ -2723,7 +2359,7 @@ Text Notes 8500 5550 0    180  ~ 36
 USB-DEVICE
 Text Notes 3250 950  0    180  ~ 36
 MCU
-Text Label 10550 7550 0    50   ~ 0
+Text Label 8125 8075 2    50   ~ 0
 USB_ID
 Text Label 4500 3700 0    50   ~ 0
 USB_ID
@@ -2741,7 +2377,7 @@ Text Label 11150 2000 1    60   ~ 0
 CHG
 Text Notes 7550 2500 0    60   ~ 0
 VIN:5-10.5V\n(OVP up to 28V)
-Text Notes 13350 7350 0    60   ~ 0
+Text Notes 2750 7500 0    60   ~ 0
 16Mbit = 2Mbytes
 Text Notes 5900 6200 0    60   ~ 0
 M2.5 size
@@ -2767,16 +2403,12 @@ Text Notes 7900 4825 0    60   ~ 0
  Set by R6:1.3A
 Text Notes 8050 4975 0    60   ~ 0
  Standby
-Text Notes 8400 6050 0    60   ~ 0
+Text Notes 10275 6575 2    60   ~ 0
 500mA
 Text Notes 2100 1950 0    60   ~ 0
 32.768kHz
 Text Notes 2200 2050 0    60   ~ 0
 12.5pF
-Text Label 3800 6300 0    50   ~ 0
-SDA1
-Text Label 3800 6400 0    50   ~ 0
-SCL1
 Text Label 10900 4250 0    50   ~ 0
 SDA1
 Text Label 10900 4650 0    50   ~ 0
@@ -2811,8 +2443,6 @@ Text Label 15150 9100 0    50   ~ 0
 SCL3
 Text Label 5700 9600 0    60   ~ 0
 A3
-Text Notes 2000 5550 0    180  ~ 36
-FUEL GAUGE
 Text Label 1950 3600 0    50   ~ 0
 D5
 Text Notes 12750 8650 0    180  ~ 36
@@ -2823,9 +2453,7 @@ Text Label 3900 9550 0    50   ~ 0
 PERIPH_3V3
 Text Label 1350 8750 0    50   ~ 0
 PERIPH_3V3
-Text Label 10550 8950 0    60   ~ 0
-PERIPH_3V3
-Text Label 13500 6350 0    60   ~ 0
+Text Label 2900 6500 0    60   ~ 0
 PERIPH_3V3
 Text Label 1700 10250 0    50   ~ 0
 D8_PERIPH_EN
@@ -3100,107 +2728,63 @@ Wire Wire Line
 Wire Wire Line
 	15150 2650 15150 2750
 Wire Wire Line
-	7450 6650 7450 6750
+	11225 7175 11225 7275
 Wire Wire Line
-	8950 6250 8950 6350
+	9725 6775 9725 6875
 Wire Wire Line
-	8950 7200 8950 7300
+	9725 7725 9725 7825
 Wire Wire Line
-	9600 6700 9700 6700
+	9075 7225 8975 7225
 Wire Wire Line
-	9700 6700 9700 6350
+	8975 7225 8975 6875
 Wire Wire Line
-	9700 6350 10100 6350
+	8975 6875 8575 6875
 Wire Wire Line
-	9800 6450 10100 6450
+	8875 6975 8575 6975
 Wire Wire Line
-	9800 6450 9800 6800
+	8875 6975 8875 7325
 Wire Wire Line
-	9800 6800 9600 6800
+	8875 7325 9075 7325
 Wire Wire Line
-	10100 6650 10000 6650
+	8575 7175 8675 7175
 Wire Wire Line
-	10000 6650 10000 6750
+	8675 7175 8675 7275
 Wire Wire Line
-	10100 6550 9900 6550
+	8575 7075 8775 7075
 Wire Wire Line
-	9900 6550 9900 7550
+	8775 7075 8775 8075
 Wire Wire Line
-	11000 7150 11000 7350
+	7675 7675 7675 7875
 Wire Wire Line
-	11000 7350 11150 7350
+	7675 7875 7525 7875
 Wire Wire Line
-	11300 7350 11300 7250
+	7375 7875 7375 7775
 Wire Wire Line
-	11150 7450 11150 7350
+	7525 7975 7525 7875
 Wire Wire Line
-	14400 6850 14300 6850
+	3800 7000 3700 7000
 Wire Wire Line
-	14300 6750 14400 6750
+	3700 6900 3800 6900
 Wire Wire Line
-	14300 6950 14500 6950
+	3700 7100 3900 7100
 Wire Wire Line
-	14500 7050 14300 7050
+	3900 7200 3700 7200
 Wire Wire Line
-	12700 6750 13200 6750
+	2100 6900 2600 6900
 Wire Wire Line
-	12700 6850 13200 6850
+	2100 7000 2600 7000
 Wire Wire Line
-	13200 6950 12550 6950
+	2600 7100 1950 7100
 Wire Wire Line
-	13200 7050 13100 7050
+	2600 7200 2500 7200
 Wire Wire Line
-	13100 7050 13100 7150
+	2500 7200 2500 7300
 Wire Wire Line
-	14800 6750 14900 6750
+	4200 6900 4300 6900
 Wire Wire Line
-	14900 6750 14900 6850
+	4300 6900 4300 7000
 Wire Wire Line
-	10100 9150 10000 9150
-Wire Wire Line
-	10000 9150 10000 9450
-Wire Wire Line
-	10000 9450 10100 9450
-Wire Wire Line
-	10500 9450 10400 9450
-Wire Wire Line
-	10500 9150 10400 9150
-Wire Wire Line
-	10500 9800 10400 9800
-Wire Wire Line
-	10400 10500 10500 10500
-Wire Wire Line
-	10500 10400 10500 10500
-Wire Wire Line
-	10400 10400 10500 10400
-Wire Wire Line
-	9350 10500 9250 10500
-Wire Wire Line
-	9250 10500 9250 10600
-Wire Wire Line
-	8750 9800 9350 9800
-Wire Wire Line
-	8150 10400 8150 10500
-Wire Wire Line
-	8150 10500 8250 10500
-Wire Wire Line
-	8250 10500 8250 10400
-Wire Wire Line
-	8350 10500 8350 10400
-Wire Wire Line
-	8300 10500 8300 10600
-Wire Wire Line
-	10400 10000 10600 10000
-Wire Wire Line
-	10400 10100 10600 10100
-Wire Wire Line
-	10400 10200 10600 10200
-Wire Wire Line
-	10400 10300 10600 10300
-Wire Wire Line
-	8800 9900 9350 9900
-Wire Wire Line
-	9200 7450 9200 7550
+	9475 7975 9475 8075
 Wire Wire Line
 	3900 1650 4000 1650
 Wire Wire Line
@@ -3244,11 +2828,11 @@ Wire Wire Line
 Wire Wire Line
 	4800 1650 4800 2100
 Wire Wire Line
-	11000 6650 11000 6850
+	7675 7175 7675 7375
 Wire Wire Line
-	8850 6250 8950 6250
+	9825 6775 9725 6775
 Wire Wire Line
-	8150 6250 8250 6250
+	10525 6775 10425 6775
 Wire Notes Line
 	550  600  550  5100
 Wire Notes Line
@@ -3258,13 +2842,7 @@ Wire Notes Line
 Wire Notes Line
 	7150 600  550  600 
 Wire Notes Line
-	550  5200 550  7050
-Wire Notes Line
-	550  7050 4950 7050
-Wire Notes Line
 	4950 7050 4950 5200
-Wire Notes Line
-	4950 5200 550  5200
 Wire Notes Line
 	5050 6700 5050 8200
 Wire Notes Line
@@ -3330,15 +2908,15 @@ Wire Notes Line
 Wire Notes Line
 	11650 5200 7250 5200
 Wire Wire Line
-	7450 6150 7450 6250
+	11225 6675 11225 6775
 Wire Wire Line
-	7450 6250 7550 6250
+	11225 6775 11125 6775
 Wire Wire Line
-	9800 7550 9900 7550
+	8875 8075 8775 8075
 Wire Wire Line
-	9200 7550 9300 7550
+	9475 8075 9375 8075
 Wire Wire Line
-	10500 7550 10800 7550
+	8175 8075 7875 8075
 Wire Wire Line
 	4500 2800 4800 2800
 Wire Wire Line
@@ -3346,7 +2924,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 2600 5500 2600
 Wire Wire Line
-	10000 6150 10000 6250
+	8675 6675 8675 6775
 Wire Wire Line
 	8250 2050 8250 2150
 Wire Wire Line
@@ -3356,7 +2934,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 2350 8350 2350
 Wire Wire Line
-	11300 6650 11300 6750
+	7375 7175 7375 7275
 Wire Notes Line
 	11750 5200 11750 8200
 Wire Notes Line
@@ -3386,34 +2964,6 @@ Wire Notes Line
 Wire Notes Line
 	7900 4250 7900 5000
 Wire Wire Line
-	2050 6700 2200 6700
-Wire Wire Line
-	2050 6500 2050 6600
-Wire Wire Line
-	2200 6600 2050 6600
-Wire Wire Line
-	2200 6500 2050 6500
-Wire Wire Line
-	1250 6400 1750 6400
-Wire Wire Line
-	1750 6400 1750 6450
-Wire Wire Line
-	1750 6750 1750 6800
-Wire Wire Line
-	2000 6300 2100 6300
-Wire Wire Line
-	750  6400 700  6400
-Wire Wire Line
-	1300 6250 1300 6300
-Wire Wire Line
-	1300 6300 1500 6300
-Wire Wire Line
-	3700 6300 4000 6300
-Wire Wire Line
-	3700 6400 4000 6400
-Wire Wire Line
-	8750 9800 8750 10050
-Wire Wire Line
 	11100 4650 10900 4650
 Wire Wire Line
 	10900 4250 11100 4250
@@ -3423,10 +2973,6 @@ Wire Wire Line
 	11700 4650 11600 4650
 Wire Wire Line
 	1950 3800 2800 3800
-Wire Wire Line
-	2100 6300 2100 6150
-Wire Wire Line
-	2100 5750 2100 5850
 Wire Wire Line
 	14400 9550 14550 9550
 Wire Wire Line
@@ -3443,20 +2989,6 @@ Wire Wire Line
 	8900 4250 8900 4200
 Wire Wire Line
 	8900 4200 9200 4200
-Wire Wire Line
-	2300 5750 2100 5750
-Wire Wire Line
-	4050 6500 3700 6500
-Wire Wire Line
-	3700 6600 3750 6600
-Wire Wire Line
-	4250 6600 4500 6600
-Wire Wire Line
-	4550 6500 4650 6500
-Wire Wire Line
-	8450 10500 8450 10400
-Wire Wire Line
-	8750 10050 8700 10050
 Wire Wire Line
 	11850 9600 11850 9700
 Wire Wire Line
@@ -3536,27 +3068,13 @@ Wire Wire Line
 Wire Wire Line
 	15150 2250 15150 2350
 Wire Wire Line
-	8950 6250 10000 6250
+	9725 6775 8675 6775
 Wire Wire Line
-	11150 7350 11300 7350
+	7525 7875 7375 7875
 Wire Wire Line
-	14400 6750 14400 6850
+	3800 6900 3800 7000
 Wire Wire Line
-	14400 6750 14500 6750
-Wire Wire Line
-	10500 9450 10500 9800
-Wire Wire Line
-	10000 9450 10000 9550
-Wire Wire Line
-	10500 10500 10500 10600
-Wire Wire Line
-	8250 10500 8300 10500
-Wire Wire Line
-	8350 10500 8450 10500
-Wire Wire Line
-	8300 10500 8350 10500
-Wire Wire Line
-	10500 9150 10500 9450
+	3800 6900 3900 6900
 Wire Wire Line
 	4000 1650 4200 1650
 Wire Wire Line
@@ -3570,21 +3088,13 @@ Wire Wire Line
 Wire Wire Line
 	11850 8950 11850 9150
 Wire Wire Line
-	11000 6650 11300 6650
+	7675 7175 7375 7175
 Wire Wire Line
-	7450 6250 7450 6350
+	11225 6775 11225 6875
 Wire Wire Line
-	9900 7550 10000 7550
+	8775 8075 8675 8075
 Wire Wire Line
-	10000 6250 10100 6250
-Wire Wire Line
-	2050 6700 2050 6800
-Wire Wire Line
-	2050 6600 2050 6700
-Wire Wire Line
-	1750 6400 2200 6400
-Wire Wire Line
-	2100 6300 2200 6300
+	8675 6775 8575 6775
 Wire Wire Line
 	6550 9900 6550 9850
 Wire Wire Line
@@ -3602,9 +3112,9 @@ Wire Wire Line
 Wire Wire Line
 	15200 9550 15200 9500
 Wire Wire Line
-	10900 6550 11000 6550
+	7775 7075 7675 7075
 Wire Wire Line
-	11000 6550 11000 6650
+	7675 7075 7675 7175
 Wire Wire Line
 	2000 9800 1550 9800
 Wire Wire Line
@@ -3640,15 +3150,11 @@ Wire Wire Line
 Wire Wire Line
 	1500 8850 1300 8850
 Wire Wire Line
-	11100 8950 10500 8950
+	3800 6500 1950 6500
 Wire Wire Line
-	10500 8950 10500 9150
+	3800 6500 3800 6900
 Wire Wire Line
-	14400 6350 12550 6350
-Wire Wire Line
-	14400 6350 14400 6750
-Wire Wire Line
-	12550 6350 12550 6950
+	1950 6500 1950 7100
 Wire Wire Line
 	15550 4600 15550 4750
 Wire Wire Line
@@ -3692,52 +3198,35 @@ Connection ~ 12550 2250
 Connection ~ 12950 2250
 Connection ~ 14250 2250
 Connection ~ 15150 2250
-Connection ~ 8950 6250
-Connection ~ 11150 7350
-Connection ~ 14400 6750
-Connection ~ 10500 9450
-Connection ~ 10000 9450
-Connection ~ 10500 10500
-Connection ~ 8250 10500
-Connection ~ 8350 10500
-Connection ~ 8300 10500
-Connection ~ 10500 9150
+Connection ~ 9725 6775
+Connection ~ 7525 7875
+Connection ~ 3800 6900
 Connection ~ 4000 1650
 Connection ~ 1150 2400
 Connection ~ 1000 2900
 Connection ~ 11850 9150
 Connection ~ 11850 8950
-Connection ~ 7450 6250
-Connection ~ 9900 7550
-Connection ~ 10000 6250
-Connection ~ 2050 6700
-Connection ~ 2050 6600
-Connection ~ 1750 6400
-Connection ~ 2100 6300
-Connection ~ 11000 6650
+Connection ~ 11225 6775
+Connection ~ 8775 8075
+Connection ~ 8675 6775
+Connection ~ 7675 7175
 Connection ~ 1100 9500
 Connection ~ 4000 9550
 Connection ~ 4000 9900
 Connection ~ 3100 10500
 NoConn ~ 12600 2500
 NoConn ~ 12600 3100
-NoConn ~ 9350 10000
-NoConn ~ 9350 10100
-NoConn ~ 9350 10200
-NoConn ~ 9350 10300
-NoConn ~ 9350 10400
-NoConn ~ 10400 9900
 NoConn ~ 11950 9050
 NoConn ~ 12450 8950
 NoConn ~ 12450 9050
-NoConn ~ 10900 6350
-NoConn ~ 10900 6450
+NoConn ~ 7775 6875
+NoConn ~ 7775 6975
 NoConn ~ 6350 7750
 NoConn ~ 5900 7750
 NoConn ~ 9500 3850
 NoConn ~ 9500 4450
 NoConn ~ 15450 9000
-NoConn ~ 10900 6650
+NoConn ~ 7775 7175
 NoConn ~ 1950 2600
 NoConn ~ 1950 2800
 NoConn ~ 1950 3100
