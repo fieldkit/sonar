@@ -932,7 +932,7 @@ D10
 Text Label 1950 4000 0    50   ~ 0
 D12
 Text Label 1950 4200 0    50   ~ 0
-D7
+D7_SENSOR_EN
 Text Label 1950 4300 0    50   ~ 0
 SDA1
 Text Label 1950 4400 0    50   ~ 0
@@ -1384,7 +1384,6 @@ NoConn ~ 1950 3600
 NoConn ~ 1950 3700
 NoConn ~ 1950 3900
 NoConn ~ 1950 4000
-NoConn ~ 1950 4200
 NoConn ~ 4800 3800
 NoConn ~ 4800 3400
 NoConn ~ 4800 3300
