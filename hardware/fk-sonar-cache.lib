@@ -1,6 +1,398 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_Generic:Conn_01x02
+#
+DEF Connector_Generic:Conn_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Generic:Conn_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Generic:Conn_01x04
+#
+DEF Connector_Generic:Conn_01x04 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Generic:Conn_01x04" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# conservify:3V3
+#
+DEF conservify:3V3 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "conservify:3V3" 0 140 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -50 100 50 100 N
+P 2 0 1 0 0 0 0 100 N
+X 3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# conservify:5V0
+#
+DEF conservify:5V0 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "conservify:5V0" 0 140 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -50 100 50 100 N
+P 2 0 1 0 0 0 0 100 N
+X 5V0 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# conservify:CAPACITOR_CERAMIC
+#
+DEF conservify:CAPACITOR_CERAMIC C 0 10 Y Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "conservify:CAPACITOR_CERAMIC" 25 -100 50 H V L CNN
+F2 "conservify:CAP-0603" 0 -200 30 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ CAP-0402
+ CAP-0603
+ CAP-0805
+ CAP-1206
+ CAP-1210
+ CAP-0402-NS
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 40 40 1 1 P
+X ~ 2 0 -150 110 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# conservify:FUSE
+#
+DEF conservify:FUSE F 0 10 Y Y 1 F N
+F0 "F" 100 50 50 H V C CNN
+F1 "conservify:FUSE" -100 -50 50 H V C CNN
+F2 "conservify:MF-PSMF020X" 0 -150 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ MF-PSMF020X
+$ENDFPLIST
+DRAW
+A -75 0 75 1 1799 0 1 0 N 0 0 -150 0
+A 75 0 75 -1799 -1 0 1 0 N 0 0 150 0
+X ~ 1 -300 0 150 R 40 40 1 1 I
+X ~ 2 300 0 150 L 40 40 1 1 I
+ENDDRAW
+ENDDEF
+#
+# conservify:GND
+#
+DEF ~conservify:GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "conservify:GND" 0 -150 50 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -25 -75 25 -75 N
+P 2 0 1 0 -5 -100 5 -100 N
+P 2 0 1 0 0 -50 0 0 N
+P 2 0 1 0 50 -50 -50 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# conservify:INDUCTOR
+#
+DEF conservify:INDUCTOR L 0 40 N N 1 F N
+F0 "L" 0 -50 50 H V C CNN
+F1 "conservify:INDUCTOR" 0 100 50 H V C CNN
+F2 "conservify:IND-0603" 0 -150 60 H I C CNN
+F3 "" 0 0 60 V V C CNN
+$FPLIST
+ IND-0603
+ IND-0805
+ NR6028
+ SRN4018
+ LQM2HP
+ IND-0402
+$ENDFPLIST
+DRAW
+A -112 0 37 1 1799 0 1 0 N -75 0 -150 0
+A -37 0 37 1 1799 0 1 0 N 0 0 -75 0
+A 38 0 37 1 1799 0 1 0 N 75 0 0 0
+A 113 0 37 1 1799 0 1 0 N 150 0 75 0
+X 1 1 -300 0 150 R 70 70 1 1 P
+X 2 2 300 0 150 L 70 70 1 1 P
+ENDDRAW
+ENDDEF
+#
+# conservify:LED_SINGLE
+#
+DEF conservify:LED_SINGLE D 0 40 Y N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "conservify:LED_SINGLE" 0 -140 50 H V C CNN
+F2 "conservify:LED-0603" 0 -250 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ LED-0603
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -50 50 -50 -50 N
+P 2 0 1 0 -30 -70 -10 -70 N
+P 2 0 1 0 0 -90 20 -90 N
+P 3 0 1 0 0 -40 -30 -70 -30 -50 N
+P 3 0 1 0 30 -60 0 -90 0 -70 N
+P 3 0 1 0 50 50 -50 0 50 -50 F
+X K 1 -200 0 150 R 40 40 1 1 P
+X A 2 200 0 150 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# conservify:MCP1700T-XXX2E
+#
+DEF conservify:MCP1700T-XXX2E U 0 40 Y Y 1 F N
+F0 "U" 0 150 60 H V C CNN
+F1 "conservify:MCP1700T-XXX2E" 0 -550 60 H V C CNN
+F2 "conservify:SOT-89" 0 -650 60 H I C CNN
+F3 "" -100 0 60 H V C CNN
+$FPLIST
+ SOT-89
+$ENDFPLIST
+DRAW
+S -200 100 200 -300 0 0 0 N
+X GND 1 0 -450 150 U 50 50 1 1 W
+X VIN 2 -350 0 150 R 50 50 1 1 W
+X VOUT 3 350 0 150 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# conservify:MICRO_USB
+#
+DEF conservify:MICRO_USB J 0 40 Y Y 1 F N
+F0 "J" 0 350 60 H V C CNN
+F1 "conservify:MICRO_USB" 0 -350 60 H V C CNN
+F2 "conservify:MICRO-USB" 0 -450 60 H I C CNN
+F3 "" 50 200 60 H V C CNN
+$FPLIST
+ MICRO-USB
+$ENDFPLIST
+DRAW
+S -250 -300 250 300 0 0 0 N
+X VBUS 1 400 200 150 L 40 40 1 1 w
+X D- 2 400 100 150 L 40 40 1 1 I
+X D+ 3 400 0 150 L 40 40 1 1 I
+X ID 4 400 -100 150 L 40 40 1 1 I
+X GND 5 400 -200 150 L 40 40 1 1 W
+X SHIELD 6 -400 -200 150 R 40 40 1 1 I
+X SHIELD 7 -400 -100 150 R 40 40 1 1 I
+X SHIELD 8 -400 0 150 R 40 40 1 1 I
+X SHIELD 9 -400 100 150 R 40 40 1 1 I
+ENDDRAW
+ENDDEF
+#
+# conservify:MOSFET_N
+#
+DEF conservify:MOSFET_N Q 0 0 Y Y 1 F N
+F0 "Q" 250 50 50 H V R CNN
+F1 "conservify:MOSFET_N" 550 -50 50 H V R CNN
+F2 "conservify:SOT-23" 0 -300 29 H I C CNN
+F3 "" -100 0 60 H V C CNN
+$FPLIST
+ SOT-23
+$ENDFPLIST
+DRAW
+C 0 -70 10 0 0 0 F
+C 0 70 10 0 0 0 F
+C -20 0 130 0 1 10 N
+P 3 0 0 0 0 70 60 70 60 30 N
+P 3 0 0 0 60 -20 60 -70 0 -70 N
+P 4 0 0 0 30 20 40 30 80 30 90 40 N
+P 5 1 0 0 60 30 40 -20 80 -20 60 30 60 20 F
+P 2 0 1 0 -70 -70 0 -70 N
+P 2 0 1 10 -70 -50 -70 -90 N
+P 2 0 1 0 -70 0 0 0 N
+P 2 0 1 10 -70 20 -70 -20 N
+P 2 0 1 0 -70 70 0 70 N
+P 2 0 1 10 -70 90 -70 50 N
+P 2 0 1 0 0 -70 0 -100 N
+P 2 0 1 0 0 -70 0 0 N
+P 2 0 1 0 0 100 0 70 N
+P 3 0 1 10 -90 75 -90 -75 -90 -75 N
+P 5 0 1 0 -70 0 -20 20 -20 -20 -70 0 -60 0 F
+X G 1 -300 0 210 R 50 50 1 1 I
+X S 2 0 -250 150 U 50 50 1 1 P
+X D 3 0 250 150 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# conservify:PRTR5V0U2X
+#
+DEF conservify:PRTR5V0U2X D 0 40 Y Y 1 F N
+F0 "D" 50 350 60 H V C CNN
+F1 "conservify:PRTR5V0U2X" 0 -600 60 H V C CNN
+F2 "conservify:SOT-143B" 0 -500 60 H I C CNN
+F3 "" -150 0 60 H V C CNN
+$FPLIST
+ SOT-143B
+$ENDFPLIST
+DRAW
+C -150 -250 10 0 1 0 F
+C -150 250 10 0 1 0 F
+C 100 -250 10 0 1 0 F
+C 100 -50 10 0 1 0 F
+C 100 250 10 0 1 0 F
+C 250 50 10 0 1 0 F
+S -250 300 350 -300 0 1 0 N
+P 2 0 1 0 -150 -300 -150 -100 N
+P 2 0 1 0 -150 250 -150 0 N
+P 2 0 1 0 50 -100 150 -100 N
+P 2 0 1 0 50 200 150 200 N
+P 2 0 1 0 100 -250 -150 -250 N
+P 2 0 1 0 100 100 100 -100 N
+P 2 0 1 0 100 250 -150 250 N
+P 2 0 1 0 200 -100 300 -100 N
+P 2 0 1 0 200 200 300 200 N
+P 2 0 1 0 250 50 350 50 N
+P 2 0 1 0 250 100 250 -100 N
+P 2 0 1 0 350 -50 100 -50 N
+P 4 0 1 0 -225 -25 -200 0 -100 0 -75 25 N
+P 4 0 1 0 -150 0 -200 -100 -100 -100 -150 0 F
+P 4 0 1 0 100 -200 100 -250 250 -250 250 -200 N
+P 4 0 1 0 100 -100 50 -200 150 -200 100 -100 F
+P 4 0 1 0 100 200 50 100 150 100 100 200 F
+P 4 0 1 0 100 200 100 250 250 250 250 200 N
+P 4 0 1 0 250 -100 200 -200 300 -200 250 -100 F
+P 4 0 1 0 250 200 200 100 300 100 250 200 F
+X ~ 1 -150 -450 150 U 50 50 1 1 I
+X ~ 2 500 -50 150 L 50 50 1 1 I
+X ~ 3 500 50 150 L 50 50 1 1 I
+X ~ 4 -150 400 150 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# conservify:PWR_FLAG
+#
+DEF conservify:PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "conservify:PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
+ENDDRAW
+ENDDEF
+#
+# conservify:RESISTOR
+#
+DEF conservify:RESISTOR R 0 40 Y Y 1 F N
+F0 "R" 0 100 60 H V C CNN
+F1 "conservify:RESISTOR" 0 -100 60 H V C CNN
+F2 "conservify:RES-0603" 0 -200 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ RES-0603
+ RES-0805
+ RES-0402
+$ENDFPLIST
+DRAW
+P 11 0 1 0 -150 0 -100 0 -75 -50 -50 50 -25 -50 0 50 25 -50 50 50 75 -50 100 0 150 0 N
+X ~ 1 -250 0 100 R 50 50 1 1 P
+X ~ 2 250 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# conservify:SK6812
+#
+DEF conservify:SK6812 U 0 40 Y Y 1 F N
+F0 "U" 0 -50 60 H V C CNN
+F1 "conservify:SK6812" 0 250 60 H V C CNN
+F2 "" 0 300 60 H I C CNN
+F3 "" 0 300 60 H I C CNN
+DRAW
+S -250 300 300 -200 0 1 0 N
+P 2 0 1 0 -200 50 -100 50 N
+P 2 0 1 0 -150 150 -150 200 N
+P 2 0 1 0 -50 50 50 50 N
+P 2 0 1 0 -50 150 50 150 N
+P 2 0 1 0 0 50 0 0 N
+P 2 0 1 0 0 200 -150 200 N
+P 2 0 1 0 0 200 0 150 N
+P 2 0 1 0 0 200 150 200 N
+P 2 0 1 0 100 50 200 50 N
+P 2 0 1 0 150 150 150 200 N
+P 3 0 1 0 -50 150 0 50 50 150 N
+P 4 0 1 0 -200 150 -100 150 -150 50 -200 150 N
+P 4 0 1 0 100 150 200 150 150 50 100 150 N
+P 4 0 1 0 150 50 150 0 -150 0 -150 50 N
+X GND 1 250 -400 200 U 50 50 1 1 I
+X DI 2 -450 -150 200 R 50 50 1 1 I
+X VDD 3 250 500 200 D 50 50 1 1 I
+X NC 4 150 -400 200 U 50 50 1 1 N
+ENDDRAW
+ENDDEF
+#
+# conservify:TPS2052B
+#
+DEF conservify:TPS2052B U 0 40 Y Y 1 F N
+F0 "U" -400 -450 60 H V C CNN
+F1 "conservify:TPS2052B" 0 0 60 H V C CNN
+F2 "" 0 200 60 H I C CNN
+F3 "" 0 200 60 H I C CNN
+DRAW
+S -500 550 500 -550 0 1 0 N
+X GND 1 -700 -300 200 R 50 50 1 1 W
+X IN 2 -700 350 200 R 50 50 1 1 W
+X EN1 3 -700 200 200 R 50 50 1 1 I
+X EN2 4 -700 100 200 R 50 50 1 1 I
+X OC2 5 700 -50 200 L 50 50 1 1 O
+X OUT2 6 700 50 200 L 50 50 1 1 w
+X OUT1 7 700 350 200 L 50 50 1 1 w
+X OC1 8 700 250 200 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+# conservify:VUSB
+#
+DEF conservify:VUSB #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "conservify:VUSB" 0 140 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -50 100 50 100 N
+P 2 0 1 0 0 0 0 100 N
+X VUSB 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # fk-sonar-rescue:3V3-conservify
 #
 DEF fk-sonar-rescue:3V3-conservify #PWR 0 0 Y Y 1 F P
@@ -12,20 +404,6 @@ DRAW
 P 2 0 1 0 -50 100 50 100 N
 P 2 0 1 0 0 0 0 100 N
 X 3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# fk-sonar-rescue:5V0-conservify
-#
-DEF fk-sonar-rescue:5V0-conservify #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "fk-sonar-rescue:5V0-conservify" 0 140 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 2 0 1 0 -50 100 50 100 N
-P 2 0 1 0 0 0 0 100 N
-X 5V0 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -92,38 +470,6 @@ X PA04 9 -850 750 150 R 40 40 1 1 B
 ENDDRAW
 ENDDEF
 #
-# fk-sonar-rescue:BQ24074-conservify
-#
-DEF fk-sonar-rescue:BQ24074-conservify U 0 40 Y Y 1 F N
-F0 "U" -300 500 60 H V C CNN
-F1 "fk-sonar-rescue:BQ24074-conservify" 0 0 60 V V C CNN
-F2 "conservify:QFN-16_3x3mm" 0 -700 60 H I C CNN
-F3 "" 50 0 60 H V C CNN
-$FPLIST
- QFN-16_3x3mm
-$ENDFPLIST
-DRAW
-S 350 -450 -350 450 0 0 0 N
-X TS 1 500 -350 150 L 40 40 1 1 I
-X OUT 10 500 350 150 L 40 40 1 1 w
-X OUT 11 500 250 150 L 40 40 1 1 W
-X ILIM 12 -500 250 150 R 40 40 1 1 I
-X IN 13 -500 350 150 R 40 40 1 1 W
-X TMR 14 -500 150 150 R 40 40 1 1 I
-X ITERM 15 -500 50 150 R 40 40 1 1 I
-X ISET 16 -500 -50 150 R 40 40 1 1 I
-X PAD 17 50 -600 150 U 40 40 1 1 W
-X BAT 2 500 -150 150 L 40 40 1 1 W
-X BAT 3 500 -250 150 L 40 40 1 1 W
-X ~CE~ 4 -500 -150 150 R 40 40 1 1 I
-X EN2 5 -500 -250 150 R 40 40 1 1 I
-X EN1 6 -500 -350 150 R 40 40 1 1 I
-X ~PGOOD~ 7 -50 600 150 D 40 40 1 1 O
-X VSS 8 -50 -600 150 U 40 40 1 1 W
-X ~CHG~ 9 50 600 150 D 40 40 1 1 O
-ENDDRAW
-ENDDEF
-#
 # fk-sonar-rescue:CAPACITOR_CERAMIC-conservify
 #
 DEF fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C 0 10 Y Y 1 F N
@@ -144,30 +490,6 @@ P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N
 X ~ 1 0 150 110 D 40 40 1 1 P
 X ~ 2 0 -150 110 U 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# fk-sonar-rescue:CONN_01x02-conservify
-#
-DEF fk-sonar-rescue:CONN_01x02-conservify J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "fk-sonar-rescue:CONN_01x02-conservify" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 50 50 -150 1 1 10 f
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -220,64 +542,6 @@ S -50 150 50 -150 1 1 10 f
 X GND 1 -200 100 150 R 50 39 1 1 P
 X D31 2 -200 0 150 R 50 39 1 1 P
 X D30 3 -200 -100 150 R 50 39 1 1 P
-ENDDRAW
-ENDDEF
-#
-# fk-sonar-rescue:CONN_01x04-conservify
-#
-DEF fk-sonar-rescue:CONN_01x04-conservify J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "fk-sonar-rescue:CONN_01x04-conservify" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 50 -250 1 1 10 f
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-X Pin_4 4 -200 -200 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# fk-sonar-rescue:CONN_01x05-conservify
-#
-DEF fk-sonar-rescue:CONN_01x05-conservify J 0 40 Y N 1 F N
-F0 "J" 0 300 50 H V C CNN
-F1 "fk-sonar-rescue:CONN_01x05-conservify" 0 -300 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 250 50 -250 1 1 10 f
-X Pin_1 1 -200 200 150 R 50 50 1 1 P
-X Pin_2 2 -200 100 150 R 50 50 1 1 P
-X Pin_3 3 -200 0 150 R 50 50 1 1 P
-X Pin_4 4 -200 -100 150 R 50 50 1 1 P
-X Pin_5 5 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -340,33 +604,6 @@ X 2 2 250 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# fk-sonar-rescue:DIODE_DUAL_SCHOTTKY-conservify
-#
-DEF fk-sonar-rescue:DIODE_DUAL_SCHOTTKY-conservify D 0 40 N N 1 F N
-F0 "D" 0 250 50 H V C CNN
-F1 "fk-sonar-rescue:DIODE_DUAL_SCHOTTKY-conservify" 0 -250 50 H V C CNN
-F2 "conservify:SOT-1016" 0 -350 60 H I C CNN
-F3 "" 0 100 60 H V C CNN
-$FPLIST
- SOT-1016
-$ENDFPLIST
-DRAW
-C -100 0 10 0 1 0 F
-S -150 200 150 -200 0 1 0 N
-P 4 0 0 0 -30 -50 -50 -70 -50 -130 -70 -150 N
-P 4 0 0 0 -30 150 -50 130 -50 70 -70 50 N
-P 2 0 1 0 50 -100 150 -100 N
-P 2 0 1 0 50 100 150 100 N
-P 3 0 1 0 -50 -100 -100 -100 -100 0 N
-P 3 0 1 0 50 -50 -50 -100 50 -150 F
-P 3 0 1 0 50 150 -50 100 50 50 F
-P 4 0 1 0 -150 0 -100 0 -100 100 -50 100 N
-X A 1 300 -100 150 L 50 50 1 1 W
-X A 2 300 100 150 L 50 50 1 1 W
-X K 3 -300 0 150 R 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
 # fk-sonar-rescue:FIDUCIAL-conservify
 #
 DEF fk-sonar-rescue:FIDUCIAL-conservify M 0 40 Y Y 1 F N
@@ -377,24 +614,6 @@ F3 "" 0 0 60 H V C CNN
 DRAW
 C 0 50 25 0 1 50 N
 X ~ ~ 0 -150 150 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# fk-sonar-rescue:FUSE-conservify
-#
-DEF fk-sonar-rescue:FUSE-conservify F 0 10 Y Y 1 F N
-F0 "F" 100 50 50 H V C CNN
-F1 "fk-sonar-rescue:FUSE-conservify" -100 -50 50 H V C CNN
-F2 "conservify:MF-PSMF020X" 0 -150 60 H I C CNN
-F3 "" 0 0 60 H V C CNN
-$FPLIST
- MF-PSMF020X
-$ENDFPLIST
-DRAW
-A -75 0 75 1 1799 0 1 0 N 0 0 -150 0
-A 75 0 75 -1799 -1 0 1 0 N 0 0 150 0
-X ~ 1 -300 0 150 R 40 40 1 1 I
-X ~ 2 300 0 150 L 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -439,105 +658,6 @@ X 2 2 300 0 150 L 70 70 1 1 P
 ENDDRAW
 ENDDEF
 #
-# fk-sonar-rescue:LED_SINGLE-conservify
-#
-DEF fk-sonar-rescue:LED_SINGLE-conservify D 0 40 Y N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "fk-sonar-rescue:LED_SINGLE-conservify" 0 -140 50 H V C CNN
-F2 "conservify:LED-0603" 0 -250 60 H I C CNN
-F3 "" 0 0 60 H V C CNN
-$FPLIST
- LED-0603
-$ENDFPLIST
-DRAW
-P 2 0 1 0 -50 50 -50 -50 N
-P 2 0 1 0 -30 -70 -10 -70 N
-P 2 0 1 0 0 -90 20 -90 N
-P 3 0 1 0 0 -40 -30 -70 -30 -50 N
-P 3 0 1 0 30 -60 0 -90 0 -70 N
-P 3 0 1 0 50 50 -50 0 50 -50 F
-X K 1 -200 0 150 R 40 40 1 1 P
-X A 2 200 0 150 L 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# fk-sonar-rescue:MCP1700T-XXX2E-conservify
-#
-DEF fk-sonar-rescue:MCP1700T-XXX2E-conservify U 0 40 Y Y 1 F N
-F0 "U" 0 150 60 H V C CNN
-F1 "fk-sonar-rescue:MCP1700T-XXX2E-conservify" 0 -550 60 H V C CNN
-F2 "conservify:SOT-89" 0 -650 60 H I C CNN
-F3 "" -100 0 60 H V C CNN
-$FPLIST
- SOT-89
-$ENDFPLIST
-DRAW
-S -200 100 200 -300 0 0 0 N
-X GND 1 0 -450 150 U 50 50 1 1 W
-X VIN 2 -350 0 150 R 50 50 1 1 W
-X VOUT 3 350 0 150 L 50 50 1 1 w
-ENDDRAW
-ENDDEF
-#
-# fk-sonar-rescue:MICRO_USB-conservify
-#
-DEF fk-sonar-rescue:MICRO_USB-conservify J 0 40 Y Y 1 F N
-F0 "J" 0 350 60 H V C CNN
-F1 "fk-sonar-rescue:MICRO_USB-conservify" 0 -350 60 H V C CNN
-F2 "conservify:MICRO-USB" 0 -450 60 H I C CNN
-F3 "" 50 200 60 H V C CNN
-$FPLIST
- MICRO-USB
-$ENDFPLIST
-DRAW
-S -250 -300 250 300 0 0 0 N
-X VBUS 1 400 200 150 L 40 40 1 1 w
-X D- 2 400 100 150 L 40 40 1 1 I
-X D+ 3 400 0 150 L 40 40 1 1 I
-X ID 4 400 -100 150 L 40 40 1 1 I
-X GND 5 400 -200 150 L 40 40 1 1 W
-X SHIELD 6 -400 -200 150 R 40 40 1 1 I
-X SHIELD 7 -400 -100 150 R 40 40 1 1 I
-X SHIELD 8 -400 0 150 R 40 40 1 1 I
-X SHIELD 9 -400 100 150 R 40 40 1 1 I
-ENDDRAW
-ENDDEF
-#
-# fk-sonar-rescue:MOSFET_N-conservify
-#
-DEF fk-sonar-rescue:MOSFET_N-conservify Q 0 0 Y Y 1 F N
-F0 "Q" 250 50 50 H V R CNN
-F1 "fk-sonar-rescue:MOSFET_N-conservify" 550 -50 50 H V R CNN
-F2 "conservify:SOT-23" 0 -300 29 H I C CNN
-F3 "" -100 0 60 H V C CNN
-$FPLIST
- SOT-23
-$ENDFPLIST
-DRAW
-C 0 -70 10 0 0 0 F
-C 0 70 10 0 0 0 F
-C -20 0 130 0 1 10 N
-P 3 0 0 0 0 70 60 70 60 30 N
-P 3 0 0 0 60 -20 60 -70 0 -70 N
-P 4 0 0 0 30 20 40 30 80 30 90 40 N
-P 5 1 0 0 60 30 40 -20 80 -20 60 30 60 20 F
-P 2 0 1 0 -70 -70 0 -70 N
-P 2 0 1 10 -70 -50 -70 -90 N
-P 2 0 1 0 -70 0 0 0 N
-P 2 0 1 10 -70 20 -70 -20 N
-P 2 0 1 0 -70 70 0 70 N
-P 2 0 1 10 -70 90 -70 50 N
-P 2 0 1 0 0 -70 0 -100 N
-P 2 0 1 0 0 -70 0 0 N
-P 2 0 1 0 0 100 0 70 N
-P 3 0 1 10 -90 75 -90 -75 -90 -75 N
-P 5 0 1 0 -70 0 -20 20 -20 -20 -70 0 -60 0 F
-X G 1 -300 0 210 R 50 50 1 1 I
-X S 2 0 -250 150 U 50 50 1 1 P
-X D 3 0 250 150 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # fk-sonar-rescue:MOUNT_HOLE-conservify
 #
 DEF ~fk-sonar-rescue:MOUNT_HOLE-conservify M 0 40 Y Y 1 F N
@@ -555,64 +675,6 @@ DRAW
 C 0 0 71 0 1 0 N
 P 2 0 1 0 25 -25 -25 25 N
 P 2 0 1 0 25 25 -25 -25 N
-ENDDRAW
-ENDDEF
-#
-# fk-sonar-rescue:PRTR5V0U2X-conservify
-#
-DEF fk-sonar-rescue:PRTR5V0U2X-conservify D 0 40 Y Y 1 F N
-F0 "D" 50 350 60 H V C CNN
-F1 "fk-sonar-rescue:PRTR5V0U2X-conservify" 0 -600 60 H V C CNN
-F2 "conservify:SOT-143B" 0 -500 60 H I C CNN
-F3 "" -150 0 60 H V C CNN
-$FPLIST
- SOT-143B
-$ENDFPLIST
-DRAW
-C -150 -250 10 0 1 0 F
-C -150 250 10 0 1 0 F
-C 100 -250 10 0 1 0 F
-C 100 -50 10 0 1 0 F
-C 100 250 10 0 1 0 F
-C 250 50 10 0 1 0 F
-S -250 300 350 -300 0 1 0 N
-P 2 0 1 0 -150 -300 -150 -100 N
-P 2 0 1 0 -150 250 -150 0 N
-P 2 0 1 0 50 -100 150 -100 N
-P 2 0 1 0 50 200 150 200 N
-P 2 0 1 0 100 -250 -150 -250 N
-P 2 0 1 0 100 100 100 -100 N
-P 2 0 1 0 100 250 -150 250 N
-P 2 0 1 0 200 -100 300 -100 N
-P 2 0 1 0 200 200 300 200 N
-P 2 0 1 0 250 50 350 50 N
-P 2 0 1 0 250 100 250 -100 N
-P 2 0 1 0 350 -50 100 -50 N
-P 4 0 1 0 -225 -25 -200 0 -100 0 -75 25 N
-P 4 0 1 0 -150 0 -200 -100 -100 -100 -150 0 F
-P 4 0 1 0 100 -200 100 -250 250 -250 250 -200 N
-P 4 0 1 0 100 -100 50 -200 150 -200 100 -100 F
-P 4 0 1 0 100 200 50 100 150 100 100 200 F
-P 4 0 1 0 100 200 100 250 250 250 250 200 N
-P 4 0 1 0 250 -100 200 -200 300 -200 250 -100 F
-P 4 0 1 0 250 200 200 100 300 100 250 200 F
-X ~ 1 -150 -450 150 U 50 50 1 1 I
-X ~ 2 500 -50 150 L 50 50 1 1 I
-X ~ 3 500 50 150 L 50 50 1 1 I
-X ~ 4 -150 400 150 D 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# fk-sonar-rescue:PWR_FLAG-conservify
-#
-DEF fk-sonar-rescue:PWR_FLAG-conservify #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 75 50 H I C CNN
-F1 "fk-sonar-rescue:PWR_FLAG-conservify" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
-X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
@@ -658,55 +720,6 @@ X VCC 8 550 150 150 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# fk-sonar-rescue:S2B_PH_SM4_TB-conservify
-#
-DEF fk-sonar-rescue:S2B_PH_SM4_TB-conservify J 0 40 Y Y 1 F N
-F0 "J" -100 200 60 H V C CNN
-F1 "fk-sonar-rescue:S2B_PH_SM4_TB-conservify" 0 -350 60 H V C CNN
-F2 "conservify:S2B-PH-SM4-TB" 0 -450 60 H I C CNN
-F3 "" -50 0 60 H V C CNN
-$FPLIST
- S2B-PH-SM4-TB
-$ENDFPLIST
-DRAW
-S -150 150 150 -150 0 0 0 N
-X ~ 1 300 50 150 L 40 40 1 1 I
-X ~ 2 300 -50 150 L 40 40 1 1 I
-X ~ 3 0 -300 150 U 40 40 1 1 I
-X ~ 4 0 300 150 D 40 40 1 1 I
-ENDDRAW
-ENDDEF
-#
-# fk-sonar-rescue:SK6812-conservify
-#
-DEF fk-sonar-rescue:SK6812-conservify U 0 40 Y Y 1 F N
-F0 "U" 0 -50 60 H V C CNN
-F1 "fk-sonar-rescue:SK6812-conservify" 0 250 60 H V C CNN
-F2 "" 0 300 60 H I C CNN
-F3 "" 0 300 60 H I C CNN
-DRAW
-S -250 300 300 -200 0 1 0 N
-P 2 0 1 0 -200 50 -100 50 N
-P 2 0 1 0 -150 150 -150 200 N
-P 2 0 1 0 -50 50 50 50 N
-P 2 0 1 0 -50 150 50 150 N
-P 2 0 1 0 0 50 0 0 N
-P 2 0 1 0 0 200 -150 200 N
-P 2 0 1 0 0 200 0 150 N
-P 2 0 1 0 0 200 150 200 N
-P 2 0 1 0 100 50 200 50 N
-P 2 0 1 0 150 150 150 200 N
-P 3 0 1 0 -50 150 0 50 50 150 N
-P 4 0 1 0 -200 150 -100 150 -150 50 -200 150 N
-P 4 0 1 0 100 150 200 150 150 50 100 150 N
-P 4 0 1 0 150 50 150 0 -150 0 -150 50 N
-X GND 1 250 -400 200 U 50 50 1 1 I
-X DI 2 -450 -150 200 R 50 50 1 1 I
-X VDD 3 250 500 200 D 50 50 1 1 I
-X NC 4 150 -400 200 U 50 50 1 1 N
-ENDDRAW
-ENDDEF
-#
 # fk-sonar-rescue:SWITCH_CONN_02-conservify
 #
 DEF fk-sonar-rescue:SWITCH_CONN_02-conservify SW 0 40 Y Y 1 F N
@@ -730,90 +743,110 @@ X ~ 2 250 0 125 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# fk-sonar-rescue:TPS2051B-conservify
+# fk-weather-rescue:3V3-conservify
 #
-DEF fk-sonar-rescue:TPS2051B-conservify U 0 40 Y Y 1 F N
-F0 "U" -400 -300 60 H V C CNN
-F1 "fk-sonar-rescue:TPS2051B-conservify" 0 0 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-DRAW
-S -500 350 500 -350 0 1 0 N
-X OUT 1 700 100 200 L 50 50 1 1 w
-X GND 2 -700 -150 200 R 50 50 1 1 W
-X OC 3 700 -50 200 L 50 50 1 1 O
-X EN 4 -700 0 200 R 50 50 1 1 I
-X IN 5 -700 150 200 R 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# fk-sonar-rescue:VBAT-conservify
-#
-DEF fk-sonar-rescue:VBAT-conservify #PWR 0 0 Y Y 1 F P
+DEF fk-weather-rescue:3V3-conservify #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "fk-sonar-rescue:VBAT-conservify" 0 140 50 H V C CNN
+F1 "fk-weather-rescue:3V3-conservify" 0 140 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
 P 2 0 1 0 -50 100 50 100 N
 P 2 0 1 0 0 0 0 100 N
-X VBAT 1 0 0 0 U 50 50 1 1 W N
+X 3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# fk-sonar-rescue:VBUS-conservify
+# fk-weather-rescue:CONN_01x04-conservify
 #
-DEF fk-sonar-rescue:VBUS-conservify #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "fk-sonar-rescue:VBUS-conservify" 0 140 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+DEF fk-weather-rescue:CONN_01x04-conservify J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "fk-weather-rescue:CONN_01x04-conservify" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
 DRAW
-P 2 0 1 0 -50 100 50 100 N
-P 2 0 1 0 0 0 0 100 N
-X VBUS 1 0 0 0 U 50 50 1 1 W N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# fk-sonar-rescue:VEXT-conservify
+# fk-weather-rescue:CONN_01x05-conservify
 #
-DEF fk-sonar-rescue:VEXT-conservify #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "fk-sonar-rescue:VEXT-conservify" 0 140 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
+DEF fk-weather-rescue:CONN_01x05-conservify J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "fk-weather-rescue:CONN_01x05-conservify" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
 DRAW
-P 2 0 1 0 -50 100 50 100 N
-P 2 0 1 0 0 0 0 100 N
-X VEXT 1 0 0 0 U 50 50 1 1 W N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -250 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# fk-sonar-rescue:VIN-conservify
+# fk-weather-rescue:GND-conservify
 #
-DEF fk-sonar-rescue:VIN-conservify #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "fk-sonar-rescue:VIN-conservify" 0 140 50 H V C CNN
+DEF ~fk-weather-rescue:GND-conservify #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "fk-weather-rescue:GND-conservify" 0 -150 50 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
-P 2 0 1 0 -50 100 50 100 N
-P 2 0 1 0 0 0 0 100 N
-X VIN 1 0 0 0 U 50 50 1 1 W N
+P 2 0 1 0 -25 -75 25 -75 N
+P 2 0 1 0 -5 -100 5 -100 N
+P 2 0 1 0 0 -50 0 0 N
+P 2 0 1 0 50 -50 -50 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# fk-sonar-rescue:VUSB-conservify
+# fk-weather-rescue:RESISTOR-conservify
 #
-DEF fk-sonar-rescue:VUSB-conservify #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "fk-sonar-rescue:VUSB-conservify" 0 140 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
+DEF fk-weather-rescue:RESISTOR-conservify R 0 40 Y Y 1 F N
+F0 "R" 0 100 60 H V C CNN
+F1 "fk-weather-rescue:RESISTOR-conservify" 0 -100 60 H V C CNN
+F2 "conservify:RES-0603" 0 -200 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
+$FPLIST
+ RES-0603
+ RES-0805
+ RES-0402
+$ENDFPLIST
 DRAW
-P 2 0 1 0 -50 100 50 100 N
-P 2 0 1 0 0 0 0 100 N
-X VUSB 1 0 0 0 U 50 50 1 1 W N
+P 11 0 1 0 -150 0 -100 0 -75 -50 -50 50 -25 -50 0 50 25 -50 50 50 75 -50 100 0 150 0 N
+X ~ 1 -250 0 100 R 50 50 1 1 P
+X ~ 2 250 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
