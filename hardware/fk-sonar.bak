@@ -3130,4 +3130,30 @@ Wire Wire Line
 Wire Wire Line
 	8950 8725 8850 8725
 Connection ~ 8850 8725
+$Comp
+L fk-weather-rescue:GND-conservify #PWR?
+U 1 1 5C29CE17
+P 9150 10000
+AR Path="/5C2C12BA/5C29CE17" Ref="#PWR?"  Part="1" 
+AR Path="/5C29CE17" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9150 9750 50  0001 C CNN
+F 1 "GND" H 9150 9850 50  0001 C CNN
+F 2 "" H 9150 10000 60  0000 C CNN
+F 3 "" H 9150 10000 60  0000 C CNN
+	1    9150 10000
+	0    1    1    0   
+$EndComp
+$Comp
+L fk-weather-rescue:GND-conservify #PWR?
+U 1 1 5C29CEAE
+P 10150 10025
+AR Path="/5C2C12BA/5C29CEAE" Ref="#PWR?"  Part="1" 
+AR Path="/5C29CEAE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10150 9775 50  0001 C CNN
+F 1 "GND" H 10150 9875 50  0001 C CNN
+F 2 "" H 10150 10025 60  0000 C CNN
+F 3 "" H 10150 10025 60  0000 C CNN
+	1    10150 10025
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
