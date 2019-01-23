@@ -91,18 +91,6 @@ public:
         SPI.begin();
     }
 
-    void fuelGauge() {
-        FuelGauge gauge;
-
-        Serial.println("test: Checking gauge...");
-
-        Wire.begin();
-
-        gauge.powerOn();
-
-        Serial.println("test: Gauge PASSED");
-    }
-
     void flashMemory() {
         Serial.println("test: Checking flash memory...");
 
@@ -144,19 +132,6 @@ public:
 
         Serial.println("test: Flash memory PASSED");
     }
-
-    void radio() {
-        Serial.println("test: Checking radio...");
-
-        RH_RF95 rf95(fk::FK_SONAR_PIN_RADIO_CS, fk::FK_SONAR_PIN_RADIO_DIO0);
-
-        if (!rf95.init()) {
-            Serial.println("test: Radio FAILED");
-        }
-        else {
-            Serial.println("test: Radio PASSED");
-        }
-    }
 };
 
 void setup() {
@@ -170,8 +145,6 @@ void setup() {
     }
 
     check.flashMemory();
-    check.radio();
-    check.fuelGauge();
 
     while (true) {
         auto value = analogRead(A1);
