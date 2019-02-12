@@ -47,9 +47,12 @@ void setup() {
 
     uint32_t tick = fk_uptime();
 
+    SonarReadings readings;
+
+    readings.setup();
+
     while (true) {
         if (fk_uptime() - tick > 1000) {
-            SonarReadings readings;
             auto reading = readings.reading();
 
             Log::info("raw = %lu voltage = %f distance = %f depth = %f mounted = %f",

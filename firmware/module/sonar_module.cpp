@@ -10,6 +10,8 @@ SonarModule::SonarModule(ModuleInfo &info)
 void TakeSonarReadings::task() {
     SonarReadings readings;
 
+    readings.setup();
+
     auto reading = readings.reading();
     auto i = 0;
     services().readings->done(i++, reading.value);

@@ -16,6 +16,8 @@ public:
     };
 
 public:
+    void setup();
+
     SonarReading reading();
 
 };
