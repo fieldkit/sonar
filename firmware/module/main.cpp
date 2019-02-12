@@ -27,11 +27,12 @@ void setup() {
 
     loginfof("Module", "Starting (%lu free)", fk_free_memory());
 
-    fk::SensorInfo sensors[4] = {
-        { "raw", "mv" },
+    fk::SensorInfo sensors[5] = {
+        { "raw", "" },
+        { "voltage", "mv" },
         { "distance", "m" },
         { "depth", "m" },
-        { "total", "m" },
+        { "mounted", "m" },
     };
 
     fk::SensorReading readings[4];
@@ -39,7 +40,7 @@ void setup() {
     fk::ModuleInfo info = {
         fk_module_ModuleType_SENSOR,
         8,
-        4,
+        5,
         3,
         "Sonar",
         "fk-sonar",
