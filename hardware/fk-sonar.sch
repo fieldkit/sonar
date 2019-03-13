@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:fk-sonar-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -356,7 +356,7 @@ F 13 "mouser" H 100 3200 50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:3V3 #PWR012
+L fk-sonar-rescue:3V3-conservify #PWR012
 U 1 1 5A10149D
 P 12425 1300
 F 0 "#PWR012" H 12425 1150 50  0001 C CNN
@@ -367,7 +367,7 @@ F 3 "" H 12425 1300 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:RESISTOR R1
+L fk-sonar-rescue:RESISTOR-conservify R1
 U 1 1 5A10149E
 P 12425 2150
 F 0 "R1" V 12425 2350 60  0000 C CNN
@@ -388,7 +388,7 @@ F 13 "mouser" H 10725 -4600 50  0001 C CNN "supplier1"
 	0    -1   1    0   
 $EndComp
 $Comp
-L conservify:MOSFET_N Q1
+L fk-sonar-rescue:MOSFET_N-conservify Q1
 U 1 1 5A10149F
 P 12425 2725
 F 0 "Q1" H 12675 2775 50  0000 R CNN
@@ -743,7 +743,7 @@ F 13 "mouser" H 100 3200 50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:LED_SINGLE D1
+L fk-sonar-rescue:LED_SINGLE-conservify D1
 U 1 1 5A1014F0
 P 12425 1600
 F 0 "D1" V 12475 1400 50  0000 C CNN
@@ -837,7 +837,7 @@ F 12 "mouser" H 5925 7825 50  0001 C CNN "Supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:SK6812 U7
+L fk-sonar-rescue:SK6812-conservify U7
 U 1 1 5B5A61CF
 P 13500 2225
 F 0 "U7" H 13827 2328 60  0000 L CNN
@@ -857,7 +857,7 @@ F 12 "digikey" H 13827 2428 50  0001 C CNN "Supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR0101
+L fk-sonar-rescue:GND-conservify #PWR0101
 U 1 1 5B5A64F1
 P 13750 2675
 F 0 "#PWR0101" H 13750 2425 50  0001 C CNN
@@ -868,7 +868,7 @@ F 3 "" H 13750 2675 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:3V3 #PWR0102
+L fk-sonar-rescue:3V3-conservify #PWR0102
 U 1 1 5B5A6C66
 P 13750 1625
 F 0 "#PWR0102" H 13750 1475 50  0001 C CNN
@@ -1380,7 +1380,7 @@ NoConn ~ 4950 6500
 NoConn ~ 4950 6300
 NoConn ~ 2100 5500
 $Comp
-L conservify:RESISTOR R7
+L fk-sonar-rescue:RESISTOR-conservify R7
 U 1 1 5C2DDE82
 P 10575 5875
 F 0 "R7" H 10375 5825 60  0000 C CNN
@@ -1401,7 +1401,7 @@ F 13 "mouser" H 6525 4575 50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C16
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C16
 U 1 1 5C2DDE93
 P 12025 5975
 F 0 "C16" H 11775 6025 50  0000 L CNN
@@ -1422,7 +1422,7 @@ F 13 "mouser" H 9875 3325 50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C15
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C15
 U 1 1 5C2DDEA4
 P 8075 5975
 F 0 "C15" H 7825 6075 50  0000 L CNN
@@ -1443,7 +1443,7 @@ F 13 "mouser" H 5925 3325 50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C14
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C14
 U 1 1 5C2DDEB5
 P 12525 5925
 F 0 "C14" H 12275 5975 50  0000 L CNN
@@ -1484,7 +1484,7 @@ F 12 " " H 8025 5425 50  0001 C CNN "Supplier1"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:GND #PWR0103
+L fk-sonar-rescue:GND-conservify #PWR0103
 U 1 1 5C2DDECC
 P 8725 6625
 F 0 "#PWR0103" H 8725 6375 50  0001 C CNN
@@ -1495,7 +1495,7 @@ F 3 "" H 8725 6625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:3V3 #PWR0104
+L fk-sonar-rescue:3V3-conservify #PWR0104
 U 1 1 5C2DDED2
 P 8375 5375
 F 0 "#PWR0104" H 8375 5225 50  0001 C CNN
@@ -1506,7 +1506,7 @@ F 3 "" H 8375 5375 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:3V3 #PWR0105
+L fk-sonar-rescue:3V3-conservify #PWR0105
 U 1 1 5C2DDED8
 P 7775 5775
 F 0 "#PWR0105" H 7775 5625 50  0001 C CNN
@@ -1517,7 +1517,7 @@ F 3 "" H 7775 5775 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L conservify:GND #PWR0106
+L fk-sonar-rescue:GND-conservify #PWR0106
 U 1 1 5C2DDEDE
 P 8075 6625
 F 0 "#PWR0106" H 8075 6375 50  0001 C CNN
@@ -1528,7 +1528,7 @@ F 3 "" H 8075 6625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:3V3 #PWR0107
+L fk-sonar-rescue:3V3-conservify #PWR0107
 U 1 1 5C2DDEE4
 P 10875 5875
 F 0 "#PWR0107" H 10875 5725 50  0001 C CNN
@@ -1539,7 +1539,7 @@ F 3 "" H 10875 5875 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L conservify:GND #PWR0108
+L fk-sonar-rescue:GND-conservify #PWR0108
 U 1 1 5C2DDEEA
 P 12025 6575
 F 0 "#PWR0108" H 12025 6325 50  0001 C CNN
@@ -1581,7 +1581,7 @@ Wire Wire Line
 	8075 5775 8925 5775
 Connection ~ 8075 5775
 $Comp
-L conservify:TPS2052B U?
+L fk-sonar-rescue:TPS2052B-conservify U?
 U 1 1 5C2DDF00
 P 9625 6125
 AR Path="/5C2C12BA/5C2DDF00" Ref="U?"  Part="1" 
@@ -1600,7 +1600,7 @@ Wire Wire Line
 Wire Wire Line
 	12025 6225 12025 6575
 $Comp
-L conservify:RESISTOR R9
+L fk-sonar-rescue:RESISTOR-conservify R9
 U 1 1 5C2DDF14
 P 10575 6175
 F 0 "R9" H 10375 6125 60  0000 C CNN
@@ -1621,7 +1621,7 @@ F 13 "mouser" H 6525 4875 50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:3V3 #PWR0110
+L fk-sonar-rescue:3V3-conservify #PWR0110
 U 1 1 5C2DDF1B
 P 10875 6175
 F 0 "#PWR0110" H 10875 6025 50  0001 C CNN
@@ -1636,7 +1636,7 @@ Wire Wire Line
 Wire Wire Line
 	8475 6025 8925 6025
 $Comp
-L conservify:CAPACITOR_CERAMIC C17
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C17
 U 1 1 5C2DDF2D
 P 11275 6475
 F 0 "C17" H 11025 6525 50  0000 L CNN
@@ -1657,7 +1657,7 @@ F 13 "mouser" H 9125 3825 50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C18
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C18
 U 1 1 5C2DDF3E
 P 11775 6475
 F 0 "C18" H 11525 6525 50  0000 L CNN
@@ -1678,7 +1678,7 @@ F 13 "0" H 11875 6575 50  0001 C CNN "price"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR0111
+L fk-sonar-rescue:GND-conservify #PWR0111
 U 1 1 5C2DDF45
 P 11275 7125
 F 0 "#PWR0111" H 11275 6875 50  0001 C CNN
@@ -1729,7 +1729,7 @@ F 12 " " H 10625 5425 50  0001 C CNN "Supplier1"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conservify:3V3 #PWR0112
+L fk-sonar-rescue:3V3-conservify #PWR0112
 U 1 1 5C2DDF66
 P 10975 5375
 F 0 "#PWR0112" H 10975 5225 50  0001 C CNN
@@ -1748,11 +1748,11 @@ Wire Wire Line
 Text Label 11125 5125 0    50   ~ 0
 SENSOR_3V3
 $Comp
-L conservify:RESISTOR R8
+L fk-sonar-rescue:RESISTOR-conservify R8
 U 1 1 5C2DDF7A
 P 8275 6175
 F 0 "R8" H 8425 6275 60  0000 C CNN
-F 1 "?" H 8275 6275 60  0000 C CNN
+F 1 "10K" H 8275 6275 60  0000 C CNN
 F 2 "conservify:RES-0603" H 8275 5975 60  0001 C CNN
 F 3 "" H 8275 6175 60  0000 C CNN
 F 4 " " H 8225 6075 50  0001 C CNN "Critical"
@@ -1769,11 +1769,11 @@ F 13 "mouser" H 4225 4875 50  0001 C CNN "supplier1"
 	0    1    1    0   
 $EndComp
 $Comp
-L conservify:RESISTOR R10
+L fk-sonar-rescue:RESISTOR-conservify R10
 U 1 1 5C2DDF8B
 P 8475 6275
 F 0 "R10" H 8625 6375 60  0000 C CNN
-F 1 "?" H 8475 6375 60  0000 C CNN
+F 1 "10K" H 8475 6375 60  0000 C CNN
 F 2 "conservify:RES-0603" H 8475 6075 60  0001 C CNN
 F 3 "" H 8475 6275 60  0000 C CNN
 F 4 " " H 8425 6175 50  0001 C CNN "Critical"
@@ -1790,7 +1790,7 @@ F 13 "mouser" H 4425 4975 50  0001 C CNN "supplier1"
 	0    1    1    0   
 $EndComp
 $Comp
-L conservify:GND #PWR0113
+L fk-sonar-rescue:GND-conservify #PWR0113
 U 1 1 5C2DDF92
 P 8475 6625
 F 0 "#PWR0113" H 8475 6375 50  0001 C CNN
@@ -1801,7 +1801,7 @@ F 3 "" H 8475 6625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR0114
+L fk-sonar-rescue:GND-conservify #PWR0114
 U 1 1 5C2DDF98
 P 8275 6625
 F 0 "#PWR0114" H 8275 6375 50  0001 C CNN
@@ -1818,7 +1818,7 @@ Wire Wire Line
 Text Label 9075 6975 0    50   ~ 0
 PERIPH_3V3
 $Comp
-L conservify:GND #PWR0115
+L fk-sonar-rescue:GND-conservify #PWR0115
 U 1 1 5C2DDFA1
 P 10825 7125
 F 0 "#PWR0115" H 10825 6875 50  0001 C CNN
@@ -1829,7 +1829,7 @@ F 3 "" H 10825 7125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:RESISTOR R11
+L fk-sonar-rescue:RESISTOR-conservify R11
 U 1 1 5C2DDFB2
 P 10075 6975
 F 0 "R11" H 9875 6925 60  0000 C CNN
@@ -1851,7 +1851,7 @@ F 14 "mouser" H 6025 5675 50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:RESISTOR R12
+L fk-sonar-rescue:RESISTOR-conservify R12
 U 1 1 5C2DDFC4
 P 10075 7125
 F 0 "R12" H 9875 7075 60  0000 C CNN
@@ -1897,7 +1897,7 @@ Wire Wire Line
 	12025 6125 12025 6225
 Connection ~ 12025 6225
 $Comp
-L fk-weather-rescue:RESISTOR-conservify R?
+L fk-sonar-rescue:RESISTOR-conservify-fk-weather-rescue R?
 U 1 1 5C304288
 P 4025 10050
 AR Path="/5C2C12BA/5C304288" Ref="R?"  Part="1" 
@@ -1920,7 +1920,7 @@ F 13 "mouser" H -475 8400 50  0001 C CNN "supplier1"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L fk-weather-rescue:RESISTOR-conservify R?
+L fk-sonar-rescue:RESISTOR-conservify-fk-weather-rescue R?
 U 1 1 5C304299
 P 4375 10050
 AR Path="/5C2C12BA/5C304299" Ref="R?"  Part="1" 
@@ -1943,7 +1943,7 @@ F 13 "mouser" H -125 8400 50  0001 C CNN "supplier1"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L fk-weather-rescue:CONN_01x04-conservify J?
+L fk-sonar-rescue:CONN_01x04-conservify-fk-weather-rescue J?
 U 1 1 5C3042A9
 P 5600 9550
 AR Path="/5C2C12BA/5C3042A9" Ref="J?"  Part="1" 
@@ -1965,7 +1965,7 @@ F 12 "digikey" H 5600 9850 50  0001 C CNN "Supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L fk-weather-rescue:GND-conservify #PWR?
+L fk-sonar-rescue:GND-conservify-fk-weather-rescue #PWR?
 U 1 1 5C3042B0
 P 5025 9550
 AR Path="/5C2C12BA/5C3042B0" Ref="#PWR?"  Part="1" 
@@ -2028,7 +2028,7 @@ $EndComp
 Wire Wire Line
 	6100 9725 6300 9725
 $Comp
-L conservify:GND #PWR?
+L fk-sonar-rescue:GND-conservify #PWR?
 U 1 1 5C3042DD
 P 6300 9825
 AR Path="/5C276F28/5C3042DD" Ref="#PWR?"  Part="1" 
@@ -2054,7 +2054,7 @@ SCL1
 Wire Wire Line
 	6100 9425 6400 9425
 $Comp
-L fk-weather-rescue:CONN_01x05-conservify J?
+L fk-sonar-rescue:CONN_01x05-conservify-fk-weather-rescue J?
 U 1 1 5C329442
 P 2200 10050
 AR Path="/5C2C12BA/5C329442" Ref="J?"  Part="1" 
@@ -2076,7 +2076,7 @@ F 12 "mouser" H 2200 10450 50  0001 C CNN "Supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L fk-weather-rescue:GND-conservify #PWR?
+L fk-sonar-rescue:GND-conservify-fk-weather-rescue #PWR?
 U 1 1 5C329449
 P 1700 9950
 AR Path="/5C2C12BA/5C329449" Ref="#PWR?"  Part="1" 
@@ -2089,7 +2089,7 @@ F 3 "" H 1700 9950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fk-weather-rescue:3V3-conservify #PWR?
+L fk-sonar-rescue:3V3-conservify-fk-weather-rescue #PWR?
 U 1 1 5C32944F
 P 1700 9700
 AR Path="/5C2C12BA/5C32944F" Ref="#PWR?"  Part="1" 
@@ -2102,7 +2102,7 @@ F 3 "" H 1700 9700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fk-weather-rescue:CONN_01x05-conservify J?
+L fk-sonar-rescue:CONN_01x05-conservify-fk-weather-rescue J?
 U 1 1 5C32945E
 P 1450 10050
 AR Path="/5C2C12BA/5C32945E" Ref="J?"  Part="1" 
@@ -2124,7 +2124,7 @@ F 12 "mouser" H 1450 10450 50  0001 C CNN "Supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L fk-weather-rescue:GND-conservify #PWR?
+L fk-sonar-rescue:GND-conservify-fk-weather-rescue #PWR?
 U 1 1 5C329465
 P 950 9950
 AR Path="/5C2C12BA/5C329465" Ref="#PWR?"  Part="1" 
@@ -2137,7 +2137,7 @@ F 3 "" H 950 9950 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fk-weather-rescue:3V3-conservify #PWR?
+L fk-sonar-rescue:3V3-conservify-fk-weather-rescue #PWR?
 U 1 1 5C32946B
 P 950 9700
 AR Path="/5C2C12BA/5C32946B" Ref="#PWR?"  Part="1" 
@@ -2182,7 +2182,7 @@ NoConn ~ 1250 10050
 Text Notes 825  8900 0    180  ~ 36
 CORE CONNECTOR
 $Comp
-L fk-weather-rescue:3V3-conservify #PWR?
+L fk-sonar-rescue:3V3-conservify-fk-weather-rescue #PWR?
 U 1 1 5C329482
 P 2625 9575
 AR Path="/5C2C12BA/5C329482" Ref="#PWR?"  Part="1" 
@@ -2195,7 +2195,7 @@ F 3 "" H 2625 9575 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fk-weather-rescue:3V3-conservify #PWR?
+L fk-sonar-rescue:3V3-conservify-fk-weather-rescue #PWR?
 U 1 1 5C329488
 P 2975 9575
 AR Path="/5C2C12BA/5C329488" Ref="#PWR?"  Part="1" 
@@ -2208,7 +2208,7 @@ F 3 "" H 2975 9575 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L fk-weather-rescue:RESISTOR-conservify R?
+L fk-sonar-rescue:RESISTOR-conservify-fk-weather-rescue R?
 U 1 1 5C329498
 P 2625 9925
 AR Path="/5C2C12BA/5C329498" Ref="R?"  Part="1" 
@@ -2231,7 +2231,7 @@ F 13 "mouser" H -1875 8275 50  0001 C CNN "supplier1"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L fk-weather-rescue:RESISTOR-conservify R?
+L fk-sonar-rescue:RESISTOR-conservify-fk-weather-rescue R?
 U 1 1 5C3294A9
 P 2975 9925
 AR Path="/5C2C12BA/5C3294A9" Ref="R?"  Part="1" 
@@ -2268,7 +2268,7 @@ Wire Wire Line
 Wire Notes Line
 	725  8450 3450 8450
 $Comp
-L conservify:PRTR5V0U2X D?
+L fk-sonar-rescue:PRTR5V0U2X-conservify D?
 U 1 1 5C353D60
 P 3275 2350
 AR Path="/5C2C12BA/5C353D60" Ref="D?"  Part="1" 
@@ -2291,7 +2291,7 @@ F 13 "mouser" H -4125 -6500 50  0001 C CNN "supplier1"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:MICRO_USB J?
+L fk-sonar-rescue:MICRO_USB-conservify J?
 U 1 1 5C353D71
 P 1750 2400
 AR Path="/5C2C12BA/5C353D71" Ref="J?"  Part="1" 
@@ -2314,7 +2314,7 @@ F 13 "798-ZX62D-B-5PA830" H 1750 2850 50  0001 C CNN "spn1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:RESISTOR R?
+L fk-sonar-rescue:RESISTOR-conservify R?
 U 1 1 5C353D82
 P 2375 3250
 AR Path="/5C2C12BA/5C353D82" Ref="R?"  Part="1" 
@@ -2337,7 +2337,7 @@ F 13 "mouser" H -5925 -6500 50  0001 C CNN "supplier1"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:RESISTOR R?
+L fk-sonar-rescue:RESISTOR-conservify R?
 U 1 1 5C353D93
 P 3075 3250
 AR Path="/5C2C12BA/5C353D93" Ref="R?"  Part="1" 
@@ -2360,7 +2360,7 @@ F 13 "mouser" H -4525 -6500 50  0001 C CNN "supplier1"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:RESISTOR R?
+L fk-sonar-rescue:RESISTOR-conservify R?
 U 1 1 5C353DA4
 P 825 2950
 AR Path="/5C2C12BA/5C353DA4" Ref="R?"  Part="1" 
@@ -2383,7 +2383,7 @@ F 13 "mouser" H -9025 -6500 50  0001 C CNN "supplier1"
 	0    -1   1    0   
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C?
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C?
 U 1 1 5C353DB5
 P 1125 2950
 AR Path="/5C2C12BA/5C353DB5" Ref="C?"  Part="1" 
@@ -2406,7 +2406,7 @@ F 13 "mouser" H -8275 -6500 50  0001 C CNN "supplier1"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:INDUCTOR L?
+L fk-sonar-rescue:INDUCTOR-conservify L?
 U 1 1 5C353DC6
 P 4875 1950
 AR Path="/5C2C12BA/5C353DC6" Ref="L?"  Part="1" 
@@ -2429,7 +2429,7 @@ F 13 "mouser" H -825 -6500 50  0001 C CNN "supplier1"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C?
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C?
 U 1 1 5C353DD7
 P 5375 2400
 AR Path="/5C2C12BA/5C353DD7" Ref="C?"  Part="1" 
@@ -2452,7 +2452,7 @@ F 13 "mouser" H 175 -6500 50  0001 C CNN "supplier1"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:MCP1700T-XXX2E U?
+L fk-sonar-rescue:MCP1700T-XXX2E-conservify U?
 U 1 1 5C353DE8
 P 6375 1950
 AR Path="/5C2C12BA/5C353DE8" Ref="U?"  Part="1" 
@@ -2475,7 +2475,7 @@ F 13 "mouser" H -4375 -6500 50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C?
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C?
 U 1 1 5C353DF9
 P 6975 2200
 AR Path="/5C2C12BA/5C353DF9" Ref="C?"  Part="1" 
@@ -2498,7 +2498,7 @@ F 13 "mouser" H -4375 -6500 50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:CAPACITOR_CERAMIC C?
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C?
 U 1 1 5C353E0A
 P 5675 2200
 AR Path="/5C2C12BA/5C353E0A" Ref="C?"  Part="1" 
@@ -2521,7 +2521,7 @@ F 13 "mouser" H -4375 -6500 50  0001 C CNN "supplier1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L fk-weather-rescue:GND-conservify #PWR?
+L fk-sonar-rescue:GND-conservify-fk-weather-rescue #PWR?
 U 1 1 5C353E11
 P 2575 2900
 AR Path="/5C2C12BA/5C353E11" Ref="#PWR?"  Part="1" 
@@ -2534,7 +2534,7 @@ F 3 "" H 2575 2900 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:3V3 #PWR?
+L fk-sonar-rescue:3V3-conservify #PWR?
 U 1 1 5C353E17
 P 3475 3250
 AR Path="/5C2C12BA/5C353E17" Ref="#PWR?"  Part="1" 
@@ -2547,7 +2547,7 @@ F 3 "" H 3475 3250 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:GND #PWR?
+L fk-sonar-rescue:GND-conservify #PWR?
 U 1 1 5C353E1D
 P 3425 2900
 AR Path="/5C2C12BA/5C353E1D" Ref="#PWR?"  Part="1" 
@@ -2560,7 +2560,7 @@ F 3 "" H 3425 2900 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:5V0 #PWR?
+L fk-sonar-rescue:5V0-conservify #PWR?
 U 1 1 5C353E23
 P 5450 1775
 AR Path="/5C2C12BA/5C353E23" Ref="#PWR?"  Part="1" 
@@ -2573,7 +2573,7 @@ F 3 "" H 5450 1775 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L fk-weather-rescue:GND-conservify #PWR?
+L fk-sonar-rescue:GND-conservify-fk-weather-rescue #PWR?
 U 1 1 5C353E29
 P 5375 2900
 AR Path="/5C2C12BA/5C353E29" Ref="#PWR?"  Part="1" 
@@ -2586,7 +2586,7 @@ F 3 "" H 5375 2900 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:VUSB #PWR?
+L fk-sonar-rescue:VUSB-conservify #PWR?
 U 1 1 5C353E2F
 P 3850 1825
 AR Path="/5C2C12BA/5C353E2F" Ref="#PWR?"  Part="1" 
@@ -2599,7 +2599,7 @@ F 3 "" H 3850 1825 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L fk-weather-rescue:GND-conservify #PWR?
+L fk-sonar-rescue:GND-conservify-fk-weather-rescue #PWR?
 U 1 1 5C353E35
 P 825 3400
 AR Path="/5C2C12BA/5C353E35" Ref="#PWR?"  Part="1" 
@@ -2612,7 +2612,7 @@ F 3 "" H 825 3400 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L fk-weather-rescue:GND-conservify #PWR?
+L fk-sonar-rescue:GND-conservify-fk-weather-rescue #PWR?
 U 1 1 5C353E3B
 P 6375 2750
 AR Path="/5C2C12BA/5C353E3B" Ref="#PWR?"  Part="1" 
@@ -2625,7 +2625,7 @@ F 3 "" H 6375 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:3V3 #PWR?
+L fk-sonar-rescue:3V3-conservify #PWR?
 U 1 1 5C353E41
 P 6975 1900
 AR Path="/5C2C12BA/5C353E41" Ref="#PWR?"  Part="1" 
@@ -2638,7 +2638,7 @@ F 3 "" H 6975 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conservify:FUSE F?
+L fk-sonar-rescue:FUSE-conservify F?
 U 1 1 5C353E51
 P 4200 1950
 AR Path="/5C2C12BA/5C353E51" Ref="F?"  Part="1" 
@@ -2661,7 +2661,7 @@ F 13 "mouser" H -2350 -6500 50  0001 C CNN "supplier1"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:5V0 #PWR?
+L fk-sonar-rescue:5V0-conservify #PWR?
 U 1 1 5C353E58
 P 5025 3200
 AR Path="/5C2C12BA/5C353E58" Ref="#PWR?"  Part="1" 
@@ -2674,7 +2674,7 @@ F 3 "" H 5025 3200 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L conservify:PWR_FLAG #FLG?
+L fk-sonar-rescue:PWR_FLAG-conservify #FLG?
 U 1 1 5C353E5E
 P 5025 3350
 AR Path="/5C2C12BA/5C353E5E" Ref="#FLG?"  Part="1" 
@@ -2687,7 +2687,7 @@ F 3 "~" H 5025 3350 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L conservify:PWR_FLAG #FLG?
+L fk-sonar-rescue:PWR_FLAG-conservify #FLG?
 U 1 1 5C353E64
 P 4625 3350
 AR Path="/5C2C12BA/5C353E64" Ref="#FLG?"  Part="1" 
@@ -2700,7 +2700,7 @@ F 3 "~" H 4625 3350 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L conservify:GND #PWR?
+L fk-sonar-rescue:GND-conservify #PWR?
 U 1 1 5C353E6A
 P 4625 3150
 AR Path="/5C2C12BA/5C353E6A" Ref="#PWR?"  Part="1" 
@@ -2804,7 +2804,7 @@ NoConn ~ 1350 2400
 NoConn ~ 1350 2500
 Connection ~ 825  3200
 $Comp
-L conservify:MICRO_USB J?
+L fk-sonar-rescue:MICRO_USB-conservify J?
 U 1 1 5C353EAC
 P 1775 1425
 AR Path="/5C2C12BA/5C353EAC" Ref="J?"  Part="1" 
@@ -2875,7 +2875,7 @@ Wire Wire Line
 Wire Wire Line
 	2175 1625 2175 1775
 $Comp
-L fk-weather-rescue:GND-conservify #PWR?
+L fk-sonar-rescue:GND-conservify-fk-weather-rescue #PWR?
 U 1 1 5C353ECF
 P 2175 1775
 AR Path="/5C2C12BA/5C353ECF" Ref="#PWR?"  Part="1" 
@@ -2904,7 +2904,7 @@ Wire Notes Line
 Wire Notes Line
 	7275 3725 7275 550 
 $Comp
-L conservify:RESISTOR R?
+L fk-sonar-rescue:RESISTOR-conservify R?
 U 1 1 5C406EAC
 P 11350 2350
 AR Path="/5C2C12BA/5C406EAC" Ref="R?"  Part="1" 
@@ -2927,7 +2927,7 @@ F 13 "mouser" H 1950 -7350 50  0001 C CNN "supplier1"
 	0    1    1    0   
 $EndComp
 $Comp
-L conservify:LED_SINGLE D?
+L fk-sonar-rescue:LED_SINGLE-conservify D?
 U 1 1 5C406EBD
 P 11350 1800
 AR Path="/5C2C12BA/5C406EBD" Ref="D?"  Part="1" 
@@ -2950,7 +2950,7 @@ F 13 "mouser" H 2500 -7900 50  0001 C CNN "supplier1"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L fk-weather-rescue:3V3-conservify #PWR0139
+L fk-sonar-rescue:3V3-conservify-fk-weather-rescue #PWR0139
 U 1 1 5C406EC4
 P 11350 1550
 F 0 "#PWR0139" H 11350 1400 50  0001 C CNN
@@ -2965,7 +2965,7 @@ Wire Wire Line
 Wire Wire Line
 	11350 1550 11350 1600
 $Comp
-L fk-weather-rescue:GND-conservify #PWR0140
+L fk-sonar-rescue:GND-conservify-fk-weather-rescue #PWR0140
 U 1 1 5C406ECC
 P 11350 2700
 F 0 "#PWR0140" H 11350 2450 50  0001 C CNN
@@ -2981,7 +2981,7 @@ Connection ~ 10825 7125
 Text Label 4925 9450 0    50   ~ 0
 SENSOR_3V3
 $Comp
-L fk-weather-rescue:CONN_01x04-conservify J?
+L fk-sonar-rescue:CONN_01x04-conservify-fk-weather-rescue J?
 U 1 1 5C5FFF49
 P 5600 10350
 AR Path="/5C2C12BA/5C5FFF49" Ref="J?"  Part="1" 
@@ -3017,7 +3017,7 @@ Wire Wire Line
 Text Label 4925 10250 0    50   ~ 0
 SENSOR_3V3
 $Comp
-L fk-weather-rescue:CONN_01x04-conservify J?
+L fk-sonar-rescue:CONN_01x04-conservify-fk-weather-rescue J?
 U 1 1 5C6126E2
 P 6075 10375
 AR Path="/5C2C12BA/5C6126E2" Ref="J?"  Part="1" 
@@ -3062,7 +3062,7 @@ Connection ~ 14050 5500
 Wire Wire Line
 	14050 5500 14150 5500
 $Comp
-L conservify:CAPACITOR_CERAMIC C19
+L fk-sonar-rescue:CAPACITOR_CERAMIC-conservify C19
 U 1 1 5C662722
 P 14050 5800
 F 0 "C19" H 13800 5850 50  0000 L CNN
@@ -3104,7 +3104,7 @@ SENSOR_3V3
 Wire Wire Line
 	4375 9700 4025 9700
 $Comp
-L fk-weather-rescue:GND-conservify #PWR?
+L fk-sonar-rescue:GND-conservify-fk-weather-rescue #PWR?
 U 1 1 5C29CE17
 P 5025 10350
 AR Path="/5C2C12BA/5C29CE17" Ref="#PWR?"  Part="1" 
@@ -3117,7 +3117,7 @@ F 3 "" H 5025 10350 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L fk-weather-rescue:GND-conservify #PWR?
+L fk-sonar-rescue:GND-conservify-fk-weather-rescue #PWR?
 U 1 1 5C29CEAE
 P 6650 10375
 AR Path="/5C2C12BA/5C29CEAE" Ref="#PWR?"  Part="1" 

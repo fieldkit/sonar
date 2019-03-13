@@ -15,6 +15,20 @@ X 3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# 3V3-conservify-fk-weather-rescue
+#
+DEF 3V3-conservify-fk-weather-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "3V3-conservify-fk-weather-rescue" 0 140 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -50 100 50 100 N
+P 2 0 1 0 0 0 0 100 N
+X 3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # 5V0-conservify
 #
 DEF 5V0-conservify #PWR 0 0 Y Y 1 F P
@@ -251,11 +265,69 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# CONN_01x04-conservify-fk-weather-rescue
+#
+DEF CONN_01x04-conservify-fk-weather-rescue J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "CONN_01x04-conservify-fk-weather-rescue" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # CONN_01x05-conservify
 #
 DEF CONN_01x05-conservify J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
 F1 "CONN_01x05-conservify" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 250 50 -250 1 1 10 f
+X Pin_1 1 -200 200 150 R 50 50 1 1 P
+X Pin_2 2 -200 100 150 R 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 -200 -100 150 R 50 50 1 1 P
+X Pin_5 5 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CONN_01x05-conservify-fk-weather-rescue
+#
+DEF CONN_01x05-conservify-fk-weather-rescue J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "CONN_01x05-conservify-fk-weather-rescue" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -403,6 +475,22 @@ ENDDEF
 DEF ~GND-conservify #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
 F1 "GND-conservify" 0 -150 50 H I C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 2 0 1 0 -25 -75 25 -75 N
+P 2 0 1 0 -5 -100 5 -100 N
+P 2 0 1 0 0 -50 0 0 N
+P 2 0 1 0 50 -50 -50 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# GND-conservify-fk-weather-rescue
+#
+DEF ~GND-conservify-fk-weather-rescue #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "GND-conservify-fk-weather-rescue" 0 -150 50 H I C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -656,6 +744,25 @@ X ~ 2 250 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# RESISTOR-conservify-fk-weather-rescue
+#
+DEF RESISTOR-conservify-fk-weather-rescue R 0 40 Y Y 1 F N
+F0 "R" 0 100 60 H V C CNN
+F1 "RESISTOR-conservify-fk-weather-rescue" 0 -100 60 H V C CNN
+F2 "conservify:RES-0603" 0 -200 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ RES-0603
+ RES-0805
+ RES-0402
+$ENDFPLIST
+DRAW
+P 11 0 1 0 -150 0 -100 0 -75 -50 -50 50 -25 -50 0 50 25 -50 50 50 75 -50 100 0 150 0 N
+X ~ 1 -250 0 100 R 50 50 1 1 P
+X ~ 2 250 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # RFM9xW-conservify
 #
 DEF RFM9xW-conservify U 0 40 Y Y 1 F N
@@ -818,6 +925,26 @@ X GND 2 -700 -150 200 R 50 50 1 1 W
 X OC 3 700 -50 200 L 50 50 1 1 O
 X EN 4 -700 0 200 R 50 50 1 1 I
 X IN 5 -700 150 200 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# TPS2052B-conservify
+#
+DEF TPS2052B-conservify U 0 40 Y Y 1 F N
+F0 "U" -400 -450 60 H V C CNN
+F1 "TPS2052B-conservify" 0 0 60 H V C CNN
+F2 "" 0 200 60 H I C CNN
+F3 "" 0 200 60 H I C CNN
+DRAW
+S -500 550 500 -550 0 1 0 N
+X GND 1 -700 -300 200 R 50 50 1 1 W
+X IN 2 -700 350 200 R 50 50 1 1 W
+X EN1 3 -700 200 200 R 50 50 1 1 I
+X EN2 4 -700 100 200 R 50 50 1 1 I
+X OC2 5 700 -50 200 L 50 50 1 1 O
+X OUT2 6 700 50 200 L 50 50 1 1 w
+X OUT1 7 700 350 200 L 50 50 1 1 w
+X OC1 8 700 250 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
