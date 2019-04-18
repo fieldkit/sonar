@@ -35,7 +35,7 @@ void setup() {
         { "mounted", "m" },
     };
 
-    fk::SensorReading readings[4];
+    fk::SensorReading readings[5];
 
     fk::ModuleInfo info = {
         fk_module_ModuleType_SENSOR,
